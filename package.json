@@ -1,0 +1,21 @@
+{
+  "name": "radres-daily",
+  "version": "1.0.0",
+  "description": "AI Radiology Education Platform",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "radiology",
+    "education",
+    "ai"
+  ],
+  "author": "kaledh4",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3",
+    "axios": "^1.6.5",
+    "rss-parser": "^3.13.0"
+  }
+}

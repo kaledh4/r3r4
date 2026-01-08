@@ -1,0 +1,11 @@
+metadata:
+  version: 1.0.0
+  last_updated: 2025-01-08
+  total_cards: 500
+  
+cards[5]{id,category,difficulty,front,back,image_url,source,tags}:
+  card_001,neuro,medium,What is the most common cause of subarachnoid hemorrhage?,Ruptured aneurysm (85% of non-traumatic SAH). Berry aneurysms at Circle of Willis bifurcations are most frequent.,https://example.com/sah.jpg,RSNA 2024,hemorrhage;aneurysm;emergency
+  card_002,chest,hard,CT findings in COVID-19 pneumonia?,"Ground-glass opacities (GGO) with peripheral/posterior distribution, crazy-paving pattern, consolidation in advanced cases. Peak findings at 9-13 days.",,RadioGraphics 2023,covid;pneumonia;infectious
+  card_003,msk,easy,Best imaging for suspected rotator cuff tear?,MRI with dedicated shoulder protocol. Sensitivity ~95% for full-thickness tears. US acceptable alternative if experienced operator.,,ACR Appropriateness,shoulder;mri;ultrasound
+  card_004,physics,medium,What is the DLP in CT dosimetry?,Dose Length Product (mGy·cm) = CTDI_vol × scan length. Represents total radiation dose for entire scan.,,AAPM Report,radiation;dose;safety
+  card_005,ir,hard,Contraindications for TACE?,"Absolute: main portal vein occlusion, severe liver dysfunction (Child-Pugh C), ECOG >2. Relative: biliary obstruction, renal failure.",,SIR Guidelines,interventional;liver;oncology
