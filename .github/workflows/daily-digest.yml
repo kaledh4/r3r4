@@ -1,0 +1,39 @@
+name: Generate Daily Digest
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # 6 AM UTC daily
+  workflow_dispatch:
+
+jobs:
+  curate-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install Dependencies
+        run: |
+          npm install rss-parser axios
+      
+      - name: Fetch RSS Feeds
+        run: |
+          node scripts/fetch-rss.js
+      
+      - name: Curate with LLM
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          node scripts/llm-curator.js
+      
+      - name: Commit and Push
+        run: |
+          git config user.name "RadRes Bot"
+          git config user.email "bot@radres.app"
+          git add src/data/digest/
+          git commit -m "📰 Daily digest $(date +%Y-%m-%d)" || exit 0
+          git push

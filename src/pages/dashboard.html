@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - RadRes Daily</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container nav-content">
+            <div class="nav-logo">🧠 RadRes Daily</div>
+            <div class="nav-links">
+                <a href="#" class="nav-link active">Dashboard</a>
+                <a href="#" class="nav-link">Cards</a>
+                <a href="#" class="nav-link">Analytics</a>
+                <a href="#" class="nav-link" id="logoutBtn">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container p-8">
+        <header class="flex justify-between items-center animate-fade-in">
+            <div>
+                <h1 id="welcomeUser">Welcome back, Doctor</h1>
+                <p>Here is your daily radiology digest and study plan.</p>
+            </div>
+            <button class="btn btn-primary" id="startSessionBtn">
+                Start Daily Session (20 cards)
+            </button>
+        </header>
+
+        <div class="dashboard-grid animate-fade-in" style="animation-delay: 0.1s;">
+
+            <!-- Daily Digest Section -->
+            <section class="card" style="grid-column: span 2;">
+                <h2>📰 Daily Digest</h2>
+                <div id="digestContent">
+                    <p>Loading today's curated updates...</p>
+                </div>
+            </section>
+
+            <!-- Stats Section -->
+            <section class="card">
+                <h2>📊 Quick Stats</h2>
+                <div class="flex flex-col gap-4">
+                    <div class="flex justify-between">
+                        <span>Streak</span>
+                        <span class="text-success font-bold">12 Days 🔥</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span>Due Today</span>
+                        <span class="text-warning font-bold">24 Cards</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span>Accuracy</span>
+                        <span class="text-primary font-bold">84%</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Top Stories -->
+            <section class="card" style="grid-column: span 3;">
+                <h2>Top Stories</h2>
+                <div id="topStories" class="flex flex-col gap-4">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="../modules/toon-parser.js"></script>
+    <script type="module">
+        import { supabase, signOut } from '../auth/supabase-client.js';
+
+        // Verify Auth
+        const { data: { session } } = await supabase.auth.getSession();
+        if (!session) {
+            window.location.href = '../../index.html';
+        } else {
+            const email = session.user.email || 'Resident';
+            document.getElementById('welcomeUser').innerText = `Welcome back, ${email.split('@')[0]}`;
+        }
+
+        document.getElementById('logoutBtn').addEventListener('click', async (e) => {
+            e.preventDefault();
+            await signOut();
+        });
+
+        // Mock loading data
+        async function loadDashboard() {
+            // Calculate today's date YYYY-MM-DD
+            const date = new Date().toISOString().split('T')[0];
+            const digestPath = `../data/digest/${date}.toon`;
+
+            try {
+                const response = await fetch(digestPath);
+                if (!response.ok) throw new Error('Digest not found');
+
+                const toonText = await response.text();
+                const digestData = TOONParser.parse(toonText);
+
+                // Render Digest
+                document.getElementById('digestContent').innerHTML = `
+                <div class="p-4" style="background:rgba(255,255,255,0.05); border-radius:0.5rem;">
+                    <h3>${digestData.digest.date} Summary</h3>
+                    <p>${digestData.summary}</p>
+                </div>
+            `;
+
+                // Render Stories
+                // Check if top_stories is array
+                const stories = Array.isArray(digestData.top_stories) ? digestData.top_stories : [];
+                const storiesHtml = stories.map(s => `
+                <div class="p-4 flex justify-between items-center" style="background:rgba(255,255,255,0.03); border-radius:0.5rem;">
+                    <div>
+                        <span style="font-size:0.8rem; color:var(--primary); text-transform:uppercase;">${s.category}</span>
+                        <h4 style="margin:0.25rem 0;">${s.title}</h4>
+                        <p style="font-size:0.8rem; opacity:0.7;">${s.ai_summary || ''}</p>
+                    </div>
+                    <div style="background:var(--surface); padding:0.25rem 0.5rem; border-radius:1rem; font-size:0.8rem;">
+                        Relevance: ${s.importance || s.relevance_score || 'N/A'}
+                    </div>
+                </div>
+            `).join('');
+                document.getElementById('topStories').innerHTML = storiesHtml;
+
+            } catch (e) {
+                console.log('Using mock data:', e);
+                // Fallback to mock data
+                const todayStr = new Date().toLocaleDateString();
+                document.getElementById('digestContent').innerHTML = `
+                <div class="p-4" style="background:rgba(255,255,255,0.05); border-radius:0.5rem;">
+                    <h3>${todayStr} Summary (Demo)</h3>
+                    <p>Major developments in AI-assisted diagnosis and updated stroke imaging protocols dominate today's research. Three studies demonstrate machine learning models approaching radiologist-level performance in chest imaging.</p>
+                </div>
+             `;
+
+                const stories = [
+                    { title: "Deep Learning for Pulmonary Nodule Detection", category: "Chest", score: 95, ai_summary: "Model achieves 96% sensitivity." },
+                    { title: "Optimized CT Perfusion for Stroke", category: "Neuro", score: 94, ai_summary: "Faster protocol with equal accuracy." },
+                    { title: "ACR Update: Appendicitis in Pregnancy", category: "Abdomen", score: 88, ai_summary: "MRI first-line recommendation." }
+                ];
+
+                const storiesHtml = stories.map(s => `
+                <div class="p-4 flex justify-between items-center" style="background:rgba(255,255,255,0.03); border-radius:0.5rem;">
+                    <div>
+                        <span style="font-size:0.8rem; color:var(--primary); text-transform:uppercase;">${s.category}</span>
+                        <h4 style="margin:0.25rem 0;">${s.title}</h4>
+                        <p style="font-size:0.8rem; opacity:0.7;">${s.ai_summary}</p>
+                    </div>
+                    <div style="background:var(--surface); padding:0.25rem 0.5rem; border-radius:1rem; font-size:0.8rem;">
+                        Relevance: ${s.score}
+                    </div>
+                </div>
+             `).join('');
+                document.getElementById('topStories').innerHTML = storiesHtml;
+            }
+        }
+
+        loadDashboard();
+    </script>
+</body>
+
+</html>

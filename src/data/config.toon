@@ -1,0 +1,49 @@
+app:
+  name: RadRes Daily
+  version: 2.0.0
+  author: kaledh4
+  theme: auto
+  language: en
+
+auth:
+  provider: supabase-google
+  session_timeout: 2592000
+  remember_me: true
+
+api:
+  openrouter:
+    base_url: https://openrouter.ai/api/v1
+    model: anthropic/claude-3.5-sonnet
+    max_tokens: 4000
+    temperature: 0.7
+  
+rss_sources[5]{id,name,url,category,priority}:
+  rsna_rad,RSNA Radiology,https://pubs.rsna.org/action/showFeed?type=etoc&feed=rss&jc=radiology,journal,1
+  radiographics,RadioGraphics,https://pubs.rsna.org/action/showFeed?type=etoc&feed=rss&jc=radiographics,journal,1
+  auntminnie,AuntMinnie,https://www.auntminnie.com/rss.xml,news,2
+  radiopaedia,Radiopaedia Cases,https://radiopaedia.org/cases.rss,cases,2
+  acr_news,ACR News,https://www.acr.org/rss,news,3
+
+srs:
+  algorithm: sm2_modified
+  initial_ease: 2.5
+  min_ease: 1.3
+  max_ease: 2.5
+  graduating_interval: 3
+  easy_interval: 4
+  lapses_reset: true
+  
+categories[6]{id,name,color,icon,weight}:
+  neuro,Neuroradiology,#3498db,🧠,0.20
+  chest,Chest Imaging,#e74c3c,🫁,0.18
+  msk,Musculoskeletal,#27ae60,🦴,0.15
+  abdomen,Abdominal,#f39c12,🏥,0.17
+  physics,Physics & Safety,#9b59b6,⚛️,0.15
+  ir,Interventional,#1abc9c,💉,0.15
+
+ui:
+  cards_per_session: 20
+  show_timer: true
+  enable_sounds: false
+  animations: smooth
+  font_size: medium
