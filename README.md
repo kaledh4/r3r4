@@ -25,6 +25,14 @@ To prevent leaking credentials, we use GitHub Secrets for deployment and a local
     - `OPENROUTER_API_KEY`: Your OpenRouter Key (for the daily digest bot)
 3. When you push to `main`, the `Deploy` workflow will automatically inject these keys and deploy your site to the `gh-pages` branch.
 
+### 3. Critical: Database Security (RLS)
+The `SUPABASE_ANON_KEY` is public by design. You **MUST** enable Row Level Security (RLS) to prevent unauthorized access.
+
+1. Go to your Supabase Dashboard > **SQL Editor**.
+2. Open the file `supabase-security.sql` from this repo.
+3. Copy the contents and run the query in Supabase.
+4. This ensures users can only access their own data.
+
 ## Architecture
 - **TOON**: Custom data format for compact storage and git-friendliness.
 - **Client-Side**: Vanilla JS + CSS (No frameworks).
