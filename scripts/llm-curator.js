@@ -54,7 +54,7 @@ async function curateDigest() {
 
     try {
         const response = await axios.post('https://openrouter.ai/api/v1/chat/completions', {
-            model: 'google/gemini-2.0-flash-exp:free',
+            model: 'meta-llama/llama-3.1-405b-instruct:free',
             messages: [{
                 role: 'user',
                 content: `${CURATOR_PROMPT}\n\nRSS ITEMS:\n${JSON.stringify(rssItems, null, 2)}`
