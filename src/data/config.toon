@@ -13,7 +13,7 @@ auth:
 api:
   openrouter:
     base_url: https://openrouter.ai/api/v1
-    model: google/gemini-2.0-flash-exp:free
+    model: meta-llama/llama-3.1-405b-instruct:free
     max_tokens: 2000
     temperature: 0.7
   

@@ -6,22 +6,22 @@ class TOONParser {
    *   neuro,Neuroradiology,#3498db
    *   chest,Chest Imaging,#e74c3c
    */
-  
+
   static parse(toonString) {
     const lines = toonString.split('\n');
     const result = {};
     let currentSection = null;
     let arraySchema = null;
-    
+
     for (const line of lines) {
       const trimmed = line.trim();
-      
+
       // Skip empty lines and comments
       if (!trimmed || trimmed.startsWith('#')) continue;
-      
+
       // Array declaration: name[count]{fields}:
       // Regex modified to be more robust
-      const arrayMatch = trimmed.match(/^(\w+)\[(\d+)\]\{([^}]+)\}:$/);
+      const arrayMatch = trimmed.match(/^([a-zA-Z0-9_]+)\[(\d+)\]\{([^}]+)\}:$/);
       if (arrayMatch) {
         const [_, name, count, fields] = arrayMatch;
         arraySchema = { name, fields: fields.split(','), items: [] };
@@ -29,7 +29,7 @@ class TOONParser {
         result[name] = arraySchema.items;
         continue;
       }
-      
+
       // Array item (CSV format)
       if (arraySchema && !trimmed.includes(':') && currentSection === arraySchema.name) {
         const values = this.parseCSVLine(trimmed);
@@ -42,16 +42,16 @@ class TOONParser {
         arraySchema.items.push(obj);
         continue;
       }
-      
+
       // Key-value pair or Section Start
       if (trimmed.includes(':')) {
         const firstColonIndex = trimmed.indexOf(':');
         const key = trimmed.substring(0, firstColonIndex).trim();
         const value = trimmed.substring(firstColonIndex + 1).trim();
-        
+
         // Reset array schema when hitting a new key field
         if (arraySchema && key !== arraySchema.name) {
-           arraySchema = null;
+          arraySchema = null;
         }
 
         // Nested object start (empty value)
@@ -64,22 +64,22 @@ class TOONParser {
             result[currentSection][key] = this.coerceType(value);
           } else {
             // Top level or resetting section if we were in an array
-            currentSection = null; 
+            currentSection = null;
             result[key] = this.coerceType(value);
           }
         }
       }
     }
-    
+
     return result;
   }
-  
+
   static parseCSVLine(line) {
     // Handle quoted strings with commas
     const values = [];
     let current = '';
     let inQuotes = false;
-    
+
     for (let i = 0; i < line.length; i++) {
       const char = line[i];
       if (char === '"') {
@@ -94,10 +94,10 @@ class TOONParser {
     values.push(current.trim());
     return values;
   }
-  
+
   static coerceType(value) {
     if (value === undefined || value === null) return null;
-    
+
     // Numbers
     if (/^-?\d+(\.\d+)?$/.test(value)) return Number(value);
     // Booleans
@@ -108,11 +108,11 @@ class TOONParser {
     // Strings (remove quotes if present)
     return value.replace(/^["']|["']$/g, '');
   }
-  
+
   static stringify(obj, indent = 0) {
     let toon = '';
     const spaces = '  '.repeat(indent);
-    
+
     for (const [key, value] of Object.entries(obj)) {
       if (Array.isArray(value) && value.length > 0 && typeof value[0] === 'object') {
         // Array of objects - use compact format
@@ -134,7 +134,7 @@ class TOONParser {
         toon += `${spaces}${key}: ${value}\n`;
       }
     }
-    
+
     return toon;
   }
 }
