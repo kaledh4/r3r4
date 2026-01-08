@@ -54,12 +54,12 @@ async function curateDigest() {
 
     try {
         const response = await axios.post('https://openrouter.ai/api/v1/chat/completions', {
-            model: 'anthropic/claude-3.5-sonnet',
+            model: 'google/gemini-2.0-flash-exp:free',
             messages: [{
                 role: 'user',
                 content: `${CURATOR_PROMPT}\n\nRSS ITEMS:\n${JSON.stringify(rssItems, null, 2)}`
             }],
-            max_tokens: 4000
+            max_tokens: 2000
         }, {
             headers: {
                 'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
