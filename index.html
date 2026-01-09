@@ -20,26 +20,63 @@
 
       <div style="margin-top: 2rem;">
         <button id="loginBtn" class="btn btn-primary w-full"
-          style="padding: 1rem; font-size: 1.1rem; justify-content: center; display: flex; align-items: center;">
+          style="padding: 1rem; font-size: 1.1rem; justify-content: center; display: flex; align-items: center; margin-bottom: 1rem;">
           Enter Platform
+        </button>
+
+        <div id="pinChallenge" style="display:none; transition: all 0.3s ease;">
+          <input type="password" id="pinInput" placeholder="Enter PIN" class="btn w-full"
+            style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); margin-bottom:0.5rem; text-align:center; color:white;">
+          <button id="pinSubmit" class="btn btn-primary w-full" style="background:var(--secondary);">
+            Submit PIN
+          </button>
+        </div>
+
+        <button id="togglePin"
+          style="background:none; border:none; color:var(--primary); font-size:0.8rem; cursor:pointer; opacity:0.6;">
+          Use Emergency PIN Access
         </button>
       </div>
 
       <p style="margin-top: 1.5rem; font-size: 0.8rem; opacity: 0.7;">
         Secured by Cloudflare Access<br>
-        Version 2.1.0
+        Version 2.2.0
       </p>
     </div>
   </div>
 
   <script>
-    // Simple redirect or enter logic since Cloudflare Access handles auth
-    document.getElementById('loginBtn').addEventListener('click', () => {
+    const loginBtn = document.getElementById('loginBtn');
+    const togglePin = document.getElementById('togglePin');
+    const pinChallenge = document.getElementById('pinChallenge');
+    const pinSubmit = document.getElementById('pinSubmit');
+    const pinInput = document.getElementById('pinInput');
+
+    // Cloudflare Access standard entry
+    loginBtn.addEventListener('click', () => {
       window.location.href = './src/pages/dashboard.html';
     });
 
-    // Optional: Auto-redirect if preferred, but manual entry is often nice for a landing page
-    // window.location.href = './src/pages/dashboard.html';
+    // Toggle PIN UI
+    togglePin.addEventListener('click', () => {
+      pinChallenge.style.display = pinChallenge.style.display === 'none' ? 'block' : 'none';
+      if (pinChallenge.style.display === 'block') pinInput.focus();
+    });
+
+    // Submit PIN
+    pinSubmit.addEventListener('click', () => {
+      const pin = pinInput.value;
+      if (pin) {
+        // Store PIN in session storage for the API to check later
+        sessionStorage.setItem('radres_pin', pin);
+        window.location.href = './src/pages/dashboard.html';
+      }
+    });
+
+    // Enter key support for PIN
+    pinInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') pinSubmit.click();
+    });
   </script>
 </body>
 
