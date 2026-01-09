@@ -1,49 +1,48 @@
+# Application Configuration (TOON Format)
+# ========================================
+# Token-Oriented Object Notation for efficient LLM processing
+
 app:
   name: RadRes Daily
-  version: 2.0.0
-  author: kaledh4
-  theme: auto
-  language: en
-
-auth:
-  provider: supabase-google
-  session_timeout: 2592000
-  remember_me: true
-
-api:
-  openrouter:
-    base_url: https://openrouter.ai/api/v1
-    model: meta-llama/llama-3.1-405b-instruct:free
-    max_tokens: 2000
-    temperature: 0.7
-  
-rss_sources[5]{id,name,url,category,priority}:
-  rsna_rad,RSNA Radiology,https://pubs.rsna.org/action/showFeed?type=etoc&feed=rss&jc=radiology,journal,1
-  radiographics,RadioGraphics,https://pubs.rsna.org/action/showFeed?type=etoc&feed=rss&jc=radiographics,journal,1
-  auntminnie,AuntMinnie,https://www.auntminnie.com/rss.xml,news,2
-  radiopaedia,Radiopaedia Cases,https://radiopaedia.org/cases.rss,cases,2
-  acr_news,ACR News,https://www.acr.org/rss,news,3
+  version: 1.0.0
+  description: Radiology Resident Learning Platform
+  target_audience: R3-R4 Radiology Residents
 
 srs:
-  algorithm: sm2_modified
   initial_ease: 2.5
   min_ease: 1.3
   max_ease: 2.5
-  graduating_interval: 3
-  easy_interval: 4
-  lapses_reset: true
-  
-categories[6]{id,name,color,icon,weight}:
-  neuro,Neuroradiology,#3498db,🧠,0.20
-  chest,Chest Imaging,#e74c3c,🫁,0.18
-  msk,Musculoskeletal,#27ae60,🦴,0.15
-  abdomen,Abdominal,#f39c12,🏥,0.17
-  physics,Physics & Safety,#9b59b6,⚛️,0.15
-  ir,Interventional,#1abc9c,💉,0.15
+  initial_interval: 1
 
-ui:
-  cards_per_session: 20
-  show_timer: true
-  enable_sounds: false
-  animations: smooth
-  font_size: medium
+defaults:
+  daily_goal: 20
+  max_new_cards: 10
+  theme: auto
+
+categories[6]{id,name,color,icon,description}:
+  neuro,Neuroradiology,#3498db,🧠,Brain and spine imaging
+  chest,Chest Imaging,#e74c3c,🫁,Thoracic and cardiac radiology
+  msk,Musculoskeletal,#27ae60,🦴,Bones joints and soft tissue
+  abdomen,Abdominal,#f39c12,🏥,GI GU and pelvic imaging
+  physics,Physics & Safety,#9b59b6,⚛️,Imaging physics and radiation safety
+  ir,Interventional,#1abc9c,💉,Vascular and non-vascular interventions
+
+rss_feeds[4]{id,name,url,type}:
+  radiopaedia,Radiopaedia Cases,https://radiopaedia.org/cases.rss,cases
+  rsna_radiology,RSNA Radiology,https://pubs.rsna.org/action/showFeed?type=etoc&feed=rss&jc=radiology,research
+  rsna_radiographics,RadioGraphics,https://pubs.rsna.org/action/showFeed?type=etoc&feed=rss&jc=radiographics,education
+  ajr,AJR,https://www.ajronline.org/action/showFeed?type=etoc&feed=rss&jc=ajr,research
+
+keyboard_shortcuts[6]{key,action,description}:
+  Space,show_answer,Show flashcard answer
+  1,rate_again,Rate card as Again
+  2,rate_hard,Rate card as Hard
+  3,rate_good,Rate card as Good
+  4,rate_easy,Rate card as Easy
+  t,toggle_theme,Toggle dark/light theme
+
+api:
+  endpoint: https://openrouter.ai/api/v1/chat/completions
+  default_model: anthropic/claude-sonnet-4
+  max_tokens: 4096
+  temperature: 0.7
