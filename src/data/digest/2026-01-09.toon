@@ -1,14 +1,14 @@
 digest:
-  date: 2026-01-09
-  generated_at: 2026-01-09T12:00:00Z
+  date: 2024-05-16
+  generated_at: 2024-05-16T10:30:00Z
   curator_model: meta-llama/llama-3.1-405b-instruct:free
-  total_articles: 1
+  total_articles: 0
 
 summary:
-  Welcome to your new Cloudflare-powered dashboard. Today we focus on ensuring your data and images are correctly served.
+  No articles were provided in today's feed. Therefore, this daily digest will be empty. Please provide RSS feed items for a comprehensive summary and top story analysis.
 
-top_stories[1]{title,source,url,category,importance,ai_summary}:
-  Cloudflare Migration Success,RadRes Internal,https://google.com,tech,100,"The platform has successfully transitioned to Cloudflare Pages & Functions."
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title,Source,URL,Category,Importance,AI Summary
 
 articles[]{id,title,source,category,relevance_score}:
-  art_001,Cloudflare Migration,Internal,tech,100
+  id,Title,Source,Category,Score
