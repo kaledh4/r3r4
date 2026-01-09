@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Cards - RadRes Daily</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container nav-content">
+            <a href="dashboard.html" class="nav-logo" style="text-decoration:none;">🧠 RadRes Daily</a>
+            <div class="nav-links">
+                <a href="dashboard.html" class="nav-link">Dashboard</a>
+                <a href="cards.html" class="nav-link active">Cards</a>
+                <a href="study.html" class="nav-link">Study</a>
+                <a href="analytics.html" class="nav-link">Analytics</a>
+                <a href="#" class="nav-link" id="logoutBtn">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container p-8">
+        <header class="flex justify-between items-center mb-8">
+            <div>
+                <h1>Flashcard Library</h1>
+                <p>Browse all cards and your custom clinical images.</p>
+            </div>
+            <div class="flex gap-2">
+                <input type="text" id="cardSearch" placeholder="Search cards..." class="btn"
+                    style="background:var(--surface); border:1px solid rgba(255,255,255,0.1); color:white;">
+            </div>
+        </header>
+
+        <div id="cardGrid" class="dashboard-grid">
+            <!-- Populated by JS -->
+            <p>Loading card library...</p>
+        </div>
+    </main>
+
+    <script src="../modules/toon-parser.js"></script>
+    <script type="module">
+        async function loadCards() {
+            const pin = sessionStorage.getItem('radres_pin');
+            const headers = pin ? { 'x-radres-pin': pin } : {};
+
+            try {
+                // 1. Fetch Stats for Custom Images
+                const statsRes = await fetch('/api/stats', { headers });
+                const stats = await statsRes.json();
+                const customImages = stats.custom_images || {};
+
+                // 2. Fetch Cards
+                const cardsRes = await fetch('../data/flashcards.toon');
+                const cardsText = await cardsRes.text();
+                const cardsData = TOONParser.parse(cardsText);
+                const allCards = cardsData.cards || [];
+
+                renderCards(allCards, customImages);
+
+                document.getElementById('cardSearch').addEventListener('input', (e) => {
+                    const term = e.target.value.toLowerCase();
+                    const filtered = allCards.filter(c =>
+                        c.front.toLowerCase().includes(term) ||
+                        c.back.toLowerCase().includes(term) ||
+                        c.category.toLowerCase().includes(term)
+                    );
+                    renderCards(filtered, customImages);
+                });
+
+            } catch (err) {
+                console.error(err);
+                document.getElementById('cardGrid').innerHTML = '<p>Error loading cards.</p>';
+            }
+        }
+
+        function renderCards(cards, customImages) {
+            const grid = document.getElementById('cardGrid');
+            if (cards.length === 0) {
+                grid.innerHTML = '<p>No cards found.</p>';
+                return;
+            }
+
+            grid.innerHTML = cards.map(c => {
+                const img = customImages[c.id] || c.image_url;
+                return `
+                <div class="card flex flex-col gap-4">
+                    <div style="font-size: 0.7rem; color: var(--primary); font-weight:700; text-transform:uppercase;">${c.category}</div>
+                    <div style="font-weight: 500; min-height: 3rem;">${c.front}</div>
+                    
+                    ${img && img !== 'null' ?
+                        `<div style="height: 150px; border-radius: 0.5rem; overflow:hidden; background:var(--background);">
+                            <img src="${img}" style="width:100%; height:100%; object-fit:cover;">
+                         </div>` :
+                        `<div style="height: 150px; border-radius: 0.5rem; background:rgba(255,255,255,0.02); display:flex; align-items:center; justify-content:center; border:1px dashed rgba(255,255,255,0.1); font-size:0.8rem; opacity:0.5;">
+                            No clinical image
+                         </div>`
+                    }
+                    
+                    <div style="font-size: 0.85rem; color: var(--text-muted); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 1rem;">
+                        ${c.back.substring(0, 100)}${c.back.length > 100 ? '...' : ''}
+                    </div>
+                </div>
+                `;
+            }).join('');
+        }
+
+        document.getElementById('logoutBtn').addEventListener('click', (e) => {
+            e.preventDefault();
+            sessionStorage.removeItem('radres_pin');
+            window.location.href = '../../index.html';
+        });
+
+        loadCards();
+    </script>
+</body>
+
+</html>
