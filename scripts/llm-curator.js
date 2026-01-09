@@ -10,10 +10,10 @@ const CURATOR_PROMPT = `You are an expert radiology educator curating daily news
 INPUT: RSS feed items from RSNA, RadioGraphics, AuntMinnie, Radiopaedia, ACR (provided as JSON)
 
 TASK:
-1. Select the 3 most clinically relevant articles for senior residents
+1. Select the 8 most clinically relevant articles for senior residents
 2. Rank all articles by importance (1-100 scale)
 3. Write a 2-sentence daily summary
-4. For top 3 stories, write 50-word summaries focusing on:
+4. For top 8 stories, write 50-word summaries focusing on:
    - Clinical implications
    - How it changes practice
    - Board exam relevance
@@ -24,13 +24,13 @@ SCHEMA:
 digest:
   date: YYYY-MM-DD
   generated_at: ISO8601_TIMESTAMP
-  curator_model: claude-3.5-sonnet
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
   total_articles: NUMBER
   
 summary:
   Multi-line text summary here.
 
-top_stories[3]{title,source,url,category,importance,ai_summary}:
+top_stories[8]{title,source,url,category,importance,ai_summary}:
   Title,Source,URL,Category,ImportanceScore,"AI Summary in quotes"
 
 articles[]{id,title,source,category,relevance_score}:
@@ -59,7 +59,7 @@ async function curateDigest() {
                 role: 'user',
                 content: `${CURATOR_PROMPT}\n\nRSS ITEMS:\n${JSON.stringify(rssItems, null, 2)}`
             }],
-            max_tokens: 2000
+            max_tokens: 3000
         }, {
             headers: {
                 'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
