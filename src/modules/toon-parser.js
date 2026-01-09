@@ -49,24 +49,28 @@ class TOONParser {
         const key = trimmed.substring(0, firstColonIndex).trim();
         const value = trimmed.substring(firstColonIndex + 1).trim();
 
-        // Reset array schema when hitting a new key field
-        if (arraySchema && key !== arraySchema.name) {
-          arraySchema = null;
-        }
+        if (arraySchema && key !== arraySchema.name) arraySchema = null;
 
-        // Nested object start (empty value)
         if (value === '') {
           currentSection = key;
-          result[key] = {};
+          result[key] = ''; // Initialize as empty string for potential multi-line text
         } else {
-          // If we are inside a section and it's not an array section
           if (currentSection && typeof result[currentSection] === 'object' && !Array.isArray(result[currentSection])) {
             result[currentSection][key] = this.coerceType(value);
           } else {
-            // Top level or resetting section if we were in an array
             currentSection = null;
             result[key] = this.coerceType(value);
           }
+        }
+      } else if (currentSection && !arraySchema) {
+        // Multi-line text accumulation
+        const lineContent = trimmed;
+        if (typeof result[currentSection] === 'string') {
+          result[currentSection] += (result[currentSection] ? ' ' : '') + lineContent;
+        } else if (typeof result[currentSection] === 'object' && result[currentSection] !== null) {
+          // If it was initialized as object but we found a text line, this format might be ambiguous.
+          // For RadRes, we treat 'summary:' followed by text as a string.
+          result[currentSection] = lineContent;
         }
       }
     }

@@ -139,10 +139,13 @@
                 const toonText = await response.text();
                 const digestData = TOONParser.parse(toonText);
 
+                const displaySummary = typeof digestData.summary === 'string' ? digestData.summary :
+                    (typeof digestData.summary === 'object' ? Object.values(digestData.summary).join(' ') : 'No summary available');
+
                 document.getElementById('digestContent').innerHTML = `
                     <div class="p-4" style="background:rgba(255,255,255,0.05); border-radius:0.5rem;">
                         <h3>${digestData.digest.date} Summary</h3>
-                        <p>${digestData.summary}</p>
+                        <p>${displaySummary}</p>
                     </div>
                 `;
 
