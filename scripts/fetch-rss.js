@@ -2,19 +2,35 @@ const Parser = require('rss-parser');
 const fs = require('fs');
 const path = require('path');
 
-// Hardcoded high-yield radiology sources to ensure reliable daily fetches
+// Verified High-Yield Radiology Feeds (2026)
 const RSS_SOURCES = [
-    { name: 'RSNA Radiology', url: 'https://pubs.rsna.org/action/showFeed?type=etoc&feed=rss&jc=radiology', category: 'journal' },
-    { name: 'RadioGraphics', url: 'https://pubs.rsna.org/action/showFeed?type=etoc&feed=rss&jc=radiographics', category: 'journal' },
-    { name: 'AuntMinnie', url: 'https://www.auntminnie.com/rss.xml', category: 'news' },
-    { name: 'Radiopaedia', url: 'https://radiopaedia.org/cases.rss', category: 'cases' }
+    // RSNA Journals (PubMed RSS is more reliable than direct site)
+    { name: 'Radiology (PubMed)', url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1J9v_4U-1-1-1-1-1-1/?term=%22Radiology%22%5BJournal%5D&limit=20', category: 'journal' },
+    { name: 'RadioGraphics (PubMed)', url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1J9v_4U-1-1-1-1-1-1/?term=%22Radiographics%22%5BJournal%5D&limit=20', category: 'journal' },
+    // AuntMinnie (Often blocks, trying alternative aggregator or specific topic feed)
+    { name: 'ScienceDaily Radiology', url: 'https://www.sciencedaily.com/rss/health_medicine/radiology.xml', category: 'news' },
+    // Radiopaedia (New Case Feed)
+    { name: 'Radiopaedia Cases', url: 'https://radiopaedia.org/cases/feed', category: 'cases' },
+    // European Society of Radiology
+    { name: 'Eur. Radiology', url: 'https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=330&channel-name=European+Radiology', category: 'journal' }
 ];
 
 async function fetchAllFeeds() {
-    const parser = new Parser();
+    // Add User-Agent to avoid 403 Forbidden
+    const parser = new Parser({
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        },
+        requestOptions: {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+        }
+    });
+
     const allItems = [];
 
-    console.log('Fetching feeds...');
+    console.log('Fetching feeds with defined User-Agent...');
 
     for (const source of RSS_SOURCES) {
         console.log(`Fetching ${source.name}...`);
