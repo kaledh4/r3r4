@@ -19,7 +19,7 @@
                 <a href="#" class="nav-link active">Dashboard</a>
                 <a href="#" class="nav-link">Cards</a>
                 <a href="#" class="nav-link">Analytics</a>
-                <a href="#" class="nav-link" id="logoutBtn">Logout</a>
+                <a href="/cdn-cgi/access/logout" class="nav-link" id="logoutBtn">Logout</a>
             </div>
         </div>
     </nav>
@@ -77,20 +77,31 @@
 
     <script src="../modules/toon-parser.js"></script>
     <script type="module">
-        import { supabase, signOut } from '../auth/supabase-client.js';
+        // Fetch identity from Cloudflare Access
+        const welcomeUser = document.getElementById('welcomeUser');
 
-        // Verify Auth
-        const { data: { session } } = await supabase.auth.getSession();
-        if (!session) {
-            window.location.href = '../../index.html';
-        } else {
-            const email = session.user.email || 'Resident';
-            document.getElementById('welcomeUser').innerText = `Welcome back, ${email.split('@')[0]}`;
+        async function fetchIdentity() {
+            try {
+                const response = await fetch('/cdn-cgi/access/get-identity');
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data && data.email) {
+                        welcomeUser.innerText = `Welcome back, ${data.email.split('@')[0]}`;
+                        console.log('Authenticated via Cloudflare:', data.email);
+                        return;
+                    }
+                }
+            } catch (err) {
+                console.log('Cloudflare identity not available (local dev?)');
+            }
+            welcomeUser.innerText = `Welcome back, Doctor`;
         }
 
-        document.getElementById('logoutBtn').addEventListener('click', async (e) => {
-            e.preventDefault();
-            await signOut();
+        fetchIdentity();
+
+        document.getElementById('logoutBtn').addEventListener('click', (e) => {
+            // Cloudflare Access logout redirect
+            window.location.href = '/cdn-cgi/access/logout';
         });
 
         // Mock loading data
