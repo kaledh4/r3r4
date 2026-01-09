@@ -21,7 +21,8 @@ class TOONParser {
 
       // Array declaration: name[count]{fields}:
       // Regex modified to be more robust
-      const arrayMatch = trimmed.match(/^([a-zA-Z0-9_]+)\[(\d+)\]\{([^}]+)\}:$/);
+      // Relaxed regex to allow spaces between components
+      const arrayMatch = trimmed.match(/^([a-zA-Z0-9_]+)\s*\[(\d+)\]\s*\{([^}]+)\}\s*:?$/);
       if (arrayMatch) {
         const [_, name, count, fields] = arrayMatch;
         if (!result[name]) result[name] = [];

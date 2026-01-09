@@ -154,7 +154,7 @@
                 `;
 
                 const stories = Array.isArray(digestData.top_stories) ? digestData.top_stories : [];
-                const storiesHtml = stories.map(s => `
+                const storiesHtml = stories.length > 0 ? stories.map(s => `
                     <div class="p-4 flex gap-4 items-start" style="background:rgba(255,255,255,0.03); border-radius:0.8rem; margin-bottom: 1rem; border: 1px solid rgba(255,255,255,0.05);">
                         ${s.image_url ? `<img src="${s.image_url}" style="width:100px; height:100px; object-fit:cover; border-radius:0.5rem; background:var(--surface);">` :
                         `<div style="width:100px; height:100px; display:flex; align-items:center; justify-content:center; background:rgba(255,255,255,0.05); border-radius:0.5rem; font-size:1.5rem;">📰</div>`}
@@ -167,7 +167,7 @@
                             <p style="font-size:0.85rem; opacity:0.7; margin:0;">${s.ai_summary || ''}</p>
                         </div>
                     </div>
-                `).join('');
+                `).join('') : '<p class="p-4" style="opacity:0.6">No detailed radiologic stories available today.</p>';
                 document.getElementById('topStories').innerHTML = storiesHtml;
 
             } catch (e) {
