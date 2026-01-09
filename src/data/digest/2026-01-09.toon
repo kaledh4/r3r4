@@ -1,0 +1,14 @@
+digest:
+  date: 2026-01-09
+  generated_at: 2026-01-09T12:00:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 1
+
+summary:
+  Welcome to your new Cloudflare-powered dashboard. Today we focus on ensuring your data and images are correctly served.
+
+top_stories[1]{title,source,url,category,importance,ai_summary}:
+  Cloudflare Migration Success,RadRes Internal,https://google.com,tech,100,"The platform has successfully transitioned to Cloudflare Pages & Functions."
+
+articles[]{id,title,source,category,relevance_score}:
+  art_001,Cloudflare Migration,Internal,tech,100

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics - RadRes Daily</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container nav-content">
+            <a href="dashboard.html" class="nav-logo" style="text-decoration:none;">🧠 RadRes Daily</a>
+            <div class="nav-links">
+                <a href="dashboard.html" class="nav-link">Dashboard</a>
+                <a href="cards.html" class="nav-link">Cards</a>
+                <a href="study.html" class="nav-link">Study</a>
+                <a href="analytics.html" class="nav-link active">Analytics</a>
+                <a href="#" class="nav-link" id="logoutBtn">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container p-8">
+        <h1>Study Analytics</h1>
+        <p>Your progress across radiology subspecialties.</p>
+
+        <div class="dashboard-grid mt-8">
+            <section class="card">
+                <h3>Overall Mastery</h3>
+                <div style="font-size: 3rem; font-weight: 700; color: var(--primary); margin: 1rem 0;">
+                    <span id="masteryPercent">0</span>%
+                </div>
+                <p>Based on cards with Good/Easy ratings.</p>
+            </section>
+
+            <section class="card col-span-2" style="grid-column: span 2;">
+                <h3>Category Performance</h3>
+                <div id="categoryStats" class="flex flex-col gap-4 mt-4">
+                    <p>Loading subspecialty data...</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script type="module">
+        async function loadAnalytics() {
+            const pin = sessionStorage.getItem('radres_pin');
+            const headers = pin ? { 'x-radres-pin': pin } : {};
+
+            try {
+                const statsRes = await fetch('/api/stats', { headers });
+                const stats = await statsRes.json();
+                const cardStates = stats.card_states || {};
+
+                const totalCards = Object.keys(cardStates).length;
+                if (totalCards === 0) {
+                    document.getElementById('categoryStats').innerHTML = '<p>No data yet. Start studying to see analytics!</p>';
+                    return;
+                }
+
+                // Mastery: Cards with ease > 2.0 and at least 2 reviews
+                const masteredCount = Object.values(cardStates).filter(s => s.ease > 2.0 && s.reviews > 1).length;
+                document.getElementById('masteryPercent').innerText = Math.round((masteredCount / totalCards) * 100);
+
+                // For category stats we need the card category info, but stats only has card IDs.
+                // In a production app we'd fetch flashcards too.
+                document.getElementById('categoryStats').innerHTML = `
+                    <div class="flex justify-between items-center p-4" style="background:rgba(255,255,255,0.03); border-radius:1rem;">
+                        <span>Cards Studied</span>
+                        <span class="font-bold">${totalCards}</span>
+                    </div>
+                `;
+
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        document.getElementById('logoutBtn').addEventListener('click', (e) => {
+            e.preventDefault();
+            sessionStorage.removeItem('radres_pin');
+            window.location.href = '../../index.html';
+        });
+
+        loadAnalytics();
+    </script>
+</body>
+
+</html>

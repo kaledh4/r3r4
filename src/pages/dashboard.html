@@ -14,11 +14,12 @@
 <body>
     <nav>
         <div class="container nav-content">
-            <div class="nav-logo">🧠 RadRes Daily</div>
+            <a href="dashboard.html" class="nav-logo" style="text-decoration:none;">🧠 RadRes Daily</a>
             <div class="nav-links">
-                <a href="#" class="nav-link active">Dashboard</a>
-                <a href="#" class="nav-link">Cards</a>
-                <a href="#" class="nav-link">Analytics</a>
+                <a href="dashboard.html" class="nav-link active">Dashboard</a>
+                <a href="cards.html" class="nav-link">Cards</a>
+                <a href="study.html" class="nav-link">Study</a>
+                <a href="analytics.html" class="nav-link">Analytics</a>
                 <a href="#" class="nav-link" id="logoutBtn">Logout</a>
             </div>
         </div>
@@ -47,7 +48,7 @@
 
             <!-- Stats Section -->
             <section class="card">
-                <h2>📊 Quick Stats</h2>
+                <h2>Quick Stats</h2>
                 <div class="flex flex-col gap-4">
                     <div class="flex justify-between">
                         <span>Streak</span>
@@ -64,9 +65,9 @@
                 </div>
             </section>
 
-            <!-- Top Stories -->
+            <!-- Top Radiology Papers/News -->
             <section class="card" style="grid-column: span 3;">
-                <h2>Top Stories</h2>
+                <h2>Top Radiology Papers/News</h2>
                 <div id="topStories" class="flex flex-col gap-4">
                     <!-- Populated by JS -->
                 </div>
@@ -76,6 +77,7 @@
     </main>
 
     <script src="../modules/toon-parser.js"></script>
+    <script src="../modules/srs-engine.js"></script>
     <script type="module">
         // Real Identity & Stats Fetching
         const welcomeUser = document.getElementById('welcomeUser');
@@ -103,12 +105,21 @@
                 // 2. Fetch User Stats (From KV)
                 const statsRes = await fetch('/api/stats', { headers });
                 const stats = await statsRes.json();
+                const cardStates = stats.card_states || {};
+
+                // 3. Load Flashcards to calculate real "Due Today"
+                const cardsRes = await fetch('../data/flashcards.toon');
+                const cardsText = await cardsRes.text();
+                const cardsData = TOONParser.parse(cardsText);
+                const allCards = cardsData.cards || [];
+
+                const dueCards = SRSEngine.getDueCards(cardStates, allCards, 1000);
 
                 streakEl.innerText = `${stats.streak || 0} Days 🔥`;
-                dueEl.innerText = `${stats.due_today || 0} Cards`;
+                dueEl.innerText = `${dueCards.length} Cards`;
                 accuracyEl.innerText = `${stats.accuracy || 0}%`;
 
-                // 3. Load News Digest
+                // 4. Load News Digest
                 loadNews();
 
             } catch (err) {
@@ -137,14 +148,16 @@
 
                 const stories = Array.isArray(digestData.top_stories) ? digestData.top_stories : [];
                 const storiesHtml = stories.map(s => `
-                    <div class="p-4 flex justify-between items-center" style="background:rgba(255,255,255,0.03); border-radius:0.5rem;">
-                        <div>
-                            <span style="font-size:0.8rem; color:var(--primary); text-transform:uppercase;">${s.category}</span>
-                            <h4 style="margin:0.25rem 0;">${s.title}</h4>
-                            <p style="font-size:0.8rem; opacity:0.7;">${s.ai_summary || ''}</p>
-                        </div>
-                        <div style="background:var(--surface); padding:0.25rem 0.5rem; border-radius:1rem; font-size:0.8rem;">
-                            Relevance: ${s.importance || s.relevance_score || 'N/A'}
+                    <div class="p-4 flex gap-4 items-start" style="background:rgba(255,255,255,0.03); border-radius:0.8rem; margin-bottom: 1rem; border: 1px solid rgba(255,255,255,0.05);">
+                        ${s.image_url ? `<img src="${s.image_url}" style="width:100px; height:100px; object-fit:cover; border-radius:0.5rem; background:var(--surface);">` :
+                        `<div style="width:100px; height:100px; display:flex; align-items:center; justify-content:center; background:rgba(255,255,255,0.05); border-radius:0.5rem; font-size:1.5rem;">📰</div>`}
+                        <div style="flex:1">
+                            <div class="flex justify-between">
+                                <span style="font-size:0.7rem; color:var(--primary); text-transform:uppercase; letter-spacing:1px; font-weight:700;">${s.category}</span>
+                                <span style="font-size:0.7rem; opacity:0.5;">Relevance: ${s.importance || s.relevance_score || 'N/A'}</span>
+                            </div>
+                            <h4 style="margin:0.25rem 0; font-size:1.1rem; color:var(--text);">${s.title}</h4>
+                            <p style="font-size:0.85rem; opacity:0.7; margin:0;">${s.ai_summary || ''}</p>
                         </div>
                     </div>
                 `).join('');
@@ -159,12 +172,21 @@
         function renderDemoNews() {
             const todayStr = new Date().toLocaleDateString();
             document.getElementById('digestContent').innerHTML = `
-                <div class="p-4" style="background:rgba(255,255,255,0.05); border-radius:0.5rem;">
-                    <h3>${todayStr} Summary (Live Feed Loading...)</h3>
-                    <p>Fetching the latest radiology updates. If this persists, the daily curation script is still running.</p>
+                <div class="p-6 text-center" style="background:rgba(255,255,255,0.02); border-radius:1rem; border: 1px dashed rgba(255,255,255,0.1);">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">⏳</div>
+                    <h3 style="margin:0;">Digest Incoming</h3>
+                    <p style="font-size: 0.9rem; opacity: 0.6;">Today's curated radiology updates are being processed by the AI engine. Check back in a few minutes.</p>
                 </div>
             `;
-            // ... (keep stories mock if needed or leave empty)
+
+            // Show a "Recently Uploaded" placeholder to verify /img/ path
+            document.getElementById('topStories').innerHTML = `
+                <div class="p-4" style="background:rgba(37, 99, 235, 0.1); border-radius:1rem; border: 1px solid var(--primary); color: var(--text);">
+                    <h4>🚀 System Ready</h4>
+                    <p style="font-size:0.8rem; margin: 0.5rem 0;">All services are now running on Cloudflare. You can start studying or upload new clinical images to your cards.</p>
+                    <a href="study.html" class="btn btn-primary" style="font-size:0.8rem; padding: 0.5rem 1rem;">Go to Study Mode</a>
+                </div>
+            `;
         }
 
         document.getElementById('logoutBtn').addEventListener('click', (e) => {
