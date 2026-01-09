@@ -84,18 +84,24 @@
         const accuracyEl = document.querySelector('.text-primary');
 
         async function initDashboard() {
+            const pin = sessionStorage.getItem('radres_pin');
+            const headers = pin ? { 'x-radres-pin': pin } : {};
+
             try {
                 // 1. Fetch Identity
-                const idRes = await fetch('/api/identity');
+                const idRes = await fetch('/api/identity', { headers });
                 const idData = await idRes.json();
-                if (idData.authenticated) {
-                    welcomeUser.innerText = `Welcome back, ${idData.short_name}`;
-                } else {
-                    welcomeUser.innerText = 'Welcome back, Doctor (Demo)';
+
+                if (!idData.authenticated) {
+                    window.location.href = '../../index.html';
+                    return;
                 }
 
+                welcomeUser.innerText = `Welcome back, ${idData.short_name}`;
+                document.body.dataset.authMethod = idData.method;
+
                 // 2. Fetch User Stats (From KV)
-                const statsRes = await fetch('/api/stats');
+                const statsRes = await fetch('/api/stats', { headers });
                 const stats = await statsRes.json();
 
                 streakEl.innerText = `${stats.streak || 0} Days 🔥`;
@@ -107,6 +113,7 @@
 
             } catch (err) {
                 console.error('Initialization error:', err);
+                welcomeUser.innerText = 'Welcome back, Doctor (Offline Mode)';
             }
         }
 
@@ -162,8 +169,15 @@
 
         document.getElementById('logoutBtn').addEventListener('click', (e) => {
             e.preventDefault();
-            // Clear identity and redirect to Cloudflare logout
-            window.location.href = window.location.origin + '/cdn-cgi/access/logout';
+            const method = document.body.dataset.authMethod;
+
+            if (method === 'pin') {
+                sessionStorage.removeItem('radres_pin');
+                window.location.href = '../../index.html';
+            } else {
+                // Clear identity and redirect to Cloudflare logout
+                window.location.href = window.location.origin + '/cdn-cgi/access/logout';
+            }
         });
 
         initDashboard();
