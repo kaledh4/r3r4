@@ -30,10 +30,16 @@ jobs:
         run: |
           node scripts/llm-curator.js
       
+      - name: Generate Flashcards
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          node scripts/generate-cards.js
+      
       - name: Commit and Push
         run: |
           git config user.name "RadRes Bot"
           git config user.email "bot@radres.app"
-          git add src/data/digest/
-          git commit -m "📰 Daily digest $(date +%Y-%m-%d)" || exit 0
+          git add src/data/digest/ src/data/flashcards.toon
+          git commit -m "📰 Daily digest & flashcards $(date +%Y-%m-%d)" || exit 0
           git push

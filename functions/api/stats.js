@@ -1,8 +1,19 @@
 export async function onRequestGet(context) {
     const { env, request } = context;
 
-    // Cloudflare Access provides the email in this header
-    const email = request.headers.get('cf-access-authenticated-user-email') || 'doctor@example.com';
+    // 1. Resolve Identity
+    const cfEmail = request.headers.get('cf-access-authenticated-user-email');
+    const pin = request.headers.get('x-radres-pin');
+    const systemPin = env.EMERGENCY_PIN || '1234';
+
+    let email = cfEmail;
+    if (!email && pin === systemPin) {
+        email = 'resident@emergency.local';
+    }
+
+    if (!email) {
+        return new Response("Unauthorized", { status: 401 });
+    }
 
     try {
         if (!env.USER_DATA) {
@@ -34,7 +45,19 @@ export async function onRequestGet(context) {
 
 export async function onRequestPost(context) {
     const { env, request } = context;
-    const email = request.headers.get('cf-access-authenticated-user-email') || 'doctor@example.com';
+    // 1. Resolve Identity
+    const cfEmail = request.headers.get('cf-access-authenticated-user-email');
+    const pin = request.headers.get('x-radres-pin');
+    const systemPin = env.EMERGENCY_PIN || '1234';
+
+    let email = cfEmail;
+    if (!email && pin === systemPin) {
+        email = 'resident@emergency.local';
+    }
+
+    if (!email) {
+        return new Response("Unauthorized", { status: 401 });
+    }
 
     try {
         const body = await request.json();
