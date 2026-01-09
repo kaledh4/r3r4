@@ -113,7 +113,11 @@
                 const cardsData = TOONParser.parse(cardsText);
                 const allCards = cardsData.cards || [];
 
-                const dueCards = SRSEngine.getDueCards(cardStates, allCards, 1000);
+                const dueCards = SRSEngine.getDueCards(cardStates, allCards, 1000); // Get all due cards to count them
+
+                console.log(`Debug: ${allCards.length} total cards, ${dueCards.length} due.`);
+
+                streakEl.innerText = `${stats.streak || 0} Days 🔥`;
 
                 streakEl.innerText = `${stats.streak || 0} Days 🔥`;
                 dueEl.innerText = `${dueCards.length} Cards`;
