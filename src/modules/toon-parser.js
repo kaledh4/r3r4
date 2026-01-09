@@ -24,9 +24,9 @@ class TOONParser {
       const arrayMatch = trimmed.match(/^([a-zA-Z0-9_]+)\[(\d+)\]\{([^}]+)\}:$/);
       if (arrayMatch) {
         const [_, name, count, fields] = arrayMatch;
-        arraySchema = { name, fields: fields.split(','), items: [] };
+        if (!result[name]) result[name] = [];
+        arraySchema = { name, fields: fields.split(','), items: result[name] };
         currentSection = name;
-        result[name] = arraySchema.items;
         continue;
       }
 
@@ -53,7 +53,7 @@ class TOONParser {
 
         if (value === '') {
           currentSection = key;
-          result[key] = ''; // Initialize as empty string for potential multi-line text
+          result[key] = {}; // Initialize as object to support nested keys
         } else {
           if (currentSection && typeof result[currentSection] === 'object' && !Array.isArray(result[currentSection])) {
             result[currentSection][key] = this.coerceType(value);
