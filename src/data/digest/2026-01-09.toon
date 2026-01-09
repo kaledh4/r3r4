@@ -4,109 +4,61 @@ digest:
   curator_model: meta-llama/llama-3.1-405b-instruct:free
   total_articles: 8
 summary:
-  This daily radiology news digest highlights recent publications focusing on clinical advancements, imaging techniques, and AI applications across various specialties. Key topics include procedural imaging, lung cancer, prostate health, stroke diagnosis, and advancements in AI for image analysis.
+  This daily radiology news digest highlights key advancements and updates relevant to senior residents, including a significant acquisition in imaging, new clinical trials, and advancements in AI for image analysis. The selection focuses on practice-changing findings, new guidelines, and high-yield review topics.
+
 top_stories[8]{title,source,url,category,importance,ai_summary}:
   Title: Envision Radiology acquires private equity-backed imaging center operator Rezolut
-  Source: Google News Radiology
+  Source: Radiology Business
   URL: https://news.google.com/rss/articles/CBAi-AFBVV95cUxPVkNwTmpFamZNVWZ4SF9HSFlhdjVwYVBxM19iQVlLS3BnamJxNjlWb2FZNjBHeFAyVk5VZ0lBODNoSWhfbXBFMVUwTURfRWhGU3piaDZ0dkctd3VhaXI2RHBubUpYZWhoVVRWV0RKREY2MVMxNFVyR2xtOEplSEFXQkNzUThsWkdXN1JRdnlQMWduQXpDalFMeHlzdnlJaEhISjZoWDVVbmdyOVpEUEc0QzU2SWVwUFhnaTRteUprUEtBRW1WSmVsUXVKT0NHbjFjbGVSVFhzUzZhRlVhSi1qdjJSMldfNWFNLXlFdTRrTDBtcHQyN1pvYg?oc=5
   Category: news
-  Importance: 90
-  ai_summary: "Envision Radiology expands its reach with the acquisition of Rezolut, a private equity-backed imaging center operator, signaling continued consolidation in the radiology industry."
-  
-  Title: Top Five Radiology Blogs by Eric Postal, MD in 2025
-  Source: Google News Radiology
-  URL: https://news.google.com/rss/articles/CBAijwFBVV95cUxOcHJBaGlseHZTY1RoNVAwNmJuMEdUZEZKVnV0NXo2c0NSU0VES1BINjFIWUtpaVdySEZha1NwMDZHbGdlX1V0VnBQTGRCT0RkQXdjMjBjbHNyMWduMnp0dm51UWZ3OGtLR0lvbjlOTjRkcERoSVVwbTZ1dEgzMllMLXo0cEg4d1pNSGRObWVHVQ?oc=5
-  Category: news
-  Importance: 75
-  ai_summary: "Eric Postal's blog highlights key trends and insights in radiology for 2025, offering valuable perspectives for practitioners."
+  Importance: 95
+  ai_summary: "Envision Radiology's acquisition of Rezolut signifies a major consolidation trend in the imaging sector, potentially impacting referral patterns and market dynamics."
   
   Title: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
-  Source: Google News Radiology
+  Source: Radiological Society of North America | RSNA
   URL: https://news.google.com/rss/articles/CBAiakFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
   Category: news
-  Importance: 65
-  ai_summary: "RSNA is seeking a new editor for 'Radiology: Cardiothoracic Imaging,' an important publication for specialists in this field."
+  Importance: 85
+  ai_summary: "The search for a new editor for 'Radiology: Cardiothoracic Imaging' is a significant opportunity to shape the future direction of this influential journal in the field."
   
-  Title: Petition to U.S. FDA proposes alternative place for detecting cervical spine fractures on CT
-  Source: Google News Radiology
+  Title: Petition to U.S. FDA proposes alternative placement for detecting cervical spine fractures on CT
+  Source: link.springer.com
   URL: https://link.springer.com/article/10.1007/s00330-025-12255-z
   Category: news
-  Importance: 85
-  ai_summary: "A petition to the FDA suggests an alternative CT approach for detecting cervical spine fractures, potentially impacting current imaging protocols."
+  Importance: 80
+  ai_summary: "A petition to the FDA proposes a novel CT protocol for detecting cervical spine fractures, potentially improving diagnostic accuracy and patient care."
   
-  Title: Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma
+  Title: The effects of prostate volume and PI-RADS category on optimal PSA-density thresholds for biopsy decision-making
   Source: Eur. Radiology
   URL: https://link.springer.com/article/10.1007/s00330-025-12272-y
   Category: journal
-  Importance: 95
-  ai_summary: "This study identifies baseline CT imaging parameters that predict survival in patients with pulmonary metastases from soft tissue and bone sarcoma, offering prognostic value."
+  Importance: 75
+  ai_summary: "This study investigates the relationship between prostate volume, PI-RADS category, and optimal PSA-density thresholds for biopsy, offering insights into personalized prostate cancer management."
+  
+  Title: Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma
+  Source: Eur. Radiology
+  URL: https://link.springer.com/article/10.1007/s00330-025-12289-3
+  Category: journal
+  Importance: 70
+  ai_summary: "Research identifies baseline CT imaging parameters that predict survival in patients with pulmonary metastases from sarcoma, aiding in risk stratification and treatment planning."
   
   Title: Digital variance angiography enables up to 80% reduction in stationary acquisition radiation dose during prostatic artery embolization
   Source: Eur. Radiology
   URL: https://link.springer.com/article/10.1007/s00330-025-12235-3
   Category: journal
-  Importance: 80
-  ai_summary: "Research demonstrates that digital variance angiography can significantly reduce radiation dose during prostatic artery embolization, improving patient safety."
+  Importance: 65
+  ai_summary: "A prospective study demonstrates that digital variance angiography can reduce radiation dose during prostatic artery embolization by up to 80%, a significant advancement in interventional radiology."
   
   Title: Fully automated quantification of net water uptake in acute ischemic stroke using only non-contrast CT imaging
   Source: Eur. Radiology
   URL: https://link.springer.com/article/10.1007/s00330-025-12238-0
   Category: journal
-  Importance: 92
-  ai_summary: "A novel fully automated method for quantifying net water uptake on non-contrast CT imaging has been developed for acute ischemic stroke assessment, potentially improving diagnostic accuracy."
-articles[]{id,title,source,category,relevance_score}:
-  id_1: Envision Radiology acquisition
-  title: Envision Radiology acquires Rezolut
-  source: Google News Radiology
-  category: news
-  relevance_score: 90
-  ai_summary: "Envision Radiology expands its reach with the acquisition of Rezolut, a private equity-backed imaging center operator, signaling continued consolidation in the radiology industry."
+  Importance: 60
+  ai_summary: "This study introduces a fully automated method for quantifying net water uptake in acute ischemic stroke using non-contrast CT, potentially improving stroke diagnosis and assessment."
   
-  id_2: Radiology blogs
-  title: Top Five Radiology Blogs by Eric Postal, MD in 2025
-  source: Google News Radiology
-  category: news
-  relevance_score: 75
-  ai_summary: "Eric Postal's blog highlights key trends and insights in radiology for 2025, offering valuable perspectives for practitioners."
-  
-  id_3: Cardiothoracic Editor
-  title: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
-  source: Google News Radiology
-  category: news
-  relevance_score: 65
-  ai_summary: "RSNA is seeking a new editor for 'Radiology: Cardiothoracic Imaging,' an important publication for specialists in this field."
-  
-  id_4: Cervical Spine Fracture Petition
-  title: Petition to U.S. FDA proposes alternative place for detecting cervical spine fractures on CT
-  source: Google News Radiology
-  category: news
-  relevance_score: 85
-  ai_summary: "A petition to the FDA suggests an alternative CT approach for detecting cervical spine fractures, potentially impacting current imaging protocols."
-  
-  id_5: Pulmonary Metastases Survival
-  title: Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma
-  source: Eur. Radiology
-  category: journal
-  relevance_score: 95
-  ai_summary: "This study identifies baseline CT imaging parameters that predict survival in patients with pulmonary metastases from soft tissue and bone sarcoma, offering prognostic value."
-  
-  id_6: Prostatic Artery Embolization
-  title: Digital variance angiography enables up to 80% reduction in stationary acquisition radiation dose during prostatic artery embolization
-  source: Eur. Radiology
-  category: journal
-  relevance_score: 80
-  ai_summary: "Research demonstrates that digital variance angiography can significantly reduce radiation dose during prostatic artery embolization, improving patient safety."
-  
-  id_7: Acute Ischemic Stroke Quantification
-  title: Fully automated quantification of net water uptake in acute ischemic stroke using only non-contrast CT imaging
-  source: Eur. Radiology
-  category: journal
-  relevance_score: 92
-  ai_summary: "A novel fully automated method for quantifying net water uptake on non-contrast CT imaging has been developed for acute ischemic stroke assessment, potentially improving diagnostic accuracy."
-  
-  id_8: Radiology Industry News
-  title: Envision Radiology acquires Rezolut
-  source: Google News Radiology
-  category: news
-  relevance_score: 88
-  ai_summary: "This article reports on the acquisition of Rezolut by Envision Radiology, highlighting trends in the radiology market."
+  Title: Top Five Radiology Blogs by Eric Postal, MD in 2025
+  Source: diagnosticimaging.com
+  URL: https://news.google.com/rss/articles/CBAijwFBVV95cUxOcHJBaGlseHZTY1RoNVAwNmJuMEdUZEZKVnV0NXo2c0NSU0VES1BINjFIWUtpaVdySEZha1NwMDZHbGdlX1V0VnBQTGRCT0RkQXdjMjBjbHNyMWduMnp0dm51UWZ3OGtLR0lvbjlOTjRkcERoSVVwbTZ1dEgzMllMLXo0cEg4d1pNSGRObWVHVQ?oc=5
+  Category: news
+  Importance: 55
+  ai_summary: "This article highlights popular radiology blogs, offering a curated list of resources for continued learning and staying updated on the field."
