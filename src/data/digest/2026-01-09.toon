@@ -1,110 +1,87 @@
 digest:
-  date: 2026-01-08
-  generated_at: 2026-01-08T14:30:00Z
+  date: 2026-01-07
+  generated_at: 2026-01-07T14:30:00Z
   curator_model: meta-llama/llama-3.1-405b-instruct:free
   total_articles: 8
-  
-summary:
-  This daily radiology news digest highlights recent publications and industry developments relevant to senior residents. Key topics include AI in imaging, prostate cancer management, pulmonary metastases, and advancements in cardiovascular interventions and stroke diagnosis. 
+summary: |
+  This daily digest highlights key radiology news, ranging from industry acquisitions and leadership changes to practice-changing research and advancements in AI. We've curated the most clinically relevant articles for senior residents, emphasizing findings likely to impact their future practice and board preparation.
+  The top stories cover significant developments in imaging techniques, clinical decision-making, and the evolving radiology landscape. Pay close attention to articles discussing AI applications and novel approaches to image interpretation.
 
 top_stories[8]{title,source,url,category,importance,ai_summary}:
   Title: Envision Radiology acquires private equity-backed imaging center operator Rezolut
-  Source: Radiology Business
+  Source: Google News Radiology
   URL: https://news.google.com/rss/articles/CBAi-AFBVV95cUxPVkNwTmpFamZNVWZ4SF9HSFlhdjVwYVBxM19iQVlLS3BnamJxNjlWb2FZNjBHeFAyVk5VZ0lBODNoSWhfbXBFMVUwTURfRWhGU3piaDZ0dkctd3VhaXI2RHBubUpYZWhoVVRWV0RKREY2MVMxNFVyR2xtOEplSEFXQkNzUThsWkdXN1JRdnlQMWduQXpDalFMeHlzdnlJaEhISjZoWDVVbmdyOVpEUEc0QzU2SWVwUFhnaTRteUprUEtBRW1WSmVsUXVKT0NHbjFjbGVSVFhzUzZhRlVhSi1qdjJSMldfNWFNLXlFdTRrTDBtcHQyN1pvYg?oc=5
   Category: news
   Importance: 90
-  ai_summary: "Envision Radiology expands its reach with the acquisition of Rezolut, a private equity-backed imaging center operator, indicating ongoing consolidation in the radiology market."
-  
+  ai_summary: "Envision Radiology, a major radiology provider, is expanding its reach through the acquisition of Rezolut, a private equity-backed imaging center operator, signaling consolidation in the imaging industry."
+  Clinical implications: This acquisition likely increases the size and market share of Envision Radiology, potentially impacting referral patterns and access to imaging services in the acquired regions.
+  How it changes practice: Residents may see more integrated radiology services and a shift towards larger imaging networks. It highlights the growing influence of private equity in healthcare.
+  Board exam relevance: Understanding healthcare industry trends and market dynamics is relevant to board exams.
+
   Title: Top Five Radiology Blogs by Eric Postal, MD in 2025
-  Source: diagnosticimaging.com
+  Source: Google News Radiology
   URL: https://news.google.com/rss/articles/CBAijwFBVV95cUxOcHJBaGlseHZTY1RoNVAwNmJuMEdUZEZKVnV0NXo2c0NSU0VES1BINjFIWUtpaVdySEZha1NwMDZHbGdlX1V0VnBQTGRCT0RkQXdjMjBjbHNyMWduMnp0dm51UWZ3OGtLR0lvbjlOTjRkcERoSVVwbTZ1dEgzMllMLXo0cEg4d1pNSGRObWVHVQ?oc=5
   Category: news
   Importance: 70
-  ai_summary: "Eric Postal's blog highlights key trends and topics in radiology for 2025, providing a valuable resource for staying current in the field."
-  
+  ai_summary: "Eric Postal's blog offers valuable insights and updates in the field of radiology, covering a range of topics relevant to current practice and advancements."
+  Clinical implications: Staying informed through reputable radiology blogs can help residents keep abreast of emerging trends and best practices.
+  How it changes practice: These blogs often feature discussions on new imaging techniques, clinical guidelines, and educational resources, aiding continuous learning.
+  Board exam relevance: Familiarity with leading radiology blogs demonstrates awareness of current knowledge and trends, which can be beneficial for board exams.
+
   Title: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
-  Source: Radiological Society of North America | RSNA
+  Source: Google News Radiology
   URL: https://news.google.com/rss/articles/CBAiakFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
   Category: news
-  Importance: 60
-  ai_summary: "The RSNA is seeking a new editor for 'Radiology: Cardiothoracic Imaging,' a significant role in shaping the future of research and education in this subspecialty."
-  
+  Importance: 65
+  ai_summary: "The Radiological Society of North America (RSNA) is seeking a new editor for 'Radiology: Cardiothoracic Imaging,' a prominent journal in the field."
+  Clinical implications: This highlights the ongoing development and importance of specialized journals in advancing knowledge in specific areas of radiology.
+  How it changes practice: New editors often bring updated perspectives and priorities to journals, potentially influencing the direction of research and clinical practice.
+  Board exam relevance: Knowing about key radiology journals and their editors demonstrates awareness of the academic landscape.
+
   Title: Petition to U.S. FDA proposes alternative p...ce for detecting cervical spine fractures on CT: an early health technology assessment
-  Source: SpringerLink
+  Source: link.springer.com
   URL: https://link.springer.com/article/10.1007/s00330-025-12255-z
-  Category: news
+  Category: ir
   Importance: 85
-  ai_summary: "A petition to the FDA suggests an alternative method for detecting cervical spine fractures on CT scans, potentially impacting diagnostic workflows."
-  
+  ai_summary: "A petition to the FDA suggests an alternative approach for detecting cervical spine fractures on CT scans, prompting an early health technology assessment."
+  Clinical implications: This could lead to changes in CT protocols for trauma patients, potentially improving the detection rate of subtle cervical spine injuries.
+  How it changes practice: If approved, the proposed alternative could streamline imaging procedures and enhance diagnostic accuracy.
+  Board exam relevance: Understanding FDA processes and the evaluation of new medical technologies is crucial for board exams.
+
   Title: The effects of prostate volume and PI-RADS category on optimal PSA-density thresholds for biopsy decision-making
-  Source: European Radiology
+  Source: Eur. Radiology
   URL: https://link.springer.com/article/10.1007/s00330-025-12272-y
-  Category: journal
-  Importance: 75
-  ai_summary: "This study investigates the relationship between prostate volume, PI-RADS category, and optimal PSA-density thresholds for biopsy, influencing prostate cancer management."
-  
-  Title: Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma
-  Source: European Radiology
-  URL: https://link.springer.com/article/10.1007/s00330-025-12289-3
-  Category: journal
+  Category: msk
   Importance: 80
-  ai_summary: "Research explores the predictive value of baseline CT imaging parameters in determining survival outcomes for patients with pulmonary metastases from sarcoma."
-  
+  ai_summary: "This study investigates the relationship between prostate volume, PI-RADS category, and optimal PSA-density thresholds for prostate biopsy."
+  Clinical implications: Findings may refine current guidelines for prostate cancer screening and biopsy, potentially reducing unnecessary biopsies.
+  How it changes practice: Residents may see updated recommendations for PSA density thresholds in the future, impacting patient management.
+  Board exam relevance: Prostate cancer management and the role of imaging in its detection are important topics for board exams.
+
+  Title: Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma
+  Source: Eur. Radiology
+  URL: https://link.springer.com/article/10.1007/s00330-025-12289-3
+  Category: chest
+  Importance: 75
+  ai_summary: "This research identifies baseline CT imaging parameters that can predict survival outcomes in patients with pulmonary metastases from sarcoma."
+  Clinical implications: This could help in risk stratification and treatment planning for patients with this challenging condition.
+  How it changes practice: Imaging biomarkers may play a more significant role in guiding treatment decisions for sarcoma patients.
+  Board exam relevance: Understanding the imaging characteristics of various malignancies and their prognostic implications is essential for board exams.
+
   Title: Digital variance angiography enables up to 80% reduction in stationary acquisition radiation dose during prostatic artery embolization: a prospective randomized trial
-  Source: European Radiology
+  Source: Eur. Radiology
   URL: https://link.springer.com/article/10.1007/s00330-025-12235-3
-  Category: journal
-  Importance: 78
-  ai_summary: "A trial demonstrates that digital variance angiography can reduce radiation dose during prostatic artery embolization by up to 80%, improving patient safety."
-  
+  Category: ir
+  Importance: 70
+  ai_summary: "A prospective study demonstrates that digital variance angiography can reduce radiation dose during prostatic artery embolization by up to 80%."
+  Clinical implications: This offers a safer alternative for this common interventional procedure, reducing radiation exposure for both patients and operators.
+  How it changes practice: Residents may see increased adoption of digital variance angiography in prostatic artery embolization.
+  Board exam relevance: Awareness of radiation safety in interventional radiology and the development of new techniques are relevant for board exams.
+
   Title: Fully automated quantification of net water uptake in acute ischemic stroke using only non-contrast CT imaging
-  Source: European Radiology
+  Source: Eur. Radiology
   URL: https://link.springer.com/article/10.1007/s00330-025-12238-0
-  Category: journal
+  Category: neuro
   Importance: 82
-  ai_summary: "This study presents a fully automated method for quantifying net water uptake on non-contrast CT, aiding in the rapid diagnosis of acute ischemic stroke."
-articles[]{id,title,source,category,relevance_score}:
-  id_1: Envision Radiology acquires private equity-backed imaging center operator Rezolut
-  title: Envision Radiology acquires private equity-backed imaging center operator Rezolut
-  source: Radiology Business
-  category: news
-  relevance_score: 90
-  
-  id_2: Top Five Radiology Blogs by Eric Postal, MD in 2025
-  title: Top Five Radiology Blogs by Eric Postal, MD in 2025
-  source: diagnosticimaging.com
-  category: news
-  relevance_score: 70
-  
-  id_3: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
-  title: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
-  source: Radiological Society of North America | RSNA
-  category: news
-  relevance_score: 60
-  
-  id_4: Petition to U.S. FDA proposes alternative p...ce for detecting cervical spine fractures on CT: an early health technology assessment
-  title: Petition to U.S. FDA proposes alternative p...ce for detecting cervical spine fractures on CT: an early health technology assessment
-  source: SpringerLink
-  category: news
-  relevance_score: 85
-  
-  id_5: The effects of prostate volume and PI-RADS category on optimal PSA-density thresholds for biopsy decision-making
-  title: The effects of prostate volume and PI-RADS category on optimal PSA-density thresholds for biopsy decision-making
-  source: European Radiology
-  category: journal
-  relevance_score: 75
-  
-  id_6: Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma
-  title: Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma
-  source: European Radiology
-  category: journal
-  relevance_score: 80
-  
-  id_7: Digital variance angiography enables up to 80% reduction in stationary acquisition radiation dose during prostatic artery embolization: a prospective randomized trial
-  title: Digital variance angiography enables up to 80% reduction in stationary acquisition radiation dose during prostatic artery embolization: a prospective randomized trial
-  source: European Radiology
-  category: journal
-  relevance_score: 78
-  
-  id_8: Fully automated quantification of net water uptake in acute ischemic stroke using only non-contrast CT imaging
-  title: Fully automated quantification of net
+  ai_summary: "This study presents a fully automated method for quantifying net water uptake on non-contrast CT scans to aid in the diagnosis of acute ischemic stroke."
+  Clinical implications: This could improve the speed and accuracy
