@@ -22,3 +22,12 @@ cards[3]{id,card_003,category,neurology,medium,"A patient presents with a sudden
 cards[4]{id,card_004,category,abdomen,hard,"What is the typical morphology of a hepatic abscess on CT imaging?","Well-defined, round or oval collection with enhancing walls and often a central locule.",GE Healthcare,hepatic abscess;CT;morphology,pathology
 
 cards[5]{id,card_005,category,musculoskeletal,easy,"In a patient with suspected femoral neck fracture, what is the gold standard imaging modality?","X-ray.",Orthopedics,femoral neck fracture;imaging;gold standard,orthopedics
+
+# Added on 2026-01-09
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,news,medium,"What is the primary focus of the Envision Radiology's acquisition of Rezolut?","Expansion of Envision Radiology's geographic reach and market consolidation within the imaging industry.",Radiology Business,news;mergers;acquisition
+  card_002,journal,hard,"According to a study in European Radiology, what imaging parameter was found to predict survival in patients with pulmonary metastases from sarcoma?","Baseline CT imaging parameters, suggesting their importance in prognosis.",European Radiology,journal;sarcoma;metastasis;CT
+  card_003,news,easy,"What is the RSNA looking for in their search for a new editor?","A new editor for the journal 'Radiology: Cardiothoracic Imaging'.",Radiological Society of North America | RSNA,news;editing;cardiothoracic
+  card_004,news,medium,"A recent petition to the FDA proposes an alternative method for detecting fractures. What imaging modality is it focused on?","CT scans, specifically for cervical spine fractures.",SpringerLink,news;FDA;cervical spine;CT
+  card_005,journal,hard,"What is the key benefit demonstrated by using digital variance angiography during prostatic artery embolization?","Up to an 80% reduction in stationary acquisition radiation dose.",European Radiology,journal;prostatic artery embolization;radiation dose;digital variance angiography
