@@ -4,6 +4,7 @@
   "description": "AI Radiology Education Platform",
   "main": "index.html",
   "scripts": {
+    "build": "node scripts/fetch-rss.js && node scripts/llm-curator.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

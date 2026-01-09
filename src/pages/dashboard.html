@@ -19,7 +19,7 @@
                 <a href="#" class="nav-link active">Dashboard</a>
                 <a href="#" class="nav-link">Cards</a>
                 <a href="#" class="nav-link">Analytics</a>
-                <a href="/cdn-cgi/access/logout" class="nav-link" id="logoutBtn">Logout</a>
+                <a href="#" class="nav-link" id="logoutBtn">Logout</a>
             </div>
         </div>
     </nav>
@@ -77,36 +77,40 @@
 
     <script src="../modules/toon-parser.js"></script>
     <script type="module">
-        // Fetch identity from Cloudflare Access
+        // Real Identity & Stats Fetching
         const welcomeUser = document.getElementById('welcomeUser');
+        const streakEl = document.querySelector('.text-success');
+        const dueEl = document.querySelector('.text-warning');
+        const accuracyEl = document.querySelector('.text-primary');
 
-        async function fetchIdentity() {
+        async function initDashboard() {
             try {
-                const response = await fetch('/cdn-cgi/access/get-identity');
-                if (response.ok) {
-                    const data = await response.json();
-                    if (data && data.email) {
-                        welcomeUser.innerText = `Welcome back, ${data.email.split('@')[0]}`;
-                        console.log('Authenticated via Cloudflare:', data.email);
-                        return;
-                    }
+                // 1. Fetch Identity
+                const idRes = await fetch('/api/identity');
+                const idData = await idRes.json();
+                if (idData.authenticated) {
+                    welcomeUser.innerText = `Welcome back, ${idData.short_name}`;
+                } else {
+                    welcomeUser.innerText = 'Welcome back, Doctor (Demo)';
                 }
+
+                // 2. Fetch User Stats (From KV)
+                const statsRes = await fetch('/api/stats');
+                const stats = await statsRes.json();
+
+                streakEl.innerText = `${stats.streak || 0} Days 🔥`;
+                dueEl.innerText = `${stats.due_today || 0} Cards`;
+                accuracyEl.innerText = `${stats.accuracy || 0}%`;
+
+                // 3. Load News Digest
+                loadNews();
+
             } catch (err) {
-                console.log('Cloudflare identity not available (local dev?)');
+                console.error('Initialization error:', err);
             }
-            welcomeUser.innerText = `Welcome back, Doctor`;
         }
 
-        fetchIdentity();
-
-        document.getElementById('logoutBtn').addEventListener('click', (e) => {
-            // Cloudflare Access logout redirect
-            window.location.href = '/cdn-cgi/access/logout';
-        });
-
-        // Mock loading data
-        async function loadDashboard() {
-            // Calculate today's date YYYY-MM-DD
+        async function loadNews() {
             const date = new Date().toISOString().split('T')[0];
             const digestPath = `../data/digest/${date}.toon`;
 
@@ -117,65 +121,52 @@
                 const toonText = await response.text();
                 const digestData = TOONParser.parse(toonText);
 
-                // Render Digest
                 document.getElementById('digestContent').innerHTML = `
-                <div class="p-4" style="background:rgba(255,255,255,0.05); border-radius:0.5rem;">
-                    <h3>${digestData.digest.date} Summary</h3>
-                    <p>${digestData.summary}</p>
-                </div>
-            `;
+                    <div class="p-4" style="background:rgba(255,255,255,0.05); border-radius:0.5rem;">
+                        <h3>${digestData.digest.date} Summary</h3>
+                        <p>${digestData.summary}</p>
+                    </div>
+                `;
 
-                // Render Stories
-                // Check if top_stories is array
                 const stories = Array.isArray(digestData.top_stories) ? digestData.top_stories : [];
                 const storiesHtml = stories.map(s => `
-                <div class="p-4 flex justify-between items-center" style="background:rgba(255,255,255,0.03); border-radius:0.5rem;">
-                    <div>
-                        <span style="font-size:0.8rem; color:var(--primary); text-transform:uppercase;">${s.category}</span>
-                        <h4 style="margin:0.25rem 0;">${s.title}</h4>
-                        <p style="font-size:0.8rem; opacity:0.7;">${s.ai_summary || ''}</p>
+                    <div class="p-4 flex justify-between items-center" style="background:rgba(255,255,255,0.03); border-radius:0.5rem;">
+                        <div>
+                            <span style="font-size:0.8rem; color:var(--primary); text-transform:uppercase;">${s.category}</span>
+                            <h4 style="margin:0.25rem 0;">${s.title}</h4>
+                            <p style="font-size:0.8rem; opacity:0.7;">${s.ai_summary || ''}</p>
+                        </div>
+                        <div style="background:var(--surface); padding:0.25rem 0.5rem; border-radius:1rem; font-size:0.8rem;">
+                            Relevance: ${s.importance || s.relevance_score || 'N/A'}
+                        </div>
                     </div>
-                    <div style="background:var(--surface); padding:0.25rem 0.5rem; border-radius:1rem; font-size:0.8rem;">
-                        Relevance: ${s.importance || s.relevance_score || 'N/A'}
-                    </div>
-                </div>
-            `).join('');
+                `).join('');
                 document.getElementById('topStories').innerHTML = storiesHtml;
 
             } catch (e) {
-                console.log('Using mock data:', e);
-                // Fallback to mock data
-                const todayStr = new Date().toLocaleDateString();
-                document.getElementById('digestContent').innerHTML = `
-                <div class="p-4" style="background:rgba(255,255,255,0.05); border-radius:0.5rem;">
-                    <h3>${todayStr} Summary (Demo)</h3>
-                    <p>Major developments in AI-assisted diagnosis and updated stroke imaging protocols dominate today's research. Three studies demonstrate machine learning models approaching radiologist-level performance in chest imaging.</p>
-                </div>
-             `;
-
-                const stories = [
-                    { title: "Deep Learning for Pulmonary Nodule Detection", category: "Chest", score: 95, ai_summary: "Model achieves 96% sensitivity." },
-                    { title: "Optimized CT Perfusion for Stroke", category: "Neuro", score: 94, ai_summary: "Faster protocol with equal accuracy." },
-                    { title: "ACR Update: Appendicitis in Pregnancy", category: "Abdomen", score: 88, ai_summary: "MRI first-line recommendation." }
-                ];
-
-                const storiesHtml = stories.map(s => `
-                <div class="p-4 flex justify-between items-center" style="background:rgba(255,255,255,0.03); border-radius:0.5rem;">
-                    <div>
-                        <span style="font-size:0.8rem; color:var(--primary); text-transform:uppercase;">${s.category}</span>
-                        <h4 style="margin:0.25rem 0;">${s.title}</h4>
-                        <p style="font-size:0.8rem; opacity:0.7;">${s.ai_summary}</p>
-                    </div>
-                    <div style="background:var(--surface); padding:0.25rem 0.5rem; border-radius:1rem; font-size:0.8rem;">
-                        Relevance: ${s.score}
-                    </div>
-                </div>
-             `).join('');
-                document.getElementById('topStories').innerHTML = storiesHtml;
+                // Fallback to demo news if JSON not yet generated
+                renderDemoNews();
             }
         }
 
-        loadDashboard();
+        function renderDemoNews() {
+            const todayStr = new Date().toLocaleDateString();
+            document.getElementById('digestContent').innerHTML = `
+                <div class="p-4" style="background:rgba(255,255,255,0.05); border-radius:0.5rem;">
+                    <h3>${todayStr} Summary (Live Feed Loading...)</h3>
+                    <p>Fetching the latest radiology updates. If this persists, the daily curation script is still running.</p>
+                </div>
+            `;
+            // ... (keep stories mock if needed or leave empty)
+        }
+
+        document.getElementById('logoutBtn').addEventListener('click', (e) => {
+            e.preventDefault();
+            // Clear identity and redirect to Cloudflare logout
+            window.location.href = window.location.origin + '/cdn-cgi/access/logout';
+        });
+
+        initDashboard();
     </script>
 </body>
 
