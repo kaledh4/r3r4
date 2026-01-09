@@ -25,11 +25,19 @@ class TOONParser {
       const arrayMatch = trimmed.match(/^([a-zA-Z0-9_]+)\s*\[(\d+)\]\s*\{([^}]+)\}\s*:?$/);
       if (arrayMatch) {
         const [_, name, count, fields] = arrayMatch;
+        // If we are already in this section, it might be a redundant header from an append
+        if (name === currentSection && arraySchema) {
+          continue;
+        }
+
         if (!result[name]) result[name] = [];
         arraySchema = { name, fields: fields.split(','), items: result[name] };
         currentSection = name;
         continue;
       }
+
+      // Skip markdown artifacts like 'json' or '```'
+      if (trimmed === 'json' || trimmed.startsWith('```')) continue;
 
       // Array Item Parsing (CSV or Key-Value)
       if (currentSection && arraySchema) {

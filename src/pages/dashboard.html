@@ -163,7 +163,9 @@
                                 <span style="font-size:0.7rem; color:var(--primary); text-transform:uppercase; letter-spacing:1px; font-weight:700;">${s.category}</span>
                                 <span style="font-size:0.7rem; opacity:0.5;">Relevance: ${s.importance || s.relevance_score || 'N/A'}</span>
                             </div>
-                            <h4 style="margin:0.25rem 0; font-size:1.1rem; color:var(--text);">${s.title}</h4>
+                            <h4 style="margin:0.25rem 0; font-size:1.1rem; color:var(--text);">
+                                <a href="${s.url}" target="_blank" style="text-decoration:none; color:inherit;">${s.title}</a>
+                            </h4>
                             <p style="font-size:0.85rem; opacity:0.7; margin:0;">${s.ai_summary || ''}</p>
                         </div>
                     </div>
