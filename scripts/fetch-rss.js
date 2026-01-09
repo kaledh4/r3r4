@@ -2,17 +2,19 @@ const Parser = require('rss-parser');
 const fs = require('fs');
 const path = require('path');
 
-// Verified High-Yield Radiology Feeds (2026)
+// Verified High-Yield Radiology Feeds (Reliable Aggregators)
 const RSS_SOURCES = [
-    // RSNA Journals (PubMed RSS is more reliable than direct site)
-    { name: 'Radiology (PubMed)', url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1J9v_4U-1-1-1-1-1-1/?term=%22Radiology%22%5BJournal%5D&limit=20', category: 'journal' },
-    { name: 'RadioGraphics (PubMed)', url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1J9v_4U-1-1-1-1-1-1/?term=%22Radiographics%22%5BJournal%5D&limit=20', category: 'journal' },
-    // AuntMinnie (Often blocks, trying alternative aggregator or specific topic feed)
-    { name: 'ScienceDaily Radiology', url: 'https://www.sciencedaily.com/rss/health_medicine/radiology.xml', category: 'news' },
-    // Radiopaedia (New Case Feed)
-    { name: 'Radiopaedia Cases', url: 'https://radiopaedia.org/cases/feed', category: 'cases' },
-    // European Society of Radiology
-    { name: 'Eur. Radiology', url: 'https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=330&channel-name=European+Radiology', category: 'journal' }
+    // Google News - Specialized Topic: Radiology (Very reliable)
+    { name: 'Google News Radiology', url: 'https://news.google.com/rss/search?q=radiology+when:7d&hl=en-US&gl=US&ceid=US:en', category: 'news' },
+
+    // Reddit Radiology - Top of the Week (Good for trending discussions/cases)
+    { name: 'r/Radiology (Top)', url: 'https://www.reddit.com/r/Radiology/top/.rss?t=week', category: 'community' },
+
+    // European Radiology (Proven to work)
+    { name: 'Eur. Radiology', url: 'https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=330&channel-name=European+Radiology', category: 'journal' },
+
+    // EurekAlert (Science News)
+    { name: 'EurekAlert Medicine', url: 'https://www.eurekalert.org/rss/medicine_health.xml', category: 'research' }
 ];
 
 async function fetchAllFeeds() {
