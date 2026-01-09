@@ -31,7 +31,7 @@ async function generateCards() {
 
     try {
         const response = await axios.post('https://openrouter.ai/api/v1/chat/completions', {
-            model: 'meta-llama/llama-3.1-405b-instruct:free',
+            model: 'google/gemma-3n-e4b-it:free',
             messages: [{
                 role: 'user',
                 content: `${CARD_PROMPT}\n\nDIGEST CONTENT:\n${digestContent}`
