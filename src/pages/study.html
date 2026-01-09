@@ -13,20 +13,302 @@
             <div class="nav-logo">🧠 RadRes Daily</div>
             <div class="nav-links">
                 <a href="dashboard.html" class="nav-link">Dashboard</a>
-                <a href="#" class="nav-link active">Cards</a>
+                <a href="#" class="nav-link active">Study</a>
+                <a href="#" class="nav-link" id="logoutBtn">Logout</a>
             </div>
         </div>
     </nav>
-    <main class="container p-8 text-center">
-        <h1>Study Mode</h1>
-        <div class="card"
-            style="max-width: 600px; margin: 2rem auto; height: 400px; display: flex; align-items: center; justify-content: center; cursor: pointer;">
-            <h2 id="cardText">Front of Card</h2>
+
+    <main class="container p-8">
+        <div id="studyContainer" class="animate-fade-in" style="max-width: 800px; margin: 0 auto;">
+            <div class="flex justify-between items-center mb-8">
+                <div>
+                    <h2 id="cardCategory" style="color:var(--primary); font-size: 0.9rem; text-transform:uppercase;">
+                        Category</h2>
+                    <div id="progressInfo" style="font-size: 0.8rem; opacity: 0.6;">Card 1 of 20</div>
+                </div>
+                <div id="cardMetadata" class="flex gap-2">
+                    <!-- Badges -->
+                </div>
+            </div>
+
+            <!-- FLASHCARD BOX -->
+            <div id="flashcard" class="card"
+                style="min-height: 400px; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; position: relative; perspective: 1000px; padding: 3rem;">
+                <div id="cardContent" style="width: 100%;">
+                    <h2 id="cardText" style="margin-bottom: 2rem;">Loading cards...</h2>
+
+                    <!-- Image Section -->
+                    <div id="imageContainer"
+                        style="margin: 1rem 0; max-height: 300px; display: none; overflow: hidden; border-radius: 0.5rem;">
+                        <img id="cardImage" src="" style="max-width: 100%; max-height: 300px; object-fit: contain;">
+                    </div>
+
+                    <!-- Upload Placeholder -->
+                    <div id="uploadPlaceholder"
+                        style="display:none; padding: 2rem; border: 2px dashed rgba(255,255,255,0.1); border-radius: 1rem; margin-top: 1rem;">
+                        <p style="font-size: 0.8rem;">No image available for this card.</p>
+                        <input type="file" id="imageInput" accept="image/*" style="display:none">
+                        <button class="btn btn-secondary" onclick="document.getElementById('imageInput').click()"
+                            style="font-size: 0.8rem;">
+                            📸 Upload Image for later study
+                        </button>
+                    </div>
+                </div>
+
+                <div id="cardBack"
+                    style="display:none; width: 100%; margin-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;">
+                    <div id="answerText"></div>
+                </div>
+
+                <div id="clickHint" style="position: absolute; bottom: 1rem; opacity: 0.4; font-size: 0.8rem;">
+                    Click to reveal answer
+                </div>
+            </div>
+
+            <!-- CONTROLS -->
+            <div id="controls" class="flex justify-center gap-4 mt-8" style="visibility: hidden;">
+                <button class="btn" style="background:var(--error); flex:1" data-rating="1">Again</button>
+                <button class="btn" style="background:var(--warning); flex:1" data-rating="2">Hard</button>
+                <button class="btn" style="background:var(--primary); flex:1" data-rating="3">Good</button>
+                <button class="btn" style="background:var(--success); flex:1" data-rating="4">Easy</button>
+            </div>
+
+            <div id="actionRow" class="flex justify-center mt-8">
+                <button id="showAnswerBtn" class="btn btn-primary" style="width: 200px;">Show Answer</button>
+            </div>
         </div>
-        <div class="flex justify-center gap-4">
-            <button class="btn btn-primary">Show Answer</button>
+
+        <!-- COMPLETION VIEW -->
+        <div id="completionView" style="display:none; text-align: center; padding: 50px;">
+            <div style="font-size: 4rem; margin-bottom: 20px;">🏆</div>
+            <h1>Session Complete!</h1>
+            <p>You've mastered 20 topics today. Great job, Doctor.</p>
+            <a href="dashboard.html" class="btn btn-primary mt-4">Return to Dashboard</a>
         </div>
     </main>
+
+    <script src="../modules/toon-parser.js"></script>
+    <script src="../modules/srs-engine.js"></script>
+    <script type="module">
+        let sessionCards = [];
+        let currentIndex = 0;
+        let isRevealed = false;
+        let userStats = {};
+        let allUserState = {};
+
+        const elements = {
+            cardText: document.getElementById('cardText'),
+            answerText: document.getElementById('answerText'),
+            cardCategory: document.getElementById('cardCategory'),
+            progressInfo: document.getElementById('progressInfo'),
+            cardBack: document.getElementById('cardBack'),
+            controls: document.getElementById('controls'),
+            actionRow: document.getElementById('actionRow'),
+            cardImage: document.getElementById('cardImage'),
+            imageContainer: document.getElementById('imageContainer'),
+            uploadPlaceholder: document.getElementById('uploadPlaceholder'),
+            imageInput: document.getElementById('imageInput'),
+            flashcard: document.getElementById('flashcard'),
+            showAnswerBtn: document.getElementById('showAnswerBtn'),
+            studyContainer: document.getElementById('studyContainer'),
+            completionView: document.getElementById('completionView'),
+            clickHint: document.getElementById('clickHint'),
+            logoutBtn: document.getElementById('logoutBtn')
+        };
+
+        async function initStudy() {
+            const pin = sessionStorage.getItem('radres_pin');
+            const headers = pin ? { 'x-radres-pin': pin } : {};
+
+            try {
+                // 1. Auth & Stats
+                const idRes = await fetch('/api/identity', { headers });
+                const idData = await idRes.json();
+                if (!idData.authenticated) {
+                    window.location.href = '../../index.html';
+                    return;
+                }
+                document.body.dataset.authMethod = idData.method;
+
+                const statsRes = await fetch('/api/stats', { headers });
+                userStats = await statsRes.json();
+                allUserState = userStats.card_states || {};
+                const customImages = userStats.custom_images || {};
+
+                // 2. Load Cards
+                const cardsRes = await fetch('../data/flashcards.toon');
+                const cardsText = await cardsRes.text();
+                const cardsData = TOONParser.parse(cardsText);
+                const allCards = cardsData.cards || [];
+
+                // 3. Apply custom images & filter Due Cards
+                allCards.forEach(card => {
+                    if (customImages[card.id]) {
+                        card.image_url = customImages[card.id];
+                    }
+                });
+
+                sessionCards = SRSEngine.getDueCards(allUserState, allCards, 20);
+
+                if (sessionCards.length === 0) {
+                    elements.cardText.innerText = "No cards due! Check back tomorrow.";
+                    elements.showAnswerBtn.disabled = true;
+                } else {
+                    renderCard();
+                }
+
+            } catch (err) {
+                console.error(err);
+                elements.cardText.innerText = "Failed to load study session.";
+            }
+        }
+
+        function renderCard() {
+            const card = sessionCards[currentIndex];
+            isRevealed = false;
+
+            elements.cardCategory.innerText = card.category;
+            elements.progressInfo.innerText = `Card ${currentIndex + 1} of ${sessionCards.length}`;
+            elements.cardText.innerText = card.front;
+            elements.answerText.innerText = card.back;
+
+            // Image handling
+            if (card.image_url && card.image_url !== 'null' && card.image_url !== '') {
+                elements.cardImage.src = card.image_url;
+                elements.imageContainer.style.display = 'block';
+                elements.uploadPlaceholder.style.display = 'none';
+            } else {
+                elements.imageContainer.style.display = 'none';
+                elements.uploadPlaceholder.style.display = 'block';
+            }
+
+            elements.cardBack.style.display = 'none';
+            elements.controls.style.visibility = 'hidden';
+            elements.actionRow.style.display = 'flex';
+            elements.clickHint.style.display = 'block';
+        }
+
+        function reveal() {
+            if (isRevealed) return;
+            isRevealed = true;
+            elements.cardBack.style.display = 'block';
+            elements.controls.style.visibility = 'visible';
+            elements.actionRow.style.display = 'none';
+            elements.clickHint.style.display = 'none';
+        }
+
+        async function handleRating(rating) {
+            const card = sessionCards[currentIndex];
+            const oldState = allUserState[card.id] || SRSEngine.getInitialState();
+            const newState = SRSEngine.updateCard(oldState, rating);
+
+            allUserState[card.id] = newState;
+
+            // Save Progress
+            const pin = sessionStorage.getItem('radres_pin');
+            const headers = {
+                'Content-Type': 'application/json',
+                ...(pin ? { 'x-radres-pin': pin } : {})
+            };
+
+            await fetch('/api/stats', {
+                method: 'POST',
+                headers,
+                body: JSON.stringify({
+                    ...userStats,
+                    card_states: allUserState,
+                    last_studied: new Date().toISOString()
+                })
+            });
+
+            nextCard();
+        }
+
+        function nextCard() {
+            currentIndex++;
+            if (currentIndex < sessionCards.length) {
+                renderCard();
+            } else {
+                finishSession();
+            }
+        }
+
+        function finishSession() {
+            elements.studyContainer.style.display = 'none';
+            elements.completionView.style.display = 'block';
+        }
+
+        // Upload functionality
+        elements.imageInput.addEventListener('change', async (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const card = sessionCards[currentIndex];
+            const formData = new FormData();
+            formData.append('image', file);
+            formData.append('cardId', card.id);
+
+            const pin = sessionStorage.getItem('radres_pin');
+            const headers = pin ? { 'x-radres-pin': pin } : {};
+
+            try {
+                const res = await fetch('/api/upload', {
+                    method: 'POST',
+                    headers,
+                    body: formData
+                });
+                const data = await res.json();
+
+                if (data.success) {
+                    card.image_url = data.url;
+
+                    // Save image mapping to KV
+                    if (!userStats.custom_images) userStats.custom_images = {};
+                    userStats.custom_images[card.id] = data.url;
+
+                    await fetch('/api/stats', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            ...headers
+                        },
+                        body: JSON.stringify(userStats)
+                    });
+
+                    renderCard(); // Refresh view
+                } else {
+                    alert(data.error || "Upload failed");
+                }
+            } catch (err) {
+                alert("Upload error: " + err.message);
+            }
+        });
+
+        // Event Listeners
+        elements.flashcard.addEventListener('click', reveal);
+        elements.showAnswerBtn.addEventListener('click', reveal);
+
+        document.querySelectorAll('[data-rating]').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const rating = parseInt(e.target.dataset.rating);
+                handleRating(rating);
+            });
+        });
+
+        elements.logoutBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (document.body.dataset.authMethod === 'pin') {
+                sessionStorage.removeItem('radres_pin');
+                window.location.href = '../../index.html';
+            } else {
+                window.location.href = window.location.origin + '/cdn-cgi/access/logout';
+            }
+        });
+
+        initStudy();
+    </script>
 </body>
+
 
 </html>

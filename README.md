@@ -24,7 +24,7 @@ For the daily cron job (GitHub Actions) to work, add these in **Settings > Secre
 ### 2. Cloudflare Pages Configuration
 In your Cloudflare Dashboard:
 1. **Environment Variables**: Add `OPENROUTER_API_KEY` under **Settings > Functions**.
-2. **KV Namespace**: Create a KV namespace named `RADRES_STATS` and bind it to your project with the variable name `STATS_KV`.
+2. **KV Namespace**: Create a KV namespace named `USER_DATA` and bind it to your project under **Settings > Functions** as `USER_DATA`. This handles both your statistics and clinical image uploads.
 3. **Access**: Enable Cloudflare Access for your domain to protect the platform.
 
 ### 3. PIN Fallback (Emergency Access)
