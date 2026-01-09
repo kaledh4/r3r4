@@ -6,7 +6,6 @@ const ASSETS_TO_CACHE = [
     '/src/styles/main.css',
     '/src/modules/toon-parser.js',
     '/src/modules/srs-engine.js',
-    '/src/auth/supabase-client.js',
     '/manifest.json'
 ];
 

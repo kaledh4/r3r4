@@ -1,2 +1,0 @@
-export const SUPABASE_URL = "PLACEHOLDER_URL";
-export const SUPABASE_ANON_KEY = "PLACEHOLDER_KEY";
