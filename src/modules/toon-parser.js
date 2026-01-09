@@ -31,16 +31,50 @@ class TOONParser {
         continue;
       }
 
-      // Array item (CSV format)
-      if (arraySchema && !trimmed.includes(':') && currentSection === arraySchema.name) {
-        const values = this.parseCSVLine(trimmed);
-        const obj = {};
-        arraySchema.fields.forEach((field, i) => {
-          if (i < values.length) {
-            obj[field] = this.coerceType(values[i]);
+      // Array Item Parsing (CSV or Key-Value)
+      if (currentSection && arraySchema) {
+        if (trimmed === '') continue;
+
+        // Check if line is a Key: Value pair (New LLM Format)
+        const kvMatch = trimmed.match(/^([a-zA-Z0-9_]+)\s*:\s*(.+)$/);
+
+        if (kvMatch) {
+          // We are in Key-Value mode
+          if (!this.currentKVObject) {
+            this.currentKVObject = {};
+            arraySchema.items.push(this.currentKVObject);
           }
-        });
-        arraySchema.items.push(obj);
+          // Check if we started a new item (heuristic: if key matches first field or common start keys)
+          if ((kvMatch[1].toLowerCase() === 'id' || kvMatch[1].toLowerCase().includes('id_') || kvMatch[1].toLowerCase() === 'title') && Object.keys(this.currentKVObject).length > 2) {
+            this.currentKVObject = {};
+            arraySchema.items.push(this.currentKVObject);
+          }
+
+          const key = kvMatch[1].toLowerCase().replace(' ', '_'); // Normalize key
+          this.currentKVObject[key] = this.coerceType(kvMatch[2]);
+          continue;
+        } else {
+          // Reset KV mode if we hit a non-KV line (unless it's just a text wrap)
+          if (!trimmed.includes(':') && this.currentKVObject) {
+            // append to last key? No, safer to ignore or treat as CSV if legitimate
+          } else {
+            this.currentKVObject = null;
+          }
+        }
+
+        // Fallback to CSV (Legacy Format)
+        if (!this.currentKVObject) {
+          const values = this.parseCSVLine(trimmed);
+          if (values.length >= 1) { // Allow partial matches
+            const obj = {};
+            arraySchema.fields.forEach((field, i) => {
+              if (i < values.length) {
+                obj[field.trim()] = this.coerceType(values[i]);
+              }
+            });
+            arraySchema.items.push(obj);
+          }
+        }
         continue;
       }
 
