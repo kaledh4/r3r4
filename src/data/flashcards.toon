@@ -87,3 +87,13 @@ cards[4]{id,category,difficulty,front,back,source,tags}:
 
 cards[5]{id,category,difficulty,front,back,source,tags}:
   card_new_005,journal,medium,"Which imaging modality and technique was investigated in the study demonstrating an up to 80% reduction in radiation dose during prostatic artery embolization?", "Digital variance angiography.", "Eur. Radiology", "radiation dose;angiography;prostatic artery embolization"}
+
+# Added on 2026-01-10
+cards[1]{id,category,difficulty,front,back,source,tags}:
+  card_new_001,news,medium,"What is the primary focus of Envision Radiology's recent acquisition of Rezolut?","Consolidation in the imaging market, potentially impacting referral patterns and radiology practice landscape.",Radiology Business,news;consolidation;market dynamics;AI,news;market consolidation}
+cards[2]{id,category,difficulty,front,back,source,tags}:
+  card_new_002,news,medium,"What is the purpose of the search for a new editor for 'Radiology: Cardiothoracic Imaging'?","To ensure the continued dissemination of cutting-edge research in cardiothoracic imaging through specialized peer-reviewed publications.",RSNA,news;publication;specialization;cardiothoracic imaging,news;editorial board}
+cards[3]{id,category,difficulty,front,back,source,tags}:
+  card_new_003,news,easy,"What is the main takeaway regarding the popularity of radiology podcasts in 2025?","They highlight evolving methods of medical education and continuing professional development for radiologists, offering accessible learning opportunities.",diagnosticimaging.com,news;podcast;education;CPD,news;Continuing Medical Education}
+cards[4]{id,category,difficulty,hard,"What is a key message emphasized in the article about AI governance from the radiology department?","The growing importance of establishing robust governance frameworks for responsible and ethical AI implementation in radiology.",Google News Radiology,news;AI governance;ethics;responsible AI,news;AI implementation}
+cards[5]{id,category,difficulty,medium,"According to recent research, what potential mechanism might contribute to the persistence of symptoms in Long COVID?","Inflammation, micro-clots, and disrupted energy metabolism.",ScienceDaily Health,research;Long COVID;inflammation;microclots,research;pathophysiology;immune response}
