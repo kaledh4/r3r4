@@ -22,7 +22,7 @@ class TOONParser {
       // Array declaration: name[count]{fields}:
       // Regex modified to be more robust
       // Relaxed regex to allow spaces between components
-      const arrayMatch = trimmed.match(/^([a-zA-Z0-9_]+)\s*\[(\d+)\]\s*\{([^}]+)\}\s*:?$/);
+      const arrayMatch = trimmed.match(/^([a-zA-Z0-9_]+)\s*\[(\d*)\]\s*\{([^}]+)\}\s*:?$/);
       if (arrayMatch) {
         const [_, name, count, fields] = arrayMatch;
         // If we are already in this section, it might be a redundant header from an append
@@ -37,7 +37,7 @@ class TOONParser {
       }
 
       // Skip markdown artifacts like 'json' or '```'
-      if (trimmed === 'json' || trimmed.startsWith('```')) continue;
+      if (trimmed === 'json' || trimmed === 'toon' || trimmed.startsWith('```')) continue;
 
       // Array Item Parsing (CSV or Key-Value)
       if (currentSection && arraySchema) {
