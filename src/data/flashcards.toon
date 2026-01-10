@@ -49,3 +49,24 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,pulmonary,hard,"In patients with pulmonary metastases from soft tissue or bone sarcoma, what baseline CT imaging parameters have been shown to predict overall and progression-free survival?","This study identified parameters such as tumor size, number of lesions, and involvement of specific lung regions as prognostic factors on baseline CT imaging.",Digest;Pulmonary Metastases;Sarcoma;Prognosis;CT
   card_004,cardiology,medium,"What is the primary goal of quantifying net water uptake on non-contrast CT in the acute setting of ischemic stroke?","Quantifying net water uptake helps to differentiate between different types of acute ischemic stroke and can provide prognostic information regarding infarct core size and potential for reperfusion.",Digest;Stroke;Water Uptake;CT;Diagnosis
   card_005,news,easy,"What recent business development highlights a trend in the radiology industry?","Envision Radiology recently acquired Rezolut, a private equity-backed imaging center operator, indicating continued consolidation within the radiology market.",Digest;Industry News;Mergers & Acquisitions;Consolidation
+
+# Added on 2026-01-09
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,news,medium,"What is the primary significance of Envision Radiology's acquisition of Rezolut?", "It signifies a major consolidation trend in the imaging sector, potentially impacting referral patterns and market dynamics.", "Radiology Business", "news;acquisition;consolidation"
+
+cards[2]{id,neuro,hard,"What is a potential advantage of the proposed alternative CT protocol for detecting cervical spine fractures as suggested by the FDA petition?", "It could potentially improve diagnostic accuracy and patient care.", "link.springer.com", "neuro;CT;cervical spine"
+
+cards[3]{id,onc,medium,"According to the study on prostate volume and PI-RADS, what is being investigated?", "The relationship between prostate volume, PI-RADS category, and optimal PSA-density thresholds for biopsy decision-making.", "Eur. Radiology", "onc;prostate cancer;biopsy;PI-RADS"
+
+cards[4]{id,cardio,medium,"What does digital variance angiography offer in the context of prostatic artery embolization?", "It enables up to an 80% reduction in stationary acquisition radiation dose.", "Eur. Radiology", "interventional radiology;radiation dose;prostatic artery embolization"
+
+cards[5]{id,general,easy,"What is the focus of the study on baseline CT imaging parameters in pulmonary metastases?", "Identifying parameters that predict overall and progression-free survival.", "Eur. Radiology", "sarcoma;pulmonary metastases;survival;CT imaging"
+
+# Added on 2026-01-10
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,physics,medium,"What is a key concern highlighted in the news regarding the implementation of AI in radiology departments?","AI governance is crucial for responsible AI implementation, addressing ethical and practical considerations.",Healthcare IT News,AI governance;ethics;implementation;radiology;news
+  card_002,news,easy,"Which journal has recently announced a search for a new editor for its cardiothoracic imaging section?","Radiology: Cardiothoracic Imaging",RSNA,journal;editing;cardiothoracic imaging;appointment;news
+  card_003,physics,medium,"A recent health technology assessment explored the initial potential of AI for what specific clinical application on CT scans?","Detecting cervical spine fractures",SpringerLink,AI;CT;cervical spine fracture;assessment;clinical decision support
+  card_004,news,easy,"What trend in radiology education and knowledge sharing is indicated by the popularity of the 'Top Five Radiology Podcasts in 2025'?","Growing emphasis on continuing medical education and knowledge sharing",diagnosticimaging.com,podcasts;CME;education;knowledge sharing;radiology
+  card_005,journal,hard,"A study published in European Radiology identified baseline CT imaging parameters that can predict what outcome in patients with pulmonary metastases from sarcoma?","Overall and progression-free survival",European Radiology,sarcoma;metastasis;CT;prognosis;survival

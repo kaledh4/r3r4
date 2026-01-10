@@ -177,6 +177,24 @@ p {
   transition: all 0.2s ease;
 }
 
+/* News Items */
+.news-thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  background: var(--surface);
+  flex-shrink: 0;
+}
+
+.news-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 1.5rem;
+}
+
 /* Auth Page */
 .auth-container {
   display: flex;
@@ -328,6 +346,16 @@ nav {
     flex: 1 1 45% !important;
     font-size: 0.9rem;
     padding: 0.6rem;
+  }
+
+  /* News Icons Mobile */
+  .news-thumbnail {
+    width: 60px;
+    height: 60px;
+  }
+
+  .news-placeholder {
+    font-size: 1.2rem;
   }
 }
 
