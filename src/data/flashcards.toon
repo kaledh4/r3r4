@@ -70,3 +70,20 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,physics,medium,"A recent health technology assessment explored the initial potential of AI for what specific clinical application on CT scans?","Detecting cervical spine fractures",SpringerLink,AI;CT;cervical spine fracture;assessment;clinical decision support
   card_004,news,easy,"What trend in radiology education and knowledge sharing is indicated by the popularity of the 'Top Five Radiology Podcasts in 2025'?","Growing emphasis on continuing medical education and knowledge sharing",diagnosticimaging.com,podcasts;CME;education;knowledge sharing;radiology
   card_005,journal,hard,"A study published in European Radiology identified baseline CT imaging parameters that can predict what outcome in patients with pulmonary metastases from sarcoma?","Overall and progression-free survival",European Radiology,sarcoma;metastasis;CT;prognosis;survival
+
+# Added on 2026-01-10
+json
+cards[1]{id,category,difficulty,front,back,source,tags}:
+  card_new_001,news,hard,"What is the primary implication of Envision Radiology's acquisition of Rezolut?", "Increased consolidation within the radiology industry and expansion of Envision Radiology's network.", "Google News Radiology", "industry;acquisition;consolidation"}
+
+cards[2]{id,category,difficulty,front,back,source,tags}:
+  card_new_002,news,medium,"What is the Radiological Society of North America (RSNA) seeking to fill a leadership role for?", "An editor position for the journal 'Radiology: Cardiothoracic Imaging'.", "Google News Radiology", "leadership;editor;cardiac imaging"}
+
+cards[3]{id,category,difficulty,front,back,source,tags}:
+  card_new_003,news,easy,"What is the focus of the 'Top Five Radiology Podcasts in 2025' according to Diagnostic Imaging?", "Providing continuing medical education and insights for radiologists.", "Google News Radiology", "podcast;CME;education"}
+
+cards[4]{id,category,difficulty,front,back,source,tags}:
+  card_new_004,journal,hard,"According to the article on AI governance, what is a key challenge in its implementation within a radiology department?", "Integrating ethical considerations and workflow effectively.", "Eur. Radiology", "AI;governance;ethics;workflow"}
+
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_new_005,journal,medium,"Which imaging modality and technique was investigated in the study demonstrating an up to 80% reduction in radiation dose during prostatic artery embolization?", "Digital variance angiography.", "Eur. Radiology", "radiation dose;angiography;prostatic artery embolization"}
