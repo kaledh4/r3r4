@@ -1,58 +1,74 @@
 digest:
   date: 2026-01-10
-  generated_at: 2026-01-10T10:30:00Z
+  generated_at: 2026-01-10T08:45:50Z
   curator_model: meta-llama/llama-3.1-405b-instruct:free
   total_articles: 8
   
 summary:
-  This daily digest highlights key radiology news, focusing on practice-changing developments in AI, organizational changes, and research with potential clinical implications. The top stories cover AI governance, long COVID mechanisms, and strategies for improving physical health, offering valuable insights for senior residents.
+  This daily radiology news briefing highlights top stories including a major acquisition in imaging, a new editorial role for a key journal, and insights into AI governance. The digest also covers research on exercise benefits, long COVID, longevity in Brazil, and novel approaches to making exercise feel easier, all with implications for clinical practice and board preparation.
 
 top_stories[8]{title,source,url,category,importance,ai_summary}:
   Title: Envision Radiology acquires private equity-backed imaging center operator Rezolut
-  Source: Radiology Business
-  URL: https://news.google.com/rss/articles/CBAi-AFBVV95cUxPVkNwTmpFamZNVWZ4SF9HSFlhdjVwYVBxM19iQVlLS3BnamJxNjlWb2FZNjBHeFAyVk5VZ0lBODNoSWhfbXBFMVUwTURfRWhGU3piaDZ0dkctd3VhaXI2RHBubUpYZWhoVVRWV0RKREY2MVMxNFVyR2xtOEplSEFXQkNzUThsWkdXN1JRdnlQMWduQXpDalFMeHlzdnlJaEhISjZoWDVVbmdyOVpEUEc0QzU2SWVwUFhnaTRteUprUEtBRW1WSmVsUXVKT0NHbjFjbGVSVFhzUzZhRlVhSi1qdjJSMldfNWFNLXlFdTRrTDBtcHQyN1pvYg?oc=5
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVkNwTmpFamZNVWZ4SF9HSFlhdjVwYVBxM19iQVlLS3BnamJxNjlWb2FZNjBHeFAyVk5VZ0lBODNoSWhfbXBFMVUwTURfRWhGU3piaDZ0dkctd3VhaXI2RHBubUpYZWhoVVRWV0RKREY2MVMxNFVyR2xtOEplSEFXQkNzUThsWkdXN1JRdnlQMWduQXpDalFMeHlzdnlJaEhISjZoWDVVbmdyOVpEUEc0QzU2SWVwUFhnaTRteUprUEtBRW1WSmVsUXVKT0NHbjFjbGVSVFhzUzZhRlVhSi1qdjJSMldfNWFNLXlFdTRrTDBtcHQyN1pvYg?oc=5
   Category: news
-  Importance: 90
-  ai_summary: "Envision Radiology's acquisition of Rezolut signifies a trend towards consolidation in the imaging market, potentially impacting referral patterns and the landscape of radiology practice."
+  importance: 95
+  ai_summary: "Envision Radiology's acquisition of Rezolut signifies a consolidation trend in the imaging industry, potentially impacting referral patterns and market access for patients."
   
   Title: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
-  Source: Radiological Society of North America | RSNA
-  URL: https://news.google.com/rss/articles/CBAiakFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMiakFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
   Category: news
-  Importance: 75
-  ai_summary: "The search for a new editor for 'Radiology: Cardiothoracic Imaging' highlights the ongoing need for specialized peer-reviewed publications in radiology, ensuring the dissemination of cutting-edge research."
+  importance: 75
+  ai_summary: "The opening of a new editor position for 'Radiology: Cardiothoracic Imaging' represents an opportunity for career advancement and influence within a high-impact specialty journal."
   
   Title: Top Five Radiology Podcasts in 2025
-  Source: diagnosticimaging.com
-  URL: https://news.google.com/rss/articles/CBAie0FVX3lxTE9aNjBlSGR5VlpHZVRIZ24zaGFSdGxxdnpBckZGaFJrWmNYQzc5Z204QWRGMXd0NldLNWNURkt1U2pzaGNlREVYb2NQNk1EaXByVy1iaDhfTWNsWi1FQTE0YmVxZGo2REd3T2wxMEFVVUhCaEJ4Z0lmNFZWYw?oc=5
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMie0FVX3lxTE9aNjBlSGR5VlpHZVRIZ24zaGFSdGxxdnpBckZGaFJrWmNYQzc5Z204QWRGMXd0NldLNWNURkt1U2pzaGNlREVYb2NQNk1EaXByVy1iaDhfTWNsWi1FQTE0YmVxZGo2REd3T2wxMEFVVUhCaEJ4Z0lmNFZWYw?oc=5
   Category: news
-  Importance: 60
-  ai_summary: "The popularity of radiology podcasts underscores the evolving methods of medical education and continuing professional development for radiologists, providing accessible learning opportunities."
+  importance: 50
+  ai_summary: "The popularity of radiology podcasts highlights the growing importance of continuing medical education and peer-to-peer learning in the field."
   
   Title: Lessons on AI governance from the radiology department
   Source: Google News Radiology
-  URL: https://news.google.com/rss/articles/CBAiaFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
+  URL: <no URL provided>
   Category: news
-  Importance: 85
-  ai_summary: "This article emphasizes the growing importance of establishing robust governance frameworks for AI implementation in radiology departments to ensure responsible and ethical use of this transformative technology."
+  importance: 80
+  ai_summary: "This article likely discusses practical considerations for implementing and governing AI in radiology departments, considering ethical and regulatory aspects."
   
   Title: Just 10 minutes of exercise can trigger powerful anti-cancer effects
   Source: ScienceDaily Health
   URL: https://www.sciencedaily.com/releases/2026/01/260107225535.htm
   Category: research
-  Importance: 80
-  ai_summary: "Research suggests that even short bursts of intense exercise can have significant anti-cancer effects by triggering DNA repair mechanisms and inhibiting cancer growth signals, potentially informing future preventive strategies."
+  importance: 85
+  ai_summary: "Research indicates that short bursts of intense exercise may have significant anti-cancer benefits through molecular signaling and DNA repair mechanisms, suggesting potential adjunct therapies."
   
   Title: Long COVID may be fueled by inflammation and tiny clots
   Source: ScienceDaily Health
   URL: https://www.sciencedaily.com/releases/2026/01/260107225532.htm
   Category: research
-  Importance: 70
-  ai_summary: "This study links lingering symptoms of long COVID to inflammation, micro-clots, and disrupted energy metabolism, offering potential targets for future therapeutic interventions."
+  importance: 90
+  ai_summary: "This article explores the evolving understanding of Long COVID, focusing on the roles of inflammation, micro-clots, and disrupted metabolism, which are important for differential diagnosis and management."
   
   Title: People in Brazil are living past 110 and scientists want to know why
   Source: ScienceDaily Health
   URL: https://www.sciencedaily.com/releases/2026/01/260107225527.htm
   Category: research
-  Importance: 65
-  ai_summary: "Research on centenarians in Brazil highlights the potential of genetic diversity and lifestyle factors in promoting extreme longevity, offering valuable insights for understanding aging."
+  importance: 65
+  ai_summary: "Investigating the longevity of Brazilian supercentenarians offers a valuable opportunity to identify unique genetic and lifestyle factors contributing to exceptional lifespan."
+  
+  Title: This brain trick makes exercise feel easier
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260107225519.htm
+  Category: research
+  importance: 70
+  ai_summary: "Research reveals that altering the brain's perception of effort through tendon vibration can make exercise feel less strenuous, potentially improving adherence and accessibility."
+articles[]{id,title,source,category,score}:
+  id_1: Envision Radiology acquisitions Rezolut, Radiology Business, news, 95
+  id_2: Search for new editor of Radiology: Cardiothoracic Imaging, RSNA, news, 75
+  id_3: Top Five Radiology Podcasts in 2025, diagnosticimaging.com, news, 50
+  id_4: Lessons on AI governance from the radiology department, <no URL provided>, news, 80
+  id_5: Just 10 minutes of exercise can trigger powerful anti-cancer effects, ScienceDaily Health, research, 85
+  id_6: Long COVID may be fueled by inflammation and tiny clots, ScienceDaily Health, research, 90
+  id_7: People in Brazil are living past 110 and scientists want to know why, ScienceDaily Health, research, 65
+  id_8: This brain trick makes exercise feel easier, ScienceDaily Health, research, 70

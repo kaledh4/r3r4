@@ -97,3 +97,12 @@ cards[3]{id,category,difficulty,front,back,source,tags}:
   card_new_003,news,easy,"What is the main takeaway regarding the popularity of radiology podcasts in 2025?","They highlight evolving methods of medical education and continuing professional development for radiologists, offering accessible learning opportunities.",diagnosticimaging.com,news;podcast;education;CPD,news;Continuing Medical Education}
 cards[4]{id,category,difficulty,hard,"What is a key message emphasized in the article about AI governance from the radiology department?","The growing importance of establishing robust governance frameworks for responsible and ethical AI implementation in radiology.",Google News Radiology,news;AI governance;ethics;responsible AI,news;AI implementation}
 cards[5]{id,category,difficulty,medium,"According to recent research, what potential mechanism might contribute to the persistence of symptoms in Long COVID?","Inflammation, micro-clots, and disrupted energy metabolism.",ScienceDaily Health,research;Long COVID;inflammation;microclots,research;pathophysiology;immune response}
+
+# Added on 2026-01-10
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,news,medium,"What is the primary implication of Envision Radiology's acquisition of Rezolut?","Consolidation trend in the imaging industry, potentially impacting referral patterns and market access.",Google News Radiology,industry;acquisition;imaging
+  card_002,news,medium,"A new editorial position is opening for which radiology journal?","Radiology: Cardiothoracic Imaging",Google News Radiology,journal;editing;cardiothoracic
+  card_003,news,easy,"What does the popularity of radiology podcasts suggest?","Growing importance of continuing medical education and peer-to-peer learning in radiology.",Google News Radiology,podcast;education;learning
+  card_004,news,hard,"What is a likely focus of the article titled 'Lessons on AI governance from the radiology department'?","Practical considerations for implementing and governing AI in radiology, including ethical and regulatory aspects.",Google News Radiology,AI;governance;ethics
+  card_005,research,medium,"According to recent research, what is a potential benefit of short bursts of exercise?","Triggering powerful anti-cancer effects through molecular signaling and DNA repair.",ScienceDaily Health,exercise;cancer;research
