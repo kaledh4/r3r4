@@ -94,9 +94,14 @@ class TOONParser {
 
         if (arraySchema && key !== arraySchema.name) arraySchema = null;
 
-        if (value === '') {
+        if (value === '' || value === '|') {
           currentSection = key;
-          result[key] = {}; // Initialize as object to support nested keys
+          result[key] = value === '|' ? '' : {}; // text block vs object, but let's init as empty string if pipe is used? 
+          // Actually, if pipe is used, we expect text lines following. 
+          // If we init as {}, the next logic `typeof result[curr] === 'object'` might trigger key-value parsing which is wrong for text.
+          // Let's force it to empty string if pipe.
+          if (value === '|') result[key] = '';
+          else result[key] = {};
         } else {
           if (currentSection && typeof result[currentSection] === 'object' && !Array.isArray(result[currentSection])) {
             result[currentSection][key] = this.coerceType(value);

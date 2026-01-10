@@ -13,8 +13,8 @@ const RSS_SOURCES = [
     // European Radiology (Proven to work)
     { name: 'Eur. Radiology', url: 'https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=330&channel-name=European+Radiology', category: 'journal' },
 
-    // EurekAlert (Science News)
-    { name: 'EurekAlert Medicine', url: 'https://www.eurekalert.org/rss/medicine_health.xml', category: 'research' }
+    // ScienceDaily - Health & Medicine (Reliable General Science)
+    { name: 'ScienceDaily Health', url: 'https://www.sciencedaily.com/rss/health_medicine.xml', category: 'research' }
 ];
 
 async function fetchAllFeeds() {

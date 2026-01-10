@@ -1,28 +1,64 @@
 digest:
   date: 2026-01-08
-  generated_at: 2026-01-08T14:30:00Z
+  generated_at: 2026-01-08T14:15:30Z
   curator_model: meta-llama/llama-3.1-405b-instruct:free
   total_articles: 8
+summary: |
+  This daily digest highlights key radiology news and research for senior residents. Topics range from industry acquisitions and leadership changes to cutting-edge AI applications and important clinical guidelines.  Staying informed on these advancements is crucial for clinical practice and board preparation.
 
-summary:
-  This daily digest highlights key radiology news, focusing on practice-changing advancements in AI, new clinical guidelines, and significant industry developments. The top stories cover AI governance, image acquisition techniques, and important clinical decision-making in various specialties.
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Envision Radiology acquires private equity-backed imaging center operator Rezolut
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVkNwTmpFamZNVWZ4SF9HSFlhdjVwYVBxM19iQVlLS3BnamJxNjlWb2FZNjBHeFAyVk5VZ0lBODNoSWhfbXBFMVUwTURfRWhGU3piaDZ0dkctd3VhaXI2RHBubUpYZWhoVVRWV0RKREY2MVMxNFVyR2xtOEplSEFXQkNzUThsWkdXN1JRdnlQMWduQXpDalFMeHlzdnlJaEhISjZoWDVVbmdyOVpEUEc0QzU2SWVwUFhnaTRteUprUEtBRW1WSmVsUXVKT0NHbjFjbGVSVFhzUzZhRlVhSi1qdjJSMldfNWFNLXlFdTRrTDBtcHQyN1pvYg?oc=5
+  Category: news
+  Importance: 90
+  ai_summary: "Envision Radiology expands its network with the acquisition of Rezolut, a private equity-backed imaging center operator, signaling continued consolidation in the radiology industry."
+  
+  Title: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMiakFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
+  Category: news
+  Importance: 75
+  ai_summary: "The Radiological Society of North America (RSNA) is seeking a new editor for 'Radiology: Cardiothoracic Imaging,' a significant leadership opportunity in the field."
+  
+  Title: Top Five Radiology Podcasts in 2025
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMie0FVX3lxTE9aNjBlSGR5VlpHZVRIZ24zaGFSdGxxdnpBckZGaFJrWmNYQzc5Z204QWRGMXd0NldLNWNURkt1U2pzaGNlREVYb2NQNk1EaXByVy1iaDhfTWNsWi1FQTE0YmVxZGo2REd3T2wxMEFVVUhCaEJ4Z0lmNFZWYw?oc=5
+  Category: news
+  Importance: 60
+  ai_summary: "Diagnostic Imaging highlights the top five radiology podcasts of 2025, offering valuable continuing medical education and insights for radiologists."
+  
+  Title: Lessons on AI governance from the radiology department
+  Source: Google News Radiology
+  URL: https://news...ce for detecting cervical spine fractures on CT: an early health technology assessment
+  Category: news
+  Importance: 85
+  ai_summary: "A recent article discusses the practical lessons learned in implementing AI governance within a radiology department, emphasizing ethical considerations and workflow integration."
+  
+  Title: Objectives, Materials and methods, Results, Conclusion, Key Points - Lessons on AI governance from the radiology department
+  Source: Eur. Radiology
+  URL: https://link.springer.com/article/10.1007/s00330-025-12255-z
+  Category: journal
+  Importance: 70
+  ai_summary: "This study details the objectives, methods, results, and conclusion of a report addressing AI governance within a radiology department, providing a practical framework."
 
-top_stories[8]{title,source,url,category,importance,ai_summary}
-  Lessons on AI governance from the radiology department,Healthcare IT News,https://news.healthcareitnews.com/news/lessons-ai-governance-radiology-department,physics,95,"AI governance is crucial for responsible AI implementation in radiology, addressing ethical and practical considerations.",
-  Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging',RSNA,https://news.rsna.org/search-opens-new-editor-radiology-cardiothoracic-imaging,news,85,"The appointment of a new editor for a key journal signifies evolving standards and perspectives in cardiothoracic imaging.",
-  Use of AI in detecting cervical spine fractures on CT: an early health technology assessment,SpringerLink,https://link.springer.com/article/10.1007/s00330-025-12255-z,physics,92,"This assessment explores the initial potential of AI in identifying cervical spine fractures on CT, a vital application with significant clinical implications.",
-  Top Five Radiology Podcasts in 2025,diagnosticimaging.com,https://www.diagnosticimaging.com/news/top-five-radiology-podcasts-2025,news,78,"The popularity of radiology podcasts indicates a growing emphasis on continuing medical education and knowledge sharing within the field.",
-  Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma,European Radiology,https://link.springer.com/article/10.1007/s00330-025-12272-y,journal,90,"This study identifies predictive imaging parameters for survival in sarcoma patients with pulmonary metastases, impacting treatment planning and patient prognosis.",
-  Digital variance angiography enables up to 80% reduction in stationary acquisition radiation dose during prostatic artery embolization: a prospective randomized trial,European Radiology,https://link.springer.com/article/10.1007/s00330-025-12235-3,journal,88,"This trial demonstrates a significant reduction in radiation dose during prostate embolization using digital variance angiography, an important advancement for patient safety.",
-  Fully automated quantification of net water uptake in acute ischemic stroke using only non-contrast CT imaging,European Radiology,https://link.springer.com/article/10.1007/s00330-025-12238-0,journal,86,"This research presents a fully automated method for quantifying stroke burden on non-contrast CT, potentially improving diagnostic efficiency and speed.",
-  The effects of prostate volume and PI-RADS category on optimal PSA-density thresholds for biopsy decision-making,European Radiology,https://link.springer.com/article/10.1007/s00330-025-12272-y,journal,84,"This study investigates the relationship between prostate volume, PI-RADS score, and optimal PSA-density thresholds, refining guidelines for prostate biopsy decisions."
-
-articles[]{id,title,source,category,relevance_score}
-  1,Lessons on AI governance from the radiology department,Healthcare IT News,physics,95
-  2,Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging',RSNA,news,85
-  3,Use of AI in detecting cervical spine fractures on CT: an early health technology assessment,SpringerLink,physics,92
-  4,Top Five Radiology Podcasts in 2025,diagnosticimaging.com,news,78
-  5,Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma,European Radiology,journal,90
-  6,Digital variance angiography enables up to 80% reduction in stationary acquisition radiation dose during prostatic artery embolization: a prospective randomized trial,European Radiology,journal,88
-  7,Fully automated quantification of net water uptake in acute ischemic stroke using only non-contrast CT imaging,European Radiology,journal,86
-  8,The effects of prostate volume and PI-RADS category on optimal PSA-density thresholds for biopsy decision-making,European Radiology,journal,84
+  Title: Objectives, Materials and methods, Results, Conclusion, Key Points - Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma
+  Source: Eur. Radiology
+  URL: https://link.springer.com/article/10.1007/s00330-025-12272-y
+  Category: journal
+  Importance: 80
+  ai_summary: "This research investigates the correlation between baseline CT imaging parameters and survival outcomes in patients with pulmonary metastases, a critical area for prognosis and management."
+  
+  Title: Objectives, Materials and methods, Results, Conclusion, Key Points - Digital variance angiography enables up to 80% reduction in stationary acquisition radiation dose during prostatic artery embolization: a prospective randomized trial
+  Source: Eur. Radiology
+  URL: https://link.springer.com/article/10.1007/s00330-025-12235-3
+  Category: journal
+  Importance: 95
+  ai_summary: "A prospective randomized trial demonstrates that digital variance angiography can reduce radiation dose during prostatic artery embolization by up to 80%, a significant advancement in image-guided procedures."
+  
+  Title: Objective, Material and methods, Results, Conclusion, Key Points - Fully automated quantification of net water uptake in acute ischemic stroke using only non-contrast CT imaging
+  Source: Eur. Radiology
+  URL: https://link.springer.com/article/10.1007/s00330-025-12238-0
+  Category: journal
+  Importance: 88
+  ai_summary: "This study introduces a fully automated method for quantifying net water uptake on non-contrast CT in acute ischemic stroke, offering a potentially valuable tool for rapid assessment."
