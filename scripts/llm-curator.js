@@ -53,11 +53,13 @@ async function curateDigest() {
     console.log('Calling LLM to curate content...');
 
     try {
+        const today = new Date().toISOString().split('T')[0];
+
         const response = await axios.post('https://openrouter.ai/api/v1/chat/completions', {
             model: 'google/gemma-3n-e4b-it:free',
             messages: [{
                 role: 'user',
-                content: `${CURATOR_PROMPT}\n\nRSS ITEMS:\n${JSON.stringify(rssItems, null, 2)}`
+                content: `${CURATOR_PROMPT.replace('YYYY-MM-DD', today)}\n\nCONTEXT: Today is ${today}.\n\nRSS ITEMS:\n${JSON.stringify(rssItems, null, 2)}`
             }],
             max_tokens: 3000
         }, {
@@ -68,7 +70,6 @@ async function curateDigest() {
         });
 
         const digestTOON = response.data.choices[0].message.content;
-        const date = new Date().toISOString().split('T')[0];
 
         if (!fs.existsSync(OUTPUT_DIR)) {
             fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -82,8 +83,15 @@ async function curateDigest() {
             cleanTOON = digestTOON.split('```')[1].split('```')[0].trim();
         }
 
-        fs.writeFileSync(path.join(OUTPUT_DIR, `${date}.toon`), cleanTOON);
-        console.log(`Digest generated at ${path.join(OUTPUT_DIR, `${date}.toon`)}`);
+        // Force correct date in content
+        if (cleanTOON.includes('date:')) {
+            cleanTOON = cleanTOON.replace(/date: .*/, `date: ${today}`);
+        } else {
+            cleanTOON = `digest:\n  date: ${today}\n` + cleanTOON;
+        }
+
+        fs.writeFileSync(path.join(OUTPUT_DIR, `${today}.toon`), cleanTOON);
+        console.log(`Digest generated at ${path.join(OUTPUT_DIR, `${today}.toon`)}`);
 
     } catch (error) {
         console.error('LLM Error:', error.response ? error.response.data : error.message);

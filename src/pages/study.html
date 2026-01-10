@@ -242,7 +242,7 @@
             elements.completionView.style.display = 'block';
         }
 
-        // Upload functionality
+        // Image Actions
         elements.imageInput.addEventListener('change', async (e) => {
             const file = e.target.files[0];
             if (!file) return;
@@ -265,21 +265,8 @@
 
                 if (data.success) {
                     card.image_url = data.url;
-
-                    // Save image mapping to KV
-                    if (!userStats.custom_images) userStats.custom_images = {};
-                    userStats.custom_images[card.id] = data.url;
-
-                    await fetch('/api/stats', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                            ...headers
-                        },
-                        body: JSON.stringify(userStats)
-                    });
-
-                    renderCard(); // Refresh view
+                    await updateCustomImage(card.id, data.url);
+                    renderCard();
                 } else {
                     alert(data.error || "Upload failed");
                 }
@@ -287,6 +274,67 @@
                 alert("Upload error: " + err.message);
             }
         });
+
+        // Add Delete Button dynamically
+        const deleteBtn = document.createElement('button');
+        deleteBtn.className = 'btn btn-secondary';
+        deleteBtn.style.cssText = 'position:absolute; top:10px; right:10px; padding: 0.5rem; font-size:0.8rem; background:rgba(0,0,0,0.5); color:white; border:none; border-radius:100%; width:30px; height:30px; display:flex; align-items:center; justify-content:center; cursor:pointer; z-index:10;';
+        deleteBtn.innerText = '✕';
+        deleteBtn.title = "Remove Custom Image";
+        deleteBtn.onclick = async (e) => {
+            e.stopPropagation();
+            if (!confirm('Remove this custom image?')) return;
+
+            const card = sessionCards[currentIndex];
+            const imageUrl = card.image_url;
+            if (!imageUrl) return;
+
+            // Extract filename (e.g., /img/foo -> foo)
+            const filename = imageUrl.split('/').pop();
+
+            const pin = sessionStorage.getItem('radres_pin');
+            const headers = pin ? { 'x-radres-pin': pin } : {};
+
+            try {
+                // 1. Call Delete API
+                await fetch('/api/delete-image', {
+                    method: 'POST',
+                    headers: { ...headers, 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ filename })
+                });
+
+                // 2. Update Stats (remove mapping)
+                await updateCustomImage(card.id, null); // null unsets it
+
+                // 3. Update Local State
+                card.image_url = null;
+                renderCard();
+
+            } catch (err) {
+                console.error(err);
+                alert("Failed to delete image.");
+            }
+        };
+        elements.imageContainer.appendChild(deleteBtn);
+
+        async function updateCustomImage(cardId, url) {
+            if (!userStats.custom_images) userStats.custom_images = {};
+
+            if (url) {
+                userStats.custom_images[cardId] = url;
+            } else {
+                delete userStats.custom_images[cardId];
+            }
+
+            const pin = sessionStorage.getItem('radres_pin');
+            const headers = { 'Content-Type': 'application/json', ...(pin ? { 'x-radres-pin': pin } : {}) };
+
+            await fetch('/api/stats', {
+                method: 'POST',
+                headers,
+                body: JSON.stringify(userStats)
+            });
+        }
 
         // Event Listeners
         elements.flashcard.addEventListener('click', reveal);
