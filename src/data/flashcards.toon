@@ -61,3 +61,12 @@ cards[3]{id,onc,medium,"According to the study on prostate volume and PI-RADS, w
 cards[4]{id,cardio,medium,"What does digital variance angiography offer in the context of prostatic artery embolization?", "It enables up to an 80% reduction in stationary acquisition radiation dose.", "Eur. Radiology", "interventional radiology;radiation dose;prostatic artery embolization"
 
 cards[5]{id,general,easy,"What is the focus of the study on baseline CT imaging parameters in pulmonary metastases?", "Identifying parameters that predict overall and progression-free survival.", "Eur. Radiology", "sarcoma;pulmonary metastases;survival;CT imaging"
+
+# Added on 2026-01-10
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,physics,medium,"What is a key concern highlighted in the news regarding the implementation of AI in radiology departments?","AI governance is crucial for responsible AI implementation, addressing ethical and practical considerations.",Healthcare IT News,AI governance;ethics;implementation;radiology;news
+  card_002,news,easy,"Which journal has recently announced a search for a new editor for its cardiothoracic imaging section?","Radiology: Cardiothoracic Imaging",RSNA,journal;editing;cardiothoracic imaging;appointment;news
+  card_003,physics,medium,"A recent health technology assessment explored the initial potential of AI for what specific clinical application on CT scans?","Detecting cervical spine fractures",SpringerLink,AI;CT;cervical spine fracture;assessment;clinical decision support
+  card_004,news,easy,"What trend in radiology education and knowledge sharing is indicated by the popularity of the 'Top Five Radiology Podcasts in 2025'?","Growing emphasis on continuing medical education and knowledge sharing",diagnosticimaging.com,podcasts;CME;education;knowledge sharing;radiology
+  card_005,journal,hard,"A study published in European Radiology identified baseline CT imaging parameters that can predict what outcome in patients with pulmonary metastases from sarcoma?","Overall and progression-free survival",European Radiology,sarcoma;metastasis;CT;prognosis;survival
