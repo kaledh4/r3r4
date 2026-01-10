@@ -1,0 +1,28 @@
+digest:
+  date: 2026-01-08
+  generated_at: 2026-01-08T14:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+
+summary:
+  This daily digest highlights key radiology news, focusing on practice-changing advancements in AI, new clinical guidelines, and significant industry developments. The top stories cover AI governance, image acquisition techniques, and important clinical decision-making in various specialties.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}
+  Lessons on AI governance from the radiology department,Healthcare IT News,https://news.healthcareitnews.com/news/lessons-ai-governance-radiology-department,physics,95,"AI governance is crucial for responsible AI implementation in radiology, addressing ethical and practical considerations.",
+  Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging',RSNA,https://news.rsna.org/search-opens-new-editor-radiology-cardiothoracic-imaging,news,85,"The appointment of a new editor for a key journal signifies evolving standards and perspectives in cardiothoracic imaging.",
+  Use of AI in detecting cervical spine fractures on CT: an early health technology assessment,SpringerLink,https://link.springer.com/article/10.1007/s00330-025-12255-z,physics,92,"This assessment explores the initial potential of AI in identifying cervical spine fractures on CT, a vital application with significant clinical implications.",
+  Top Five Radiology Podcasts in 2025,diagnosticimaging.com,https://www.diagnosticimaging.com/news/top-five-radiology-podcasts-2025,news,78,"The popularity of radiology podcasts indicates a growing emphasis on continuing medical education and knowledge sharing within the field.",
+  Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma,European Radiology,https://link.springer.com/article/10.1007/s00330-025-12272-y,journal,90,"This study identifies predictive imaging parameters for survival in sarcoma patients with pulmonary metastases, impacting treatment planning and patient prognosis.",
+  Digital variance angiography enables up to 80% reduction in stationary acquisition radiation dose during prostatic artery embolization: a prospective randomized trial,European Radiology,https://link.springer.com/article/10.1007/s00330-025-12235-3,journal,88,"This trial demonstrates a significant reduction in radiation dose during prostate embolization using digital variance angiography, an important advancement for patient safety.",
+  Fully automated quantification of net water uptake in acute ischemic stroke using only non-contrast CT imaging,European Radiology,https://link.springer.com/article/10.1007/s00330-025-12238-0,journal,86,"This research presents a fully automated method for quantifying stroke burden on non-contrast CT, potentially improving diagnostic efficiency and speed.",
+  The effects of prostate volume and PI-RADS category on optimal PSA-density thresholds for biopsy decision-making,European Radiology,https://link.springer.com/article/10.1007/s00330-025-12272-y,journal,84,"This study investigates the relationship between prostate volume, PI-RADS score, and optimal PSA-density thresholds, refining guidelines for prostate biopsy decisions."
+
+articles[]{id,title,source,category,relevance_score}
+  1,Lessons on AI governance from the radiology department,Healthcare IT News,physics,95
+  2,Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging',RSNA,news,85
+  3,Use of AI in detecting cervical spine fractures on CT: an early health technology assessment,SpringerLink,physics,92
+  4,Top Five Radiology Podcasts in 2025,diagnosticimaging.com,news,78
+  5,Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma,European Radiology,journal,90
+  6,Digital variance angiography enables up to 80% reduction in stationary acquisition radiation dose during prostatic artery embolization: a prospective randomized trial,European Radiology,journal,88
+  7,Fully automated quantification of net water uptake in acute ischemic stroke using only non-contrast CT imaging,European Radiology,journal,86
+  8,The effects of prostate volume and PI-RADS category on optimal PSA-density thresholds for biopsy decision-making,European Radiology,journal,84
