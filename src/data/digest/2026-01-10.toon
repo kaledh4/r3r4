@@ -1,64 +1,58 @@
 digest:
-  date: 2026-01-08
-  generated_at: 2026-01-08T14:15:30Z
+  date: 2026-01-10
+  generated_at: 2026-01-10T10:30:00Z
   curator_model: meta-llama/llama-3.1-405b-instruct:free
   total_articles: 8
-summary: |
-  This daily digest highlights key radiology news and research for senior residents. Topics range from industry acquisitions and leadership changes to cutting-edge AI applications and important clinical guidelines.  Staying informed on these advancements is crucial for clinical practice and board preparation.
+  
+summary:
+  This daily digest highlights key radiology news, focusing on practice-changing developments in AI, organizational changes, and research with potential clinical implications. The top stories cover AI governance, long COVID mechanisms, and strategies for improving physical health, offering valuable insights for senior residents.
 
 top_stories[8]{title,source,url,category,importance,ai_summary}:
   Title: Envision Radiology acquires private equity-backed imaging center operator Rezolut
-  Source: Google News Radiology
-  URL: https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVkNwTmpFamZNVWZ4SF9HSFlhdjVwYVBxM19iQVlLS3BnamJxNjlWb2FZNjBHeFAyVk5VZ0lBODNoSWhfbXBFMVUwTURfRWhGU3piaDZ0dkctd3VhaXI2RHBubUpYZWhoVVRWV0RKREY2MVMxNFVyR2xtOEplSEFXQkNzUThsWkdXN1JRdnlQMWduQXpDalFMeHlzdnlJaEhISjZoWDVVbmdyOVpEUEc0QzU2SWVwUFhnaTRteUprUEtBRW1WSmVsUXVKT0NHbjFjbGVSVFhzUzZhRlVhSi1qdjJSMldfNWFNLXlFdTRrTDBtcHQyN1pvYg?oc=5
+  Source: Radiology Business
+  URL: https://news.google.com/rss/articles/CBAi-AFBVV95cUxPVkNwTmpFamZNVWZ4SF9HSFlhdjVwYVBxM19iQVlLS3BnamJxNjlWb2FZNjBHeFAyVk5VZ0lBODNoSWhfbXBFMVUwTURfRWhGU3piaDZ0dkctd3VhaXI2RHBubUpYZWhoVVRWV0RKREY2MVMxNFVyR2xtOEplSEFXQkNzUThsWkdXN1JRdnlQMWduQXpDalFMeHlzdnlJaEhISjZoWDVVbmdyOVpEUEc0QzU2SWVwUFhnaTRteUprUEtBRW1WSmVsUXVKT0NHbjFjbGVSVFhzUzZhRlVhSi1qdjJSMldfNWFNLXlFdTRrTDBtcHQyN1pvYg?oc=5
   Category: news
   Importance: 90
-  ai_summary: "Envision Radiology expands its network with the acquisition of Rezolut, a private equity-backed imaging center operator, signaling continued consolidation in the radiology industry."
+  ai_summary: "Envision Radiology's acquisition of Rezolut signifies a trend towards consolidation in the imaging market, potentially impacting referral patterns and the landscape of radiology practice."
   
   Title: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
-  Source: Google News Radiology
-  URL: https://news.google.com/rss/articles/CBMiakFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
+  Source: Radiological Society of North America | RSNA
+  URL: https://news.google.com/rss/articles/CBAiakFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
   Category: news
   Importance: 75
-  ai_summary: "The Radiological Society of North America (RSNA) is seeking a new editor for 'Radiology: Cardiothoracic Imaging,' a significant leadership opportunity in the field."
+  ai_summary: "The search for a new editor for 'Radiology: Cardiothoracic Imaging' highlights the ongoing need for specialized peer-reviewed publications in radiology, ensuring the dissemination of cutting-edge research."
   
   Title: Top Five Radiology Podcasts in 2025
-  Source: Google News Radiology
-  URL: https://news.google.com/rss/articles/CBMie0FVX3lxTE9aNjBlSGR5VlpHZVRIZ24zaGFSdGxxdnpBckZGaFJrWmNYQzc5Z204QWRGMXd0NldLNWNURkt1U2pzaGNlREVYb2NQNk1EaXByVy1iaDhfTWNsWi1FQTE0YmVxZGo2REd3T2wxMEFVVUhCaEJ4Z0lmNFZWYw?oc=5
+  Source: diagnosticimaging.com
+  URL: https://news.google.com/rss/articles/CBAie0FVX3lxTE9aNjBlSGR5VlpHZVRIZ24zaGFSdGxxdnpBckZGaFJrWmNYQzc5Z204QWRGMXd0NldLNWNURkt1U2pzaGNlREVYb2NQNk1EaXByVy1iaDhfTWNsWi1FQTE0YmVxZGo2REd3T2wxMEFVVUhCaEJ4Z0lmNFZWYw?oc=5
   Category: news
   Importance: 60
-  ai_summary: "Diagnostic Imaging highlights the top five radiology podcasts of 2025, offering valuable continuing medical education and insights for radiologists."
+  ai_summary: "The popularity of radiology podcasts underscores the evolving methods of medical education and continuing professional development for radiologists, providing accessible learning opportunities."
   
   Title: Lessons on AI governance from the radiology department
   Source: Google News Radiology
-  URL: https://news...ce for detecting cervical spine fractures on CT: an early health technology assessment
+  URL: https://news.google.com/rss/articles/CBAiaFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
   Category: news
   Importance: 85
-  ai_summary: "A recent article discusses the practical lessons learned in implementing AI governance within a radiology department, emphasizing ethical considerations and workflow integration."
+  ai_summary: "This article emphasizes the growing importance of establishing robust governance frameworks for AI implementation in radiology departments to ensure responsible and ethical use of this transformative technology."
   
-  Title: Objectives, Materials and methods, Results, Conclusion, Key Points - Lessons on AI governance from the radiology department
-  Source: Eur. Radiology
-  URL: https://link.springer.com/article/10.1007/s00330-025-12255-z
-  Category: journal
-  Importance: 70
-  ai_summary: "This study details the objectives, methods, results, and conclusion of a report addressing AI governance within a radiology department, providing a practical framework."
-
-  Title: Objectives, Materials and methods, Results, Conclusion, Key Points - Baseline CT imaging parameters predicting overall and progression-free survival for patients with pulmonary metastases from soft tissue and bone sarcoma
-  Source: Eur. Radiology
-  URL: https://link.springer.com/article/10.1007/s00330-025-12272-y
-  Category: journal
+  Title: Just 10 minutes of exercise can trigger powerful anti-cancer effects
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260107225535.htm
+  Category: research
   Importance: 80
-  ai_summary: "This research investigates the correlation between baseline CT imaging parameters and survival outcomes in patients with pulmonary metastases, a critical area for prognosis and management."
+  ai_summary: "Research suggests that even short bursts of intense exercise can have significant anti-cancer effects by triggering DNA repair mechanisms and inhibiting cancer growth signals, potentially informing future preventive strategies."
   
-  Title: Objectives, Materials and methods, Results, Conclusion, Key Points - Digital variance angiography enables up to 80% reduction in stationary acquisition radiation dose during prostatic artery embolization: a prospective randomized trial
-  Source: Eur. Radiology
-  URL: https://link.springer.com/article/10.1007/s00330-025-12235-3
-  Category: journal
-  Importance: 95
-  ai_summary: "A prospective randomized trial demonstrates that digital variance angiography can reduce radiation dose during prostatic artery embolization by up to 80%, a significant advancement in image-guided procedures."
+  Title: Long COVID may be fueled by inflammation and tiny clots
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260107225532.htm
+  Category: research
+  Importance: 70
+  ai_summary: "This study links lingering symptoms of long COVID to inflammation, micro-clots, and disrupted energy metabolism, offering potential targets for future therapeutic interventions."
   
-  Title: Objective, Material and methods, Results, Conclusion, Key Points - Fully automated quantification of net water uptake in acute ischemic stroke using only non-contrast CT imaging
-  Source: Eur. Radiology
-  URL: https://link.springer.com/article/10.1007/s00330-025-12238-0
-  Category: journal
-  Importance: 88
-  ai_summary: "This study introduces a fully automated method for quantifying net water uptake on non-contrast CT in acute ischemic stroke, offering a potentially valuable tool for rapid assessment."
+  Title: People in Brazil are living past 110 and scientists want to know why
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260107225527.htm
+  Category: research
+  Importance: 65
+  ai_summary: "Research on centenarians in Brazil highlights the potential of genetic diversity and lifestyle factors in promoting extreme longevity, offering valuable insights for understanding aging."
