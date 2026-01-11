@@ -1,0 +1,116 @@
+digest:
+  date: 2026-01-11
+  generated_at: 2026-01-11T07:35:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+
+summary:
+  This daily radiology news digest highlights key clinical advancements, AI developments, and practice-relevant updates for senior residents. The top stories focus on AI governance, DNA structure, exercise's anti-cancer effects, Long COVID mechanisms, and insights into longevity.
+
+top_stories[8]{
+  Title: Envision Radiology acquires private equity-backed imaging center operator Rezolut
+  source: Radiology Business
+  url: https://news.google.com/rss/articles/CBAi-AFBVV95cUxPVkNwTmpFamZNVWZ4SF9HSFlhdjVwYVBxM19iQVlLS3BnamJxNjlWb2FZNjBHeFAyVk5VZ0lBODNoSWhfbXBFMVUwTURfRWhGU3piaDZ0dkctd3VhaXI2RHBubUpYZWhoVVRWV0RKREY2MVMxNFVyR2xtOEplSEFXQkNzUThsWkdXN1JRdnlQMWduQXpDalFMeHlzdnlJaEhISjZoWDVVbmdyOVpEUEc0QzU2SWVwUFhnaTRteUprUEtBRW1WSmVsUXVKT0NHbjFjbGVSVFhzUzZhRlVhSi1qdjJSMldfNWFNLXlFdTRrTDBtcHQyN1pvYg?oc=5
+  category: news
+  importance: 90
+  ai_summary: "Envision Radiology's acquisition of Rezolut signifies consolidation in the imaging market, potentially impacting referral patterns and access to care."
+
+  Title: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
+  source: Radiological Society of North America | RSNA
+  url: https://news.google.com/rss/articles/CBAiakFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
+  category: news
+  importance: 85
+  ai_summary: "The search for a new editor for 'Radiology: Cardiothoracic Imaging' is a key appointment impacting the dissemination of research in this critical subspecialty."
+
+  Title: Top Five Radiology Podcasts in 2025
+  source: diagnosticimaging.com
+  url: https://news.google.com/rss/articles/CBAie0FVX3lxTE9aNjBlSGR5VlpHZVRIZ24zaGFSdGxxdnpBckZGaFJrWmNYQzc5Z204QWRGMXd0NldLNWNURkt1U2pzaGNlREVYb2NQNk1EaXByVy1iaDhfTWNsWi1FQTE0YmVxZGo2REd3T2wxMEFVVUhCaEJ4Z0lmNFZWYw?oc=5
+  category: news
+  importance: 70
+  ai_summary: "Identifying top radiology podcasts highlights valuable resources for continuing education and staying current with the field."
+
+  Title: Lessons on AI governance from the radiology department
+  source: Google News Radiology
+  url: (No URL provided in input)
+  category: news
+  importance: 75
+  ai_summary: "The article explores the practical application of AI governance within radiology departments, offering insights into responsible AI implementation."
+
+  Title: A hidden world inside DNA is finally revealed
+  source: ScienceDaily Health
+  url: https://www.sciencedaily.com/releases/2026/01/260107225541.htm
+  category: research
+  importance: 95
+  ai_summary: "Unprecedented mapping of DNA structure reveals novel insights into gene regulation and disease mechanisms, holding promise for future diagnostics and therapeutics."
+
+  Title: Just 10 minutes of exercise can trigger powerful anti-cancer effects
+  source: ScienceDaily Health
+  url: https://www.sciencedaily.com/releases/2026/01/260107225535.htm
+  category: research
+  importance: 90
+  ai_summary: "Research indicates that even short bursts of intense exercise can initiate anti-cancer responses, suggesting a potential role for exercise in cancer prevention and therapy."
+
+  Title: Long COVID may be fueled by inflammation and tiny clots
+  source: ScienceDaily Health
+  url: https://www.sciencedaily.com/releases/2026/01/260107225532.htm
+  category: research
+  importance: 85
+  ai_summary: "New findings link persistent symptoms of Long COVID to inflammation, micro-clots, and impaired energy metabolism, offering potential targets for treatment."
+
+  Title: People in Brazil are living past 110 and scientists want to know why
+  source: ScienceDaily Health
+  url: https://www.sciencedaily.com/releases/2026/01/260107225527.htm
+  category: research
+  importance: 75
+  ai_summary: "Studying the longevity of Brazilian supercentenarians may reveal unique genetic and lifestyle factors contributing to extreme lifespan, with implications for understanding aging."
+}
+
+articles[]{
+  id: 1
+  title: Envision Radiology acquires private equity-backed imaging center operator Rezolut
+  source: Radiology Business
+  category: news
+  relevance_score: 90
+
+  id: 2
+  title: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
+  source: Radiological Society of North America | RSNA
+  category: news
+  relevance_score: 85
+
+  id: 3
+  title: Top Five Radiology Podcasts in 2025
+  source: diagnosticimaging.com
+  category: news
+  relevance_score: 70
+
+  id: 4
+  title: Lessons on AI governance from the radiology department
+  source: Google News Radiology
+  category: news
+  relevance_score: 75
+
+  id: 5
+  title: A hidden world inside DNA is finally revealed
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 95
+
+  id: 6
+  title: Just 10 minutes of exercise can trigger powerful anti-cancer effects
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 90
+
+  id: 7
+  title: Long COVID may be fueled by inflammation and tiny clots
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 85
+
+  id: 8
+  title: People in Brazil are living past 110 and scientists want to know why
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 75
+}

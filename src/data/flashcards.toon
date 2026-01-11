@@ -106,3 +106,12 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,news,easy,"What does the popularity of radiology podcasts suggest?","Growing importance of continuing medical education and peer-to-peer learning in radiology.",Google News Radiology,podcast;education;learning
   card_004,news,hard,"What is a likely focus of the article titled 'Lessons on AI governance from the radiology department'?","Practical considerations for implementing and governing AI in radiology, including ethical and regulatory aspects.",Google News Radiology,AI;governance;ethics
   card_005,research,medium,"According to recent research, what is a potential benefit of short bursts of exercise?","Triggering powerful anti-cancer effects through molecular signaling and DNA repair.",ScienceDaily Health,exercise;cancer;research
+
+# Added on 2026-01-11
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,news,medium,"What is the significance of Envision Radiology's acquisition of Rezolut?","This acquisition represents consolidation within the imaging market and may affect referral patterns and patient access.",Radiology Business,"news;market consolidation;AI"
+  card_002,news,medium,"What is the current need in the radiology field, as indicated by the open search?","The Radiological Society of North America (RSNA) is searching for a new editor of 'Radiology: Cardiothoracic Imaging'.",RSNA,"news;journal editing;cardiothoracic imaging"
+  card_003,news,easy,"What category of resource do the 'Top Five Radiology Podcasts in 2025' represent?","They are valuable resources for continuing medical education and staying updated in radiology.",diagnosticimaging.com,"news;continuing education;podcasts"
+  card_004,news,hard,"What is the central theme explored in the article titled 'Lessons on AI governance from the radiology department'?","The article examines the practical application of AI governance within radiology departments, focusing on responsible AI implementation.",Google News Radiology,"news;AI governance;ethics"
+  card_005,research,hard,"What novel insights did unprecedented DNA mapping reveal?","It revealed novel insights into gene regulation and disease mechanisms, suggesting potential for future diagnostics and therapeutics.",ScienceDaily Health,"research;DNA;gene regulation"
