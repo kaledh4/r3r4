@@ -1,0 +1,107 @@
+digest:
+  date: 2026-01-12
+  generated_at: 2026-01-12T14:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  This daily radiology news digest highlights practice-changing advancements in cancer treatment, emerging technologies like eye implants, and important considerations regarding patient education. The top stories focus on innovative therapeutic approaches, new clinical trials, and the evolving role of digital platforms in health information.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: "Norbert Pelc Awarded the 2026 SPIE Harrison H. Barrett Award in Medical Imaging"
+  Source: RSNA
+  URL: https://news.google.com/rss/articles/CBMiakFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
+  Category: physics
+  Importance: 95
+  ai_summary: "The SPIE Harrison H. Barrett Award recognizes Norbert Pelc for his exceptional contributions to medical imaging, particularly in the field of image reconstruction. This prestigious award highlights his pioneering work that has significantly advanced the quality and efficiency of medical imaging techniques."
+  
+  Title: "Scientists test a tiny eye implant that could restore sight"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260108231348.htm
+  Category: research
+  Importance: 92
+  ai_summary: "USC researchers are advancing the potential for restoring sight with a hair-thin stem cell implant for advanced dry macular degeneration. Early success with improved vision prompts hope for lasting improvements in eyesight for patients with this debilitating condition."
+  
+  Title: "Scientists Found a Way to Supercharge the Immune System Against Cancer"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260108231333.htm
+  Category: research
+  Importance: 90
+  ai_summary: "New four-pronged antibodies developed by researchers effectively amplify the immune system's ability to fight cancer by clustering receptors and activating T cells. Early studies show superior performance compared to conventional antibodies, offering a promising immunotherapy avenue."
+  
+  Title: "Top Five Radiology Podcasts in 2025"
+  Source: diagnosticimaging.com
+  URL: https://news.google.com/rss/articles/CBMie0FVX3lxTE9aNjBlSGR5VlpHZVRIZ24zaGFSdGxxdnpBckZGaFJrWmNYQzc5Z204QWRGMXd0NldLNWNURkt1U2pzaGNlREVYb2NQNk1EaXByVy1iaDhfTWNsWi1FQTE0YmVxZGo2REd3T2wxMEFVVUhCaEJ4Z0lmNFZWYw?oc=5
+  Category: news
+  Importance: 88
+  ai_summary: "This article highlights the top five radiology podcasts of 2025, offering valuable resources for continuing medical education and staying updated on the latest advancements in the field. It suggests a growing trend towards accessible and engaging educational content for radiologists."
+  
+  Title: "Envision Radiology acquires private equity-backed imaging center operator Rezolut"
+  Source: Radiology Business
+  URL: https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVkNwTmpFamZNVWZ4SF9HSFlhdjVwYVBxM19iQVlLS3BnamJxNjlWb2FZNjBHeFAyVk5VZ0lBODNoSWhfbXBFMVUwTURfRWhGU3piaDZ0dkctd3VhaXI2RHBubUpYZWhoVVRWV0RKREY2MVMxNFVyR2xtOEplSEFXQkNzUThsWkdXN1JRdnlQMWduQXpDalFMeHlzdnlJaEhISjZoWDVVbmdyOVpEUEc0QzU2SWVwUFhnaTRteUprUEtBRW1WSmVsUXVKT0NHbjFjbGVSVFhzUzZhRlVhSi1qdjJSMldfNWFNLXlFdTRrTDBtcHQyN1pvYg?oc=5
+  Category: news
+  Importance: 85
+  ai_summary: "Envision Radiology's acquisition of Rezolut signifies consolidation within the radiology industry, potentially impacting market dynamics and access to imaging services. This news is relevant for understanding the evolving landscape of radiology practice and potential changes for referring physicians."
+  
+  Title: "This natural amino acid could help stop cavities before they start"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260108231335.htm
+  Category: research
+  Importance: 78
+  ai_summary: "Research suggests that arginine, a natural amino acid, can help prevent cavities by reducing the acidity of dental plaque and promoting beneficial bacteria. This offers a promising non-pharmaceutical approach to cavity prevention that could be integrated into patient education and preventative care."
+  
+  Title: "TikTok’s gout advice is everywhere and doctors say it’s often wrong"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260108231330.htm
+  Category: news
+  Importance: 75
+  ai_summary: "A study reveals that much of the gout information circulating on TikTok is inaccurate and often focuses on diet rather than essential medical treatments. This highlights the need for healthcare professionals to actively engage on digital platforms to provide evidence-based guidance to patients."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: "Norbert Pelc Awarded the 2026 SPIE Harrison H. Barrett Award in Medical Imaging"
+  title: "Norbert Pelc Awarded the 2026 SPIE Harrison H. Barrett Award in Medical Imaging"
+  source: "RSNA"
+  category: "physics"
+  relevance_score: 95
+  
+  id_2: "Scientists test a tiny eye implant that could restore sight"
+  title: "Scientists test a tiny eye implant that could restore sight"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 92
+  
+  id_3: "Scientists Found a Way to Supercharge the Immune System Against Cancer"
+  title: "Scientists Found a Way to Supercharge the Immune System Against Cancer"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 90
+  
+  id_4: "Top Five Radiology Podcasts in 2025"
+  title: "Top Five Radiology Podcasts in 2025"
+  source: "diagnosticimaging.com"
+  category: "news"
+  relevance_score: 88
+  
+  id_5: "Envision Radiology acquires private equity-backed imaging center operator Rezolut"
+  title: "Envision Radiology acquires private equity-backed imaging center operator Rezolut"
+  source: "Radiology Business"
+  category: "news"
+  relevance_score: 85
+  
+  id_6: "This natural amino acid could help stop cavities before they start"
+  title: "This natural amino acid could help stop cavities before they start"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 78
+  
+  id_7: "TikTok’s gout advice is everywhere and doctors say it’s often wrong"
+  title: "TikTok’s gout advice is everywhere and doctors say it’s often wrong"
+  source: "ScienceDaily Health"
+  category: "news"
+  relevance_score: 75
+  
+  id_8: "Artificial intelligence improves breast cancer detection in mammograms"
+  title: "Artificial intelligence improves breast cancer detection in mammograms"
+  source: "Radiology Today"
+  category: "ai"
+  relevance_score: 72

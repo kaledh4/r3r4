@@ -115,3 +115,12 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,news,easy,"What category of resource do the 'Top Five Radiology Podcasts in 2025' represent?","They are valuable resources for continuing medical education and staying updated in radiology.",diagnosticimaging.com,"news;continuing education;podcasts"
   card_004,news,hard,"What is the central theme explored in the article titled 'Lessons on AI governance from the radiology department'?","The article examines the practical application of AI governance within radiology departments, focusing on responsible AI implementation.",Google News Radiology,"news;AI governance;ethics"
   card_005,research,hard,"What novel insights did unprecedented DNA mapping reveal?","It revealed novel insights into gene regulation and disease mechanisms, suggesting potential for future diagnostics and therapeutics.",ScienceDaily Health,"research;DNA;gene regulation"
+
+# Added on 2026-01-12
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,physics,hard,"What field of medical physics does the SPIE Harrison H. Barrett Award recognize?","Image reconstruction.",RSNA,physics;award
+  card_002,research,medium,"What condition is the USC research focusing on with their new stem cell eye implant?","Advanced dry macular degeneration.",ScienceDaily Health,research;ocular
+  card_003,research,hard,"What is the primary mechanism by which the newly developed four-pronged antibodies aim to enhance the immune system's fight against cancer?","Clustering receptors and activating T cells.",ScienceDaily Health,immunotherapy;cancer
+  card_004,news,easy,"According to the digest, what is a growing trend in medical education highlighted by the article on top radiology podcasts?","Accessible and engaging educational content.",diagnosticimaging.com,education;podcasts
+  card_005,news,medium,"What is the potential impact of Envision Radiology's acquisition of Rezolut on the radiology industry?","Consolidation, potentially impacting market dynamics and access to imaging services.",Radiology Business,industry;acquisition
