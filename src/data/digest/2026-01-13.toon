@@ -1,0 +1,108 @@
+digest:
+  date: 2026-01-13
+  generated_at: 2026-01-13T14:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  This daily radiology news highlights emerging research in cancer biology, the gut microbiome's link to aging, and advancements in therapeutic strategies. Additionally, it covers a significant acquisition in the radiology industry and a leadership change in a prominent journal.
+  The top stories also include a prestigious medical imaging award and research on aging and brain health, along with a promising development in restoring sight through a novel eye implant.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Envision Radiology acquires private equity-backed imaging center operator Rezolut
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVkNwTmpFamZNVWZ4SF9HSFlhdjVwYVBxM19iQVlLS3BnamJxNjlWb2FZNjBHeFAyVk5VZ0lBODNoSWhfbXBFMVUwTURfRWhGU3piaDZ0dkctd3VhaXI2RHBubUpYZWhoVVRWV0RKREY2MVMxNFVyR2xtOEplSEFXQkNzUThsWkdXN1JRdnlQMWduQXpDalFMeHlzdnlJaEhISjZoWDVVbmdyOVpEUEc0QzU2SWVwUFhnaTRteUprUEtBRW1WSmVsUXVKT0NHbjFjbGVSVFhzUzZhRlVhSi1qdjJSMldfNWFNLXlFdTRrTDBtcHQyN1pvYg?oc=5
+  Category: news
+  Importance: 95
+  ai_summary: "Envision Radiology strengthens its market position with the acquisition of Rezolut, a private equity-backed imaging center operator, signaling continued consolidation in the radiology industry."
+
+  Title: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMiakFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
+  Category: news
+  Importance: 85
+  ai_summary: "The Radiological Society of North America is seeking a new editor for 'Radiology: Cardiothoracic Imaging,' a key journal in the field, representing a leadership opportunity in high-impact publication."
+
+  Title: Norbert Pelc Awarded the 2026 SPIE Harrison H. Barrett Award in Medical Imaging
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT29FREIybzBoVEVfNUtuYnk4LVV1cG5yV2dVSWd3NktMUlR4X2tvdGxMYWRZSUY3cEpSUC05amgtWno2VnByT25nTi11QjA0OUJHRzB3ajZUSmZzNWNJZGJCenYxUmtCUFZBX09pekVKRC11cjc0MWZzb29NQWdrOS1OTFBGU3Z3eUN1bTRNM2RBVEVySlRHQUVyYUJnR2wzZDFXZG1lNHU4a0pzTUhsdkE1MHN3M3ZDOXlN?oc=5
+  Category: news
+  Importance: 75
+  ai_summary: "Norbert Pelc has been recognized with the prestigious SPIE Harrison H. Barrett Award for his significant contributions to medical imaging, highlighting excellence in the field."
+
+  Title: Scientists uncover a hidden aging program in the gut that fuels cancer risk
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260108231411.htm
+  Category: research
+  Importance: 90
+  ai_summary: "Research links epigenetic changes in aging gut stem cells to increased cancer risk, potentially opening avenues for preventative strategies targeting the gut microbiome."
+
+  Title: Study shows young blood can slow Alzheimer’s in mice
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260108231409.htm
+  Category: research
+  Importance: 80
+  ai_summary: "A study reveals that exposure to younger blood can mitigate Alzheimer's-like pathology in mice, suggesting a novel therapeutic approach targeting blood-brain barrier changes."
+
+  Title: A hidden loop is powering deadly pancreatic cancer
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260108231406.htm
+  Category: research
+  Importance: 85
+  ai_summary: "Researchers have identified a critical three-part molecular loop driving pancreatic cancer growth, offering a potential new therapeutic target with a combination drug approach."
+
+  Title: Scientists test a tiny eye implant that could restore sight
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260108231348.htm
+  Category: research
+  Importance: 70
+  ai_summary: "A new trial is underway to evaluate a stem cell implant for restoring vision in patients with advanced dry macular degeneration, representing a promising advancement in ophthalmology."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: Envision Radiology acquires private equity-backed imaging center operator Rezolut
+  title: Envision Radiology acquires private equity-backed imaging center operator Rezolut
+  source: Google News Radiology
+  category: news
+  relevance_score: 95
+
+  id_2: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
+  title: Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'
+  source: Google News Radiology
+  category: news
+  relevance_score: 85
+
+  id_3: Norbert Pelc Awarded the 2026 SPIE Harrison H. Barrett Award in Medical Imaging
+  title: Norbert Pelc Awarded the 2026 SPIE Harrison H. Barrett Award in Medical Imaging
+  source: Google News Radiology
+  category: news
+  relevance_score: 75
+
+  id_4: Scientists uncover a hidden aging program in the gut that fuels cancer risk
+  title: Scientists uncover a hidden aging program in the gut that fuels cancer risk
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 90
+
+  id_5: Study shows young blood can slow Alzheimer’s in mice
+  title: Study shows young blood can slow Alzheimer’s in mice
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 80
+
+  id_6: A hidden loop is powering deadly pancreatic cancer
+  title: A hidden loop is powering deadly pancreatic cancer
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 85
+
+  id_7: Scientists test a tiny eye implant that could restore sight
+  title: Scientists test a tiny eye implant that could restore sight
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 70
+
+  id_8: Google News Radiology - Various News Updates
+  title: Google News Radiology - Various News Updates
+  source: Google News Radiology
+  category: news
+  relevance_score: 60

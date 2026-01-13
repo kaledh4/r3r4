@@ -124,3 +124,12 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,research,hard,"What is the primary mechanism by which the newly developed four-pronged antibodies aim to enhance the immune system's fight against cancer?","Clustering receptors and activating T cells.",ScienceDaily Health,immunotherapy;cancer
   card_004,news,easy,"According to the digest, what is a growing trend in medical education highlighted by the article on top radiology podcasts?","Accessible and engaging educational content.",diagnosticimaging.com,education;podcasts
   card_005,news,medium,"What is the potential impact of Envision Radiology's acquisition of Rezolut on the radiology industry?","Consolidation, potentially impacting market dynamics and access to imaging services.",Radiology Business,industry;acquisition
+
+# Added on 2026-01-13
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,news,medium,"What is the primary focus of the recent Envision Radiology acquisition of Rezolut?","The acquisition strengthens Envision Radiology's market position and indicates consolidation within the radiology industry.",Google News Radiology;news;industry;acquisition
+  card_002,news,hard,"The Radiological Society of North America is seeking a new editor for which specific journal?","'Radiology: Cardiothoracic Imaging'",Google News Radiology;news;journal;cardiothoracic imaging;leadership
+  card_003,news,medium,"Norbert Pelc received a prestigious award for his contributions to which field?","Medical Imaging; the SPIE Harrison H. Barrett Award.",Google News Radiology;news;award;medical imaging;SPIE
+  card_004,research,hard,"According to recent research, what is a potential link between gut biology and disease risk?","Epigenetic changes in aging gut stem cells may fuel cancer risk.",ScienceDaily Health;research;gut microbiome;cancer;aging;epigenetics
+  card_005,research,medium,"What therapeutic approach showed promise in slowing Alzheimer's progression in mice?","Exposure to younger blood.",ScienceDaily Health;research;Alzheimer's;mouse model;therapeutic;blood-brain barrier
