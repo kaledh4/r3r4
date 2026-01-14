@@ -1,0 +1,94 @@
+digest:
+  date: 2026-01-14
+  generated_at: 2026-01-14T10:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 7
+  
+summary:
+  This daily radiology news digest highlights recent advancements in medical imaging, AI applications, and clinical research with potential implications for daily practice. Key topics include AI in imaging, new leadership roles in radiology publications, and insights into disease risk factors and prevention.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: "Stanford’s AI spots hidden disease warnings that show up while you sleep"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260109023114.htm
+  Category: research
+  importance: 95
+  ai_summary: "A Stanford AI can predict future disease risk (cancer, dementia, heart disease) from a single night of sleep by analyzing physiological signals, revealing potential health warnings often missed by physicians."
+  Title: "Norbert Pelc Awarded the 2026 SPIE Harrison H. Barrett Award in Medical Imaging"
+  Source: Stanford Medicine
+  URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT29FREIybzBoVEVfNUtuYnk4LVV1cG5yV2dVSWd3NktMUlR4X2tvdGxMYWRZSUY3cEpSUC05amgtWno2VnByT25nTi11QjA0OUJHRzB3ajZUSmZzNWNJZGJCenYxUmtCUFZBX09pekVKRC11cjc0MWZzb29NQWdrOS1OTFBGU3Z3eUN1bTRNM2RBVEVySlRHQUVyYUJnR2wzZDFXZG1lNHU4a0pzTUhsdkE1MHN3M3ZDOXlN?oc=5"
+  Category: news
+  importance: 90
+  ai_summary: "Norbert Pelc received the 2026 SPIE Harrison H. Barrett Award for his work in developing innovative imaging techniques for studying tumors and immune responses, potentially leading to new cancer therapies."
+  Title: "A room full of flu patients and no one got sick"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260110211204.htm
+  Category: research
+  importance: 85
+  ai_summary: "A study found that limiting coughing and maintaining well-mixed indoor air significantly prevented the spread of influenza among healthy volunteers and flu patients, highlighting the importance of ventilation and masks."
+  Title: "Envision Radiology acquires private equity-backed imaging center operator Rezolut"
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVkNwTmpFamZNVWZ4SF9HSFlhdjVwYVBxM19iQVlLS3BnamJxNjlWb2FZNjBHeFAyVk5VZ0lBODNoSWhfbXBFMVUwTURfRWhGU3piaDZ0dkctd3VhaXI2RHBubUpYZWhoVVRWV0RKREY2MVMxNFVyR2xtOEplSEFXQkNzUThsWkdXN1JRdnlQMWduQXpDalFMeHlzdnlJaEhISjZoWDVVbmdyOVpEUEc0QzU2SWVwUFhnaTRteUprUEtBRW1WSmVsUXVKT0NHbjFjbGVSVFhzUzZhRlVhSi1qdjJSMldfNWFNLXlFdTRrTDBtcHQyN1pvYg?oc=5"
+  Category: news
+  importance: 80
+  ai_summary: "Envision Radiology's acquisition of Rezolut expands its imaging network, potentially impacting referral patterns and access to care for patients in the acquired regions."
+  Title: "The 4x rule: Why some people’s DNA is more unstable than others"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260109080214.htm
+  Category: research
+  importance: 75
+  ai_summary: "A large genetic study reveals that many individuals have DNA sequences that expand at varying rates, with some experiencing a fourfold increase compared to average, and linking these expansions to certain diseases."
+  Title: "Common food preservatives linked to higher risk of type 2 diabetes"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260109080211.htm
+  Category: research
+  importance: 70
+  ai_summary: "High intake of common food preservatives is associated with a significantly increased risk of developing type 2 diabetes, suggesting the need for cautious consumption of highly processed foods."
+  Title: "Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'"
+  Source: Radiological Society of North America | RSNA
+  URL: https://news.google.com/rss/articles/CBMiakFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5"
+  Category: news
+  importance: 65
+  ai_summary: "The RSNA is seeking a new editor for 'Radiology: Cardiothoracic Imaging,' an important journal for advancing knowledge and practice in this specialized field."
+articles[]{id,title,source,category,relevance_score}:
+  id_1: "1"
+  title: "Envision Radiology acquires private equity-backed imaging center operator Rezolut"
+  source: "Google News Radiology"
+  category: "news"
+  relevance_score: 90
+  
+  id_2: "2"
+  title: "Norbert Pelc Awarded the 2026 SPIE Harrison H. Barrett Award in Medical Imaging"
+  source: "Stanford Medicine"
+  category: "news"
+  relevance_score: 95
+  
+  id_3: "3"
+  title: "Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'"
+  source: "Radiological Society of North America | RSNA"
+  category: "news"
+  relevance_score: 65
+  
+  id_4: "4"
+  title: "Stanford’s AI spots hidden disease warnings that show up while you sleep"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 95
+  
+  id_5: "5"
+  title: "A room full of flu patients and no one got sick"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 85
+  
+  id_6: "6"
+  title: "The 4x rule: Why some people’s DNA is more unstable than others"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 75
+  
+  id_7: "7"
+  title: "Common food preservatives linked to higher risk of type 2 diabetes"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 70
