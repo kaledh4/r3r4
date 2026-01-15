@@ -1,0 +1,107 @@
+digest:
+  date: 2026-01-15
+  generated_at: 2026-01-15T10:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  This daily radiology news briefing highlights practice-changing research in Alzheimer's detection, AI governance, and cardiovascular health. Key updates also include advancements in lung infection treatment and insights into the impact of weight-loss drugs on consumer spending.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: "Lessons on AI governance from the radiology department"
+  Source: Healthcare IT News
+  URL: https://news.google.com/rss/articles/CBMihwFBVV95cUxOemRkTmxZZmNmQ2RaUkFpNXprMTRxS0Qzc2g4RWJGVG02bmtyRGhJWnV0Ukd0dGRNeGZFS3J5Y1hzMnZValZiUC1zdUJ2aExybVBabURtWkNDa3Zza0pXSVZmU0hNQW9Pd0...test that tracks individual bacteria to see which drugs truly eliminate them. When tested on tuberculosis and other serious lung infections, the method revealed big differences in how bacteria tolerate treatment. The findings could lead to more precise therapies and better predictions of treatment success.
+  Category: ir
+  importance: 95
+  ai_summary: "A new method tracks individual bacteria to understand drug effectiveness in lung infections, potentially leading to personalized therapies."
+  
+  Title: "A hidden brain signal may reveal Alzheimer’s long before diagnosis"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260112001041.htm
+  Category: research
+  importance: 92
+  ai_summary: "Researchers detected subtle electrical brain signals linked to memory processing years before Alzheimer's diagnosis, offering a new early detection method."
+  
+  Title: "A daily fish oil supplement slashed serious heart risks in dialysis patients"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260110211231.htm
+  Category: msk
+  importance: 90
+  ai_summary: "A trial shows daily fish oil significantly reduces heart attacks, strokes, and cardiac deaths in dialysis patients, a rare breakthrough in kidney care."
+  
+  Title: "Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'"
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMiakFVX3lxTFBUcFZ6Zk5SWDFyTnNrTm50VmF1LTctODJOSmxXeUYtVWlnZHk5aDY5UktjWmdDOTZMaHBGNlhacF9GNUlOdXNFUlByTmdDWFlzU3NvT2NaVlNGcXkyNTAtTzhtUGI1cHNlWlE?oc=5
+  Category: news
+  importance: 85
+  ai_summary: "A new editor has been appointed for 'Radiology: Cardiothoracic Imaging,' potentially influencing future publications and research focus in the field."
+  
+  Title: "Jocelyn Rapelyea, MD, to serve as the Chair of the GW Department of Radiology"
+  Source: The George Washington University
+  URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdEoxTnY0YXdhaWFYcGhRcXFiU2g1MEJiNkllWU04YURBYk5FUlR0ZnRqdzB4VzMzbHlnR3VKcGJPV1RWTktndjhkLTdzYllnS2R2U0psRy1sR1BveWlPX0xJcHVBVUlSSy1ZYWlhaDdRM191T1lBakwyOHBDUy1OY2k2bGg2SDJv?oc=5
+  Category: news
+  importance: 80
+  ai_summary: "Dr. Jocelyn Rapelyea will become the Chair of the GW Department of Radiology, a leadership change that may impact departmental direction and research priorities."
+  
+  Title: "A little-known health syndrome may affect nearly everyone"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260112001001.htm
+  Category: research
+  importance: 75
+  ai_summary: "CKM syndrome, linking heart disease, kidney problems, diabetes, and obesity, is surprisingly common and understanding its interaction could prevent serious health events."
+  
+  Title: "How Ozempic and Wegovy are quietly cutting America’s food bills"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260112001029.htm
+  Category: research
+  importance: 70
+  ai_summary: "Weight-loss drugs like Ozempic and Wegovy have led to a noticeable decrease in household grocery spending, particularly on snack foods."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: "AI Governance in Radiology"
+  title: "Lessons on AI governance from the radiology department"
+  source: "Healthcare IT News"
+  category: "ir"
+  score: 95
+  
+  id_2: "Alzheimer's Early Detection"
+  title: "A hidden brain signal may reveal Alzheimer’s long before diagnosis"
+  source: "ScienceDaily Health"
+  category: "research"
+  score: 92
+  
+  id_3: "Fish Oil and Dialysis"
+  title: "A daily fish oil supplement slashed serious heart risks in dialysis patients"
+  source: "ScienceDaily Health"
+  category: "msk"
+  score: 90
+  
+  id_4: "Cardiothoracic Imaging Editor"
+  title: "Search Opens for New Editor of 'Radiology: Cardiothoracic Imaging'"
+  source: "Google News Radiology"
+  category: "news"
+  score: 85
+  
+  id_5: "GW Radiology Chair Appointment"
+  title: "Jocelyn Rapelyea, MD, to serve as the Chair of the GW Department of Radiology"
+  source: "The George Washington University"
+  category: "news"
+  score: 80
+  
+  id_6: "CKM Syndrome Awareness"
+  title: "A little-known health syndrome may affect nearly everyone"
+  source: "ScienceDaily Health"
+  category: "research"
+  score: 75
+  
+  id_7: "Ozempic and Food Spending"
+  title: "How Ozempic and Wegovy are quietly cutting America’s food bills"
+  source: "ScienceDaily Health"
+  category: "research"
+  score: 70
+  
+  id_8: "Lung Infection Treatment"
+  title: "Method tracks individual bacteria to see which drugs truly eliminate them"
+  source: "Google News Radiology"
+  category: "ir"
+  score: 65
