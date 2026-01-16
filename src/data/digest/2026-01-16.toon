@@ -1,0 +1,102 @@
+digest:
+  date: 2026-01-16
+  generated_at: 2026-01-16T10:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 7
+  
+summary:
+  Today's radiology news highlights advancements in AI for blood cell analysis and medication safety in dementia care.  Furthermore, research explores novel approaches to childbirth and food science, with implications for clinical practice and patient care. 
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: ADVENTHEALTH MURRAY EARNS AMERICAN COLLEGE OF RADIOLOGY ACCREDITATION
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBAiogFBVV95cUxPNkJZUVJSRkYyeEhta2FjOHVlRHBxSVh4ODkwOU9VRTI0aWZTV1hRYkt6ay1XVFdaWWpyOFhXdWs5bWNiWGhUQ0JzdnVaTlRVaXZsNGQ1OTNOSGVUOWRsbFBYZTlFRkw5ZktUajFVaHNFMVJFSFhoV1VjUnlWNk52aVRpeV80VTV6V3hnbjlDa2hBZzREUlIxMkVwZ0x2Z3FtVlE?oc=5
+  Category: news
+  importance: 90
+  ai_summary: "AdventHealth Murray's ACR accreditation signifies a commitment to high-quality imaging and patient care, impacting practice by reinforcing established standards and potentially influencing patient trust and referral patterns."
+  
+  Title: THIS AI SPOTS DANGEROUS BLOOD CELLS DOCTORS OFTEN MISS
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260112214317.htm
+  Category: research
+  importance: 95
+  ai_summary: "A generative AI system now surpasses human experts in detecting subtle blood cell abnormalities, aiding in the early diagnosis of diseases like leukemia and improving diagnostic accuracy."
+  
+  Title: STEPHEN FERRARA, M.D...TUE, 13 JAN 2026 23:17:46 EST
+  Source: Google News Radiology
+  URL:  
+  Category: news
+  importance: 85
+  ai_summary: "Despite guidelines, dementia patients are frequently prescribed potentially harmful brain medications without clear medical justification, highlighting a crucial area for medication safety improvements in cognitive impairment management."
+  
+  Title: MIT’S SMART PILL CONFIRMS YOU TOOK YOUR MEDICINE
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260112214259.htm
+  Category: research
+  importance: 80
+  ai_summary: "An MIT-developed smart pill using a biodegradable antenna can wirelessly confirm medication ingestion, offering a valuable tool for improving patient adherence, particularly in high-risk populations."
+  
+  Title: SCIENTISTS DISCOVER HOW THE UTERUS KNOWS WHEN TO PUSH DURING CHILDBIRTH
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260112214313.htm
+  Category: research
+  importance: 75
+  ai_summary: "Research reveals the intricate interplay of pressure and stretch sensors in the uterus that trigger coordinated contractions during childbirth, offering new insights into stalled labor and potential management strategies."
+  
+  Title: SCIENTISTS DISCOVER HOW THE UTERUS KNOWS WHEN TO PUSH DURING CHILDBIRTH
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260112214313.htm
+  Category: research
+  importance: 75
+  ai_summary: "Research reveals the intricate interplay of pressure and stretch sensors in the uterus that trigger coordinated contractions during childbirth, offering new insights into stalled labor and potential management strategies."
+  
+  Title: SCIENTISTS DISCOVER HOW THE UTERUS KNOWS WHEN TO PUSH DURING CHILDBIRTH
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260112214313.htm
+  Category: research
+  importance: 75
+  ai_summary: "Research reveals the intricate interplay of pressure and stretch sensors in the uterus that trigger coordinated contractions during childbirth, offering new insights into stalled labor and potential management strategies."
+  
+  Title: THIS NEW SUGAR TASTES LIKE THE REAL THING WITHOUT THE USUAL DOWNSIDES
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260112214302.htm
+  Category: research
+  importance: 65
+  ai_summary: "Scientists have created tagatose, a sugar with similar sweetness to table sugar but with fewer calories, minimal impact on blood sugar, and potential oral and gut health benefits, presenting an alternative in food science."
+
+articles[]{id,title,source,category,score}:
+  id_1: ADVENTHEALTH_ACCREDITATION
+  title: ADVENTHEALTH MURRAY EARNS AMERICAN COLLEGE OF RADIOLOGY ACCREDITATION
+  source: Google News Radiology
+  category: news
+  score: 90
+  
+  id_2: AI_BLOOD_CELLS
+  title: THIS AI SPOTS DANGEROUS BLOOD CELLS DOCTORS OFTEN MISS
+  source: ScienceDaily Health
+  category: research
+  score: 95
+  
+  id_3: DEMENTIA_MEDS
+  title: STEPHEN FERRARA, M.D...TUE, 13 JAN 2026 23:17:46 EST
+  source: Google News Radiology
+  category: news
+  score: 85
+  
+  id_4: SMART_PILL
+  title: MIT’S SMART PILL CONFIRMS YOU TOOK YOUR MEDICINE
+  source: ScienceDaily Health
+  category: research
+  score: 80
+  
+  id_5: UTERUS_CONTRACTIONS
+  title: SCIENTISTS DISCOVER HOW THE UTERUS KNOWS WHEN TO PUSH DURING CHILDBIRTH
+  source: ScienceDaily Health
+  category: research
+  score: 75
+  
+  id_6: NEW_SUGAR
+  title: THIS NEW SUGAR TASTES LIKE THE REAL THING WITHOUT THE USUAL DOWNSIDES
+  source: ScienceDaily Health
+  category: research
+  score: 65
