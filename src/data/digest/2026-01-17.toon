@@ -1,0 +1,94 @@
+digest:
+  date: 2026-01-17
+  generated_at: 2026-01-17T13:35:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  Today's radiology news highlights advancements in AI for disease detection, continued concerns around medication safety in dementia care, and business developments within the radiology industry.  Several research articles explore biological mechanisms relevant to clinical practice, offering potential insights for improved patient care and understanding.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: "This AI spots dangerous blood cells doctors often miss"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260112214317.htm
+  Category: research
+  Importance: 95
+  ai_summary: "A generative AI system demonstrates superior accuracy in identifying subtle abnormalities in blood cells indicative of diseases like leukemia, offering significant support for clinicians."
+  Title: "AdventHealth Murray earns American College of Radiology accreditation"
+  Source: AdventHealth
+  URL: https://news.google.com/rss/articles/CBMiogFBVV95cUxPNkJZUVJSRkYyeEhta2FjOHVlRHBxSVh4ODkwOU9VRTI0aWZTV1hRYkt6ay1XVFdaWWpyOFhXdWs5bWNiWGhUQ0JzdnVaTlRVaXZsNGQ1OTNOSGVUOWRsbFBYZTlFRkw5ZktUajFVaHNFMVJFSFhoV1VjUnlWNk52aVRpeV80VTV6V3hnbjlDa2hBZzREUlIxMkVwZ0x2Z3FtVlE?oc=5"
+  Category: news
+  Importance: 90
+  ai_summary: "AdventHealth Murray's American College of Radiology accreditation underscores its commitment to high standards of medical imaging quality and patient care, a key indicator for patient trust and referral patterns."
+  Title: "Millions with dementia still prescribed drugs linked to falls and confusion"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260113220915.htm
+  Category: research
+  Importance: 85
+  ai_summary: "Despite guidelines, many dementia patients remain on medications increasing fall and confusion risk, highlighting a critical need for medication safety reviews and alternative management strategies."
+  Title: "SOLIS MAMMOGRAPHY ACQUIRES WOMEN'S CENTER FOR RADIOLOGY"
+  Source: PR Newswire
+  URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxQQkVBSzhIM293SmQ4SW81cXhNM3ZNdW00RGFlNjN4RGFNNTU0RTlJNUpfWkRvRlc0dE1OVUpxOENvLThtQ0c4TmpHMVhVOE9kS0FBVXhNRFJEYzFNUUdBdE5lSmNZb3FRVEllUDRMX2RfRFI4MnZ1ZEJiZkgtWTNydWVQM09pcUhnekVGbW9fOUZhRXhqel85WUdpMHIwRWpEYkRzZmpHRmxfa2lKTm9V?oc=5"
+  Category: news
+  Importance: 80
+  ai_summary: "Solis Mammography's acquisition of Women's Center for Radiology signifies consolidation within the radiology market, potentially impacting referral patterns and competitive dynamics in the region."
+  Title: "Radiology business leaders’ top lobbying priorities in..."
+  Source: Google News Radiology
+  URL: [No URL provided in the input]
+  Category: news
+  Importance: 75
+  ai_summary: "Radiology business leaders are actively engaged in lobbying efforts, indicating policy changes could influence practice, reimbursement, and the overall radiology landscape."
+  Title: "Scientists discover how the uterus knows when to push during childbirth"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260112214313.htm
+  Category: research
+  Importance: 70
+  ai_summary: "Research into the biological mechanisms of labor contractions provides valuable insights for understanding and potentially managing childbirth complications, a topic relevant to obstetric imaging."
+  Title: "This new sugar tastes like the real thing without the usual downsides"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260112214302.htm
+  Category: research
+  Importance: 65
+  ai_summary: "The development of tagatose as a sugar alternative could have broader implications for patient health, particularly those with diabetes or metabolic disorders, potentially influencing dietary recommendations."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: "400 employees at Radiology Regional in SWFL have new boss after sale"
+  Title: "400 employees at Radiology Regional in SWFL have new boss after sale"
+  Source: "Google News Radiology"
+  Category: "news"
+  relevance_score: 30
+  id_2: "AdventHealth Murray earns American College of Radiology accreditation"
+  Title: "AdventHealth Murray earns American College of Radiology accreditation"
+  Source: "Google News Radiology"
+  Category: "news"
+  relevance_score: 40
+  id_3: "SOLIS MAMMOGRAPHY ACQUIRES WOMEN'S CENTER FOR RADIOLOGY"
+  Title: "SOLIS MAMMOGRAPHY ACQUIRES WOMEN'S CENTER FOR RADIOLOGY"
+  Source: "Google News Radiology"
+  Category: "news"
+  relevance_score: 45
+  id_4: "Radiology business leaders’ top lobbying priorities in..."
+  Title: "Radiology business leaders’ top lobbying priorities in..."
+  Source: "Google News Radiology"
+  Category: "news"
+  relevance_score: 50
+  id_5: "Millions with dementia still prescribed drugs linked to falls and confusion"
+  Title: "Millions with dementia still prescribed drugs linked to falls and confusion"
+  Source: "ScienceDaily Health"
+  Category: "research"
+  relevance_score: 70
+  id_6: "This AI spots dangerous blood cells doctors often miss"
+  Title: "This AI spots dangerous blood cells doctors often miss"
+  Source: "ScienceDaily Health"
+  Category: "research"
+  relevance_score: 85
+  id_7: "Scientists discover how the uterus knows when to push during childbirth"
+  Title: "Scientists discover how the uterus knows when to push during childbirth"
+  Source: "ScienceDaily Health"
+  Category: "research"
+  relevance_score: 60
+  id_8: "This new sugar tastes like the real thing without the usual downsides"
+  Title: "This new sugar tastes like the real thing without the usual downsides"
+  Source: "ScienceDaily Health"
+  Category: "research"
+  relevance_score: 55
