@@ -1,0 +1,59 @@
+digest:
+  date: 2026-01-18
+  generated_at: 2026-01-18T10:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  This daily radiology news briefing highlights recent advancements and important updates relevant to senior residents. Key topics include emerging research on metabolic health and diabetes, potential risks associated with seemingly safer alternatives, and insights into chronic conditions like heart health. 
+  Several articles address new discoveries with implications for clinical practice and patient management, offering valuable content for board preparation and staying current in the field.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Spikes in blood sugar after eating may be more dangerous for the brain than previously thought.
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260114084134.htm
+  category: research
+  importance: 95
+  ai_summary: "A massive genetic study reveals a higher risk of Alzheimer’s disease in individuals with elevated post-meal blood sugar, suggesting hidden biological pathways are involved."
+  Title: Northwestern Medicine’s new antibody wakes the immune system against pancreatic cancer
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260114084129.htm
+  category: research
+  importance: 90
+  ai_summary: "Researchers developed an antibody that targets a protective signal on pancreatic cancer cells, leading to immune system activation and slowed tumor growth in animal models."
+  Title: Scientists uncover a hidden type of diabetes in newborns
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260114084125.htm
+  category: research
+  importance: 85
+  ai_summary: "A newly discovered rare diabetes in newborns is caused by a single gene mutation affecting insulin production, often presenting with neurological complications."
+  Title: Scientists finally uncover why statins cause muscle pain
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260114084122.htm
+  category: research
+  importance: 80
+  ai_summary: "Research indicates that statins can cause muscle pain by triggering a calcium leak within muscle cells, providing a biological explanation for a common side effect."
+  Title: Scientists question the safety of BPA-free packaging
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260114084134.htm
+  category: research
+  importance: 75
+  ai_summary: "A McGill University study suggests that BPA substitutes in food packaging may pose health risks by interfering with ovarian cell function and potentially having similar effects to BPA."
+  Title: Radiology Associates of North Texas inks $29M enterprise agreement with Verity Health
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxQQkVBSzhIM293SmQ4SW81cXhNM3ZNdW00RGFlNjN4RGFNNTU0RTlJNUpfWkRvRlc0dE1OVUpxOENvLThtQ0c4TmpHMVhVOE9kS0FBVXhNRFJEYzFNUUdBdE5lSmNZb3FRVEllUDRMX2RfRFI4MnZ1ZEJiZkgtWTNydWVQM09pcUhnekVGbW9fOUZhRXhqel85WUdpMHIwRWpEYkRzZmpHRmxfa2lKTm9V?oc=5
+  category: news
+  importance: 70
+  ai_summary: "Radiology Associates of North Texas has entered into a significant $29 million enterprise agreement with Verity Health, outlining the terms of their collaboration."
+  Title: AdventHealth Murray earns American College of Radiology accreditation
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMiogFBVV95cUxPNkJZUVJSRkYyeEhta2FjOHVlRHBxSVh4ODkwOU9VRTI0aWZTV1hRYkt6ay1XVFdaWWpyOFhXdWs5bWNiWGhUQ0JzdnVaTlRVaXZsNGQ1OTNOSGVUOWRsbFBYZTlFRkw5ZktUajFVaHNFMVJFSFhoV1VjUnlWNk52aVRpeV80VTV6V3hnbjlDa2hBZzREUlIxMkVwZ0x2Z3FtVlE?oc=5
+  category: news
+  importance: 65
+  ai_summary: "AdventHealth Murray has achieved American College of Radiology accreditation, signifying its commitment to high-quality imaging services and patient care."
+  Title: SOLIS MAMMOGRAPHY ACQUIRES WOMEN'S CENTER FOR RADIOLOGY
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxQQkVBSzhIM293SmQ4SW81cXhNM3ZNdW00RGFlNjN4RGFNNTU0RTlJNUpfWkRvRlc0dE1OVUpxOENvLThtQ0c4TmpHMVhVOE9kS0FBVXhNRFJEYzFNUUdBdE5lSmNZb3FRVEllUDRMX2RfRFI4MnZ1ZEJiZkgtWTNydWVQM09pcUhnekVGbW9fOUZhRXhqel85WUdpMHIwRWpEYkRzZmpHRmxfa2lKTm9V?oc=5
+  category: news
+  importance: 60
+  ai_summary: "SOLIS Mammography has acquired Women's Center for Radiology, expanding its network and offerings in women's health imaging services."
