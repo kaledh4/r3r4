@@ -177,3 +177,12 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,research,medium,"What is the newly discovered rare type of diabetes in newborns, and what complications are often associated with it?","This diabetes is caused by a single gene mutation affecting insulin production and often presents with neurological complications.",ScienceDaily Health,newborn diabetes;genetics;neurological complications
   card_004,research,medium,"The ScienceDaily Health article highlights a study questioning the safety of what common food packaging component?","Bisphenol A (BPA) and its substitutes.",ScienceDaily Health,BPA;packaging;health risks;endocrine disruptors
   card_005,news,easy,"What significant financial agreement has Radiology Associates of North Texas recently established?","A $29 million enterprise agreement with Verity Health.",Google News Radiology,hospital administration;clinical partnerships;enterprise agreement
+
+# Added on 2026-01-19
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,research,medium,"What is the reported threshold for video gaming hours linked to poorer health outcomes in young people, according to recent research?","Over 10 hours per week is associated with worse diets, weight, and sleep.",ScienceDaily Health,"gaming;health;lifestyle"
+  card_002,research,medium,"A recent UK study suggests a potential benefit of statin use in individuals with type 2 diabetes. What is the primary finding of this study regarding cardiovascular events?","Statin use was linked to fewer deaths and cardiac events across all risk levels of type 2 diabetes.",ScienceDaily Health,"diabetes;statin;cardiovascular"
+  card_003,research,hard,"Which amino acid is highlighted in a recent study for its potential dual role in brain health, where it can be both beneficial and harmful depending on age and disease state?","Tryptophan.",ScienceDaily Health,"brain chemistry;neurology;ageing"
+  card_004,research,medium,"According to a study discussed in the news digest, what role does a byproduct of Vitamin A play in the context of cancer?","It disarms the immune system, allowing tumors to evade attack.",ScienceDaily Health,"vitamin A;cancer;immune evasion"
+  card_005,research,medium,"What specific post-meal metabolic event is being investigated for its potential link to an increased risk of Alzheimer's disease, even in the absence of visible brain damage?","High post-meal blood sugar spikes.",ScienceDaily Health,"alzheimer's;diabetes;metabolic"

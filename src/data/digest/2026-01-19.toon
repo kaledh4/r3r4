@@ -1,0 +1,68 @@
+digest:
+  date: 2026-01-19
+  generated_at: 2026-01-19T09:35:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  Today's radiology news highlights significant advancements in research linking lifestyle factors like gaming and diet to health outcomes, alongside updates on medical practice and administrative news. Several articles point towards potential modifiable risk factors for chronic diseases like diabetes and Alzheimer's, influencing future clinical approaches.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Researchers found a tipping point for video gaming and health
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260116035311.htm
+  category: research
+  importance: 95
+  ai_summary: "Moderate gaming is harmless, but over 10 hours/week links to worse diets, weight, and sleep, suggesting balance is key for young people's health."
+  Title: Statins may help almost everyone with type 2 diabetes live longer
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260115022812.htm
+  category: research
+  importance: 90
+  ai_summary: "A UK study found statin use linked to fewer deaths and cardiac events in all risk levels of type 2 diabetes, challenging previous assumptions about who should receive preventive therapy."
+  Title: One protein may decide whether brain chemistry heals or harms
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260115022811.htm
+  category: research
+  importance: 85
+  ai_summary: "Tryptophan, crucial for brain chemistry, can become harmful in aging or neurological disease, potentially leading to memory loss, mood changes, and sleep problems."
+  Title: Vitamin A may be helping cancer hide from the immune system
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260115022808.htm
+  category: research
+  importance: 80
+  ai_summary: "A vitamin A byproduct disarms the immune system, allowing tumors to evade attack. A new drug targeting this pathway shows promise in boosting immune responses and slowing cancer growth."
+  Title: This after-meal blood sugar spike may raise Alzheimer’s risk
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260115022756.htm
+  category: research
+  importance: 75
+  ai_summary: "High post-meal blood sugar is linked to a greater risk of Alzheimer's disease, even without visible brain damage, suggesting management of this spike could be a key strategy for reducing dementia risk."
+  Title: SOLIS MAMMOGRAPHY ACQUIRES WOMEN'S CENTER FOR RADIOLOGY
+  Source: PR Newswire
+  URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxQQkVBSzhIM293SmQ4SW81cXhNM3ZNdW00RGFlNjN4RGFNNTU0RTlJNUpfWkRvRlc0dE1OVUpxOENvLThtQ0c4TmpHMVhVOE9kS0FBVXhNRFJEYzFNUUdBdE5lSmNZb3FRVEllUDRMX2RfRFI4MnZ1ZEJiZkgtWTNydWVQM09pcUhnekVGbW9fOUZhRXhqel85WUdpMHIwRWpEYkRzZmpHRmxfa2lKTm9V?oc=5
+  category: news
+  importance: 65
+  ai_summary: "SOLIS Mammography has acquired Women's Center for Radiology, expanding its reach and services in the field of breast imaging."
+  Title: AdventHealth Murray earns American College of Radiology accreditation
+  Source: AdventHealth
+  URL: https://news.google.com/rss/articles/CBMiogFBVV95cUxPNkJZUVJSRkYyeEhta2FjOHVlRHBxSVh4ODkwOU9VRTI0aWZTV1hRYkt6ay1XVFdaWWpyOFhXdWs5bWNiWGhUQ0JzdnVaTlRVaXZsNGQ1OTNOSGVUOWRsbFBYZTlFRkw5ZktUajFVaHNFMVJFSFhoV1VjUnlWNk52aVRpeV80VTV6V3hnbjlDa2hBZzREUlIxMkVwZ0x2Z3FtVlE?oc=5
+  category: news
+  importance: 60
+  ai_summary: "AdventHealth Murray has achieved American College of Radiology accreditation, signifying a commitment to high-quality imaging and patient care."
+  Title: Radiology Associates of North Texas inks $29M enterpri...ins.
+  Source: Google News Radiology
+  URL: [URL missing from input]
+  category: news
+  importance: 55
+  ai_summary: "Radiology Associates of North Texas has entered into a $29 million enterprise agreement, likely impacting the financial landscape of radiology practices."
+articles[]{id,title,source,category,relevance_score}:
+  id_1: Researchers found a tipping point for video gaming and health, 95
+  id_2: Statins may help almost everyone with type 2 diabetes live longer, 90
+  id_3: One protein may decide whether brain chemistry heals or harms, 85
+  id_4: Vitamin A may be helping cancer hide from the immune system, 80
+  id_5: This after-meal blood sugar spike may raise Alzheimer’s risk, 75
+  id_6: SOLIS MAMMOGRAPHY ACQUIRES WOMEN'S CENTER FOR RADIOLOGY, 65
+  id_7: AdventHealth Murray earns American College of Radiology accreditation, 60
+  id_8: Radiology Associates of North Texas inks $29M enterpri...ins., 55
+}
