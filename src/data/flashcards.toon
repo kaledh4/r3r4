@@ -186,3 +186,12 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,research,hard,"Which amino acid is highlighted in a recent study for its potential dual role in brain health, where it can be both beneficial and harmful depending on age and disease state?","Tryptophan.",ScienceDaily Health,"brain chemistry;neurology;ageing"
   card_004,research,medium,"According to a study discussed in the news digest, what role does a byproduct of Vitamin A play in the context of cancer?","It disarms the immune system, allowing tumors to evade attack.",ScienceDaily Health,"vitamin A;cancer;immune evasion"
   card_005,research,medium,"What specific post-meal metabolic event is being investigated for its potential link to an increased risk of Alzheimer's disease, even in the absence of visible brain damage?","High post-meal blood sugar spikes.",ScienceDaily Health,"alzheimer's;diabetes;metabolic"
+
+# Added on 2026-01-20
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,neuro,hard,"What is the newly identified key trigger of tau protein accumulation implicated in Alzheimer's disease?","OTULIN, an immune-regulating enzyme, is now recognized as a primary driver of tau buildup in the brain.","ScienceDaily Health",neuro;Alzheimer's;pathology;OTULIN
+  card_002,ir,medium,"What are the primary lobbying priorities of radiology business leaders in 2026, according to the news digest?","Their efforts are focused on issues impacting the financial and operational landscape of radiology practices.","Radiology Business",ir;lobbying;radiology economics;healthcare policy
+  card_003,msk,medium,"According to a long-term study, at what approximate age do physical fitness and strength typically begin to decline?","Around age 35, although later-in-life exercise can still significantly improve physical capacity.","ScienceDaily Health",msk;fitness;aging;strength;exercise
+  card_004,abdomen,medium,"Which new primary care approach, focused on patient-requested weight management, showed success in halting population weight gain in a large-scale trial?","PATHWEIGH, a weight management approach, successfully halted population weight gain.","ScienceDaily Health",abdomen;weight management;PATHWEIGH;primary care;public health
+  card_005,neuro,medium,"What is the association identified between heavy video gaming and health outcomes in young people?","Heavy video gaming (over 10 hours/week) is associated with poorer health outcomes.","ScienceDaily Health",neuro;video games;health outcomes;screen time;pediatrics

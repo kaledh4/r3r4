@@ -1,0 +1,94 @@
+digest:
+  date: 2026-01-20
+  generated_at: 2026-01-20T14:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  Today's radiology news highlights advancements in AI for Alzheimer's, ongoing business lobbying efforts within the radiology field, and research on the long-term effects of fitness and lifestyle choices. Several articles also cover emerging health trends and the potential of natural food sources.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: "Scientists identify OTULIN as a key trigger of tau buildup in Alzheimer's"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260116035348.htm
+  Category: neuro
+  Importance: 95
+  ai_summary: "Researchers pinpointed OTULIN, an immune-regulating enzyme, as a primary driver of tau protein accumulation in the brain, offering a novel therapeutic target for Alzheimer's disease."
+  Title: "Radiology business leaders’ top lobbying priorities in 2026"
+  Source: Radiology Business
+  URL: https://news.google.com/rss/articles/CBMizAFBVV95cUxQNTROd0VaMWdLblVBNDlsMS1i...ily.com/releases/2026/01/260116035348.htm
+  Category: ir
+  Importance: 90
+  ai_summary: "Radiology industry leaders are prioritizing lobbying efforts in 2026, focusing on issues impacting the financial and operational landscape of radiology practices."
+  Title: "Building Radiology Excellence in Indonesia"
+  Source: Radiological Society of North America | RSNA
+  URL: https://news.google.com/rss/articles/CBMicEFVX3lxTE5EczdOSk1xVnRQMk9XX3l6WGthNlQ0UDhWWHNoNndsSUdYUWJIRm1Gcm9ack5WRGNIek5IMHZ4aElLanl5T29Ic1dOcnduQXFBdmUwWHdyQlRGWHpIUE1WeE1YU29YR3JhRVJDMnBBeGY?oc=5
+  Category: news
+  Importance: 85
+  ai_summary: "The RSNA highlights initiatives aimed at bolstering radiology capabilities within Indonesia, emphasizing global efforts to advance medical imaging and diagnostic services."
+  Title: "A 47-year study reveals when fitness and strength start to fade"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260116035336.htm
+  Category: msk
+  Importance: 80
+  ai_summary: "A long-term study reveals that physical fitness and strength typically begin to decline around age 35, although later-in-life exercise can still significantly improve physical capacity."
+  Title: "An endocrinologist tried a new weight loss approach and it worked"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260116035317.htm
+  Category: abdomen
+  Importance: 75
+  ai_summary: "A new primary care approach called PATHWEIGH, which focuses on patient-requested weight management, successfully halted population weight gain in a large-scale trial."
+  Title: "Scientists are rethinking bamboo as a powerful new superfood"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260116035313.htm
+  Category: abdomen
+  Importance: 70
+  ai_summary: "A review of research suggests bamboo shoots possess significant health benefits, including blood sugar control, heart and gut health support, and anti-inflammatory properties."
+  Title: "Researchers found a tipping point for video gaming and health"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260116035311.htm
+  Category: neuro
+  Importance: 65
+  ai_summary: "Heavy video gaming (over 10 hours/week) is associated with poorer health outcomes in young people, highlighting the importance of balancing screen time with other activities."
+
+articles[]{id,title,source,category,score}:
+  id_1: "AdventHealth Murray earns American College of Radiology accreditation"
+  title: "AdventHealth Murray earns American College of Radiology accreditation"
+  source: "Google News Radiology"
+  category: "news"
+  score: 40
+  id_2: "SOLIS MAMMOGRAPHY ACQUIRES WOMEN'S CENTER FOR RADIOLOGY"
+  title: "SOLIS MAMMOGRAPHY ACQUIRES WOMEN'S CENTER FOR RADIOLOGY"
+  source: "Google News Radiology"
+  category: "news"
+  score: 35
+  id_3: "Building Radiology Excellence in Indonesia"
+  title: "Building Radiology Excellence in Indonesia"
+  source: "Google News Radiology"
+  category: "news"
+  score: 30
+  id_4: "Researchers have identified OTULIN, an immune-regulating enzyme, as a key trigger of tau buildup in the brain."
+  title: "Researchers have identified OTULIN, an immune-regulating enzyme, as a key trigger of tau buildup in the brain."
+  source: "ScienceDaily Health"
+  category: "research"
+  score: 25
+  id_5: "A 47-year study reveals when fitness and strength start to fade"
+  title: "A 47-year study reveals when fitness and strength start to fade"
+  source: "ScienceDaily Health"
+  category: "research"
+  score: 20
+  id_6: "A simple change in how primary care clinics approach weight management is delivering big public health wins."
+  title: "A simple change in how primary care clinics approach weight management is delivering big public health wins."
+  source: "ScienceDaily Health"
+  category: "research"
+  score: 15
+  id_7: "Scientists are rethinking bamboo as a powerful new superfood"
+  title: "Scientists are rethinking bamboo as a powerful new superfood"
+  source: "ScienceDaily Health"
+  category: "research"
+  score: 10
+  id_8: "Researchers found a tipping point for video gaming and health"
+  title: "Researchers found a tipping point for video gaming and health"
+  source: "ScienceDaily Health"
+  category: "research"
+  score: 5
