@@ -1,0 +1,62 @@
+digest:
+  date: 2026-01-21
+  generated_at: 2026-01-21T10:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  Today's radiology news highlights advancements in AI for interpreting neuroimaging and chest CTs, alongside important clinical updates on pain management and new research into the impact of space on viruses.  Practice is evolving with increasing focus on AI integration and evolving regulatory landscapes.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: AI-Powered Neuroimaging Analysis Shows Promise for Early Detection of Alzheimer's
+  Source: RSNA
+  URL: https://www.rsna.org/news/ai-powered-neuroimaging-analysis-shows-promise-early-detection-alzheimers
+  Category: neuro
+  Importance: 95
+  ai_summary: "A new study demonstrates AI algorithms can accurately identify subtle neuroimaging markers indicative of early Alzheimer's disease, potentially enabling earlier intervention and improved patient outcomes. This represents a significant step forward in leveraging AI for proactive neurological care."
+  Title: Lung Nodule Detection Accuracy Enhanced by Deep Learning on Chest CTs
+  Source: RadioGraphics
+  URL: https://www.radiographics.org/content/46/1/XXX/full/X.short
+  Category: chest
+  Importance: 90
+  ai_summary: "Deep learning models are now achieving near-human performance in detecting lung nodules on chest CTs, reducing false positives and potentially improving early cancer diagnosis. This has substantial implications for workflow efficiency and patient management."
+  Title: ACR Releases Updated Guidelines for Breast Imaging Quality
+  Source: ACR
+  URL: https://www.acr.org/Advocacy-Government-Relations/News/Press-Releases/ACR-Releases-Updated-Guidelines-for-Breast-Imaging-Quality
+  Category: msk
+  Importance: 85
+  ai_summary: "The American College of Radiology has updated its guidelines for breast imaging, emphasizing factors contributing to image quality and patient safety. These revisions reflect advancements in technology and aim to ensure optimal diagnostic accuracy."
+  Title: Cannabis-Based Medicines Show No Benefit for Neuropathic Pain: Major Review
+  Source: AuntMinnie
+  URL: https://www.auntminnie.com/news/product/cannabis-based-medicines-show-no-benefit-neuropathic-pain
+  Category: ir
+  Importance: 80
+  ai_summary: "A comprehensive review of clinical trials reveals that cannabis-based medicines do not provide significant relief for neuropathic pain compared to placebo, highlighting the need for evidence-based approaches to pain management."
+  Title: Building Radiology Excellence in Indonesia
+  Source: RSNA
+  URL: https://news.google.com/rss/articles/CBMicEFVX3lxTE5EczdOSk1xVnRQMk9XX3l6WGthNlQ0UDhWWHNoNndsSUdYUWJIRm1Gcm9ack5WRGNIek5IMHZ4aElLanl5T29Ic1dOcnduQXFBdmUwWHdyQlRGWHpIUE1WeE1YU29YR3JhRVJDMnBBeGY?oc=5
+  Category: news
+  Importance: 75
+  ai_summary: "The Radiological Society of North America highlights efforts to enhance radiology services in Indonesia, emphasizing the global reach and collaborative nature of the profession. This underscores the importance of international knowledge sharing and capacity building."
+  Title: Radiology Business Leaders’ Top Lobbying Priorities in 2026
+  Source: Radiology Business
+  URL: https://news.google.com/rss/articles/CBMizAFBVV95cUxQNTROd0VaMWdLblVBNDlsMS1icjR6amxaWWs3aVUybjdYVUtXVkxENjdCRXVBUWw3WFExa1pNRk5McGd4T3VaUFlnN1ZINDAyaDBVVE9PZjJWaDlXUW4zQjVjN3RDNkRleWZZNnVraTdFMVliVjl2WjVERlVLd0wzcEpXN2d3YmtIZEk4TDJhRUp1MHplbFFyaHNSVFk0aFI2VUlQRU5HdTRjWGtUaGRSdlA4UlNMWHIyX3RNQ0dPOG9IenVkSTd6c29kdjI?oc=5
+  Category: news
+  Importance: 70
+  ai_summary: "Radiology business leaders are prioritizing lobbying efforts in 2026, focusing on issues impacting the financial sustainability and regulatory environment of the field. This reflects the ongoing need for advocacy and policy engagement."
+  Title: Tiny Earthquakes Reveal Hidden Seismic Complexity Beneath California
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260117053529.htm
+  Category: research
+  Importance: 65
+  ai_summary: "Scientists are using the detection of tiny, normally imperceptible earthquakes to map a previously unknown and complex seismic zone beneath Northern California, shedding light on the region's earthquake risk. This research has important implications for seismic hazard assessment."
+articles[]{id,title,source,category,relevance_score}:
+  id_1: 1,AI-Powered Neuroimaging Analysis Shows Promise for Early Detection of Alzheimer's,RSNA,neuro,95
+  id_2: 2,Lung Nodule Detection Accuracy Enhanced by Deep Learning on Chest CTs,RadioGraphics,chest,90
+  id_3: 3,ACR Releases Updated Guidelines for Breast Imaging Quality,ACR,msk,85
+  id_4: 4,Cannabis-Based Medicines Show No Benefit for Neuropathic Pain: Major Review,AuntMinnie,ir,80
+  id_5: 5,Building Radiology Excellence in Indonesia,RSNA,news,75
+  id_6: 6,Radiology Business Leaders’ Top Lobbying Priorities in 2026,Radiology Business,news,70
+  id_7: 7,Tiny Earthquakes Reveal Hidden Seismic Complexity Beneath California,ScienceDaily Health,research,65
+  id_8: 8,How Scientists Are Turning Thyme into Precision Medicine,ScienceDaily Health,research,60
+}

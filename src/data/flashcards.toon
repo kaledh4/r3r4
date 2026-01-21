@@ -195,3 +195,12 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,msk,medium,"According to a long-term study, at what approximate age do physical fitness and strength typically begin to decline?","Around age 35, although later-in-life exercise can still significantly improve physical capacity.","ScienceDaily Health",msk;fitness;aging;strength;exercise
   card_004,abdomen,medium,"Which new primary care approach, focused on patient-requested weight management, showed success in halting population weight gain in a large-scale trial?","PATHWEIGH, a weight management approach, successfully halted population weight gain.","ScienceDaily Health",abdomen;weight management;PATHWEIGH;primary care;public health
   card_005,neuro,medium,"What is the association identified between heavy video gaming and health outcomes in young people?","Heavy video gaming (over 10 hours/week) is associated with poorer health outcomes.","ScienceDaily Health",neuro;video games;health outcomes;screen time;pediatrics
+
+# Added on 2026-01-21
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,neuro,hard,"What is the primary advantage of using AI algorithms in early Alzheimer's detection based on neuroimaging?","AI algorithms can accurately identify subtle, early neuroimaging markers that may be missed by human observers, potentially enabling earlier intervention.",RSNA 2026,neuro;AI;Alzheimer's;early detection
+  card_002,chest,medium,"Deep learning models are demonstrating near-human performance in what specific imaging task on chest CTs?","Lung nodule detection.",RadioGraphics,2026,chest;CT;deep learning;lung nodules
+  card_003,msk,medium,"What organization recently updated its guidelines focused on improving breast imaging quality?","The American College of Radiology (ACR).",ACR,2026,msk;breast imaging;guidelines;quality
+  card_004,ir,medium,"A comprehensive review of clinical trials regarding cannabis-based medicines for a specific pain condition revealed what key finding?","They showed no significant benefit compared to placebo.",AuntMinnie,2026,ir;cannabis;neuropathic pain;placebo
+  card_005,news,easy,"What is a significant focus of radiology business leaders' lobbying efforts anticipated for 2026?","Issues impacting the financial sustainability and regulatory environment of the radiology field.",Radiology Business,2026,news;lobbying;regulation;business
