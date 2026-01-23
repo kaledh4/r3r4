@@ -1,0 +1,114 @@
+digest:
+  date: 2026-01-23
+  generated_at: 2026-01-23T10:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  Today's radiology news highlights advancements in AI for mammography, staffing challenges in radiology, and promising research into neurological and oncological diseases.  Several articles focus on novel therapeutic approaches and the underlying mechanisms of disease progression, with potential implications for future clinical practice.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Most patients support AI to help read mammograms with doctor oversight:
+  Source: UT Southwestern
+  URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV21BRF81NlhPSVhZSmU2bnJqS2tqbXRmRVN3UzlaUTFuTS04aXh4bTl6cTZKRDNJekZHQ2ZCVjM1WFBVQjc2dmdNZmpaaXVrdEJUSVhqM3BURUdvNU90LTVGOUlvVG1ncTlhZUJPc1U1VF90YkxTbGNiZnpxaV93Tm5kU0F0VTJ0?oc=5
+  category: news
+  importance: 95
+  ai_summary: "A significant majority of patients are comfortable with artificial intelligence assisting in the interpretation of mammograms, provided a radiologist remains involved in the process."
+  
+  Title: Scientists identify hidden protein interaction driving Parkinson’s disease
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260120095111.htm
+  category: research
+  importance: 90
+  ai_summary: "Researchers have pinpointed a crucial protein interaction contributing to Parkinson's disease progression, opening avenues for targeted therapies."
+  
+  Title: Scientists solve a major roadblock holding back cancer cell therapy
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260120015654.htm
+  category: research
+  importance: 85
+  ai_summary: "A key challenge in cancer cell therapy – the reliable growth of helper T cells – has been overcome, paving the way for more accessible and affordable immunotherapies."
+  
+  Title: Scientists discover why some wounds refuse to heal
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260120015650.htm
+  category: research
+  importance: 80
+  ai_summary: "Scientists have identified that some chronic wounds fail to heal due to bacterial release of damaging molecules, suggesting new targets for treatment."
+  
+  Title: Apprenticeships to help ease shortage of radiologic technologists
+  Source: The Medical University of South Carolina
+  URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQZl94bVk4UDVMX244UVh0OWdBeGQwbDh3NmVBcGFsa2F1Vm1sam1oeVM0QVJtWGFpVWhpQ3MtZTdveU81aTZpOVJZdmV5TVQ0N01ZTXBYMEo2cndZSDBSbl9qR2thM0NvTER5VnNXOEJ6YlpzbnBJRnZuNjVZWjRxSkl5TWNyZE80SU1LLVY5YnZtVEhscmI5eHBKOGlDTzZ5MkM2THc0M0ZkMTRPVnRJdUtxaVY?oc=5
+  category: news
+  importance: 75
+  ai_summary: "To address the ongoing shortage of radiologic technologists, new apprenticeship programs are being implemented to train and support future professionals in the field."
+  
+  Title: Scientists discover a global DNA study reveals a hidden threat in diabetic foot infections
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260120015646.htm
+  category: research
+  importance: 70
+  ai_summary: "A global study of E. coli DNA in diabetic foot infections reveals unexpected diversity and genes linked to antibiotic resistance, complicating treatment efforts."
+  
+  Title: Radiology business leaders urge Congress to replace ‘burdensome’ Medicare payment program
+  Source: Google News Radiology
+  URL: [Missing URL]
+  category: news
+  importance: 65
+  ai_summary: "Radiology business leaders are advocating for a change to the current Medicare payment system, highlighting its complexities and potential barriers to quality care."
+  
+  Title: Umar Mahmood is new chair of Department of Radiology
+  Source: med.stanford.edu
+  URL: https://news.google.com/rss/articles/CBAjAFBVV95cUxPMVFaWnN6VVdJUW9wVExpU1k3YmoxNGdiV3dvbTRCdHdTSHd3VnFFTzl0VmtVY2FISDhzRkNHdWkwLUpaQndSLVdIZExEbTVsb3pGbi1RUXlBRUdka3Y5OHFNM0UyZHJ4YlpHd182RE9wOGdkbXFvZFhUOFRSd01kdmtGaTQ3UW1fejVsaQ?oc=5
+  category: news
+  importance: 60
+  ai_summary: "Umar Mahmood has been appointed as the new chair of the Department of Radiology at Stanford University."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: "1"
+  title: "Most patients support AI to help read mammograms with doctor oversight:"
+  source: "UT Southwestern"
+  category: "news"
+  relevance_score: 95
+  
+  id_2: "2"
+  title: "Scientists identify hidden protein interaction driving Parkinson’s disease"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 90
+  
+  id_3: "3"
+  title: "Scientists solve a major roadblock holding back cancer cell therapy"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 85
+  
+  id_4: "4"
+  title: "Scientists discover why some wounds refuse to heal"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 80
+  
+  id_5: "5"
+  title: "Apprenticeships to help ease shortage of radiologic technologists"
+  source: "The Medical University of South Carolina"
+  category: "news"
+  relevance_score: 75
+  
+  id_6: "6"
+  title: "Scientists discover a global DNA study reveals a hidden threat in diabetic foot infections"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 70
+  
+  id_7: "7"
+  title: "Radiology business leaders urge Congress to replace ‘burdensome’ Medicare payment program"
+  source: "Google News Radiology"
+  category: "news"
+  relevance_score: 65
+  
+  id_8: "8"
+  title: "Umar Mahmood is new chair of Department of Radiology"
+  source: "med.stanford.edu"
+  category: "news"
+  relevance_score: 60

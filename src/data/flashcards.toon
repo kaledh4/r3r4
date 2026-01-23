@@ -204,3 +204,12 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,msk,medium,"What organization recently updated its guidelines focused on improving breast imaging quality?","The American College of Radiology (ACR).",ACR,2026,msk;breast imaging;guidelines;quality
   card_004,ir,medium,"A comprehensive review of clinical trials regarding cannabis-based medicines for a specific pain condition revealed what key finding?","They showed no significant benefit compared to placebo.",AuntMinnie,2026,ir;cannabis;neuropathic pain;placebo
   card_005,news,easy,"What is a significant focus of radiology business leaders' lobbying efforts anticipated for 2026?","Issues impacting the financial sustainability and regulatory environment of the radiology field.",Radiology Business,2026,news;lobbying;regulation;business
+
+# Added on 2026-01-23
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,news,medium,"What is the general patient sentiment regarding AI assistance in mammogram interpretation, according to the UT Southwestern article?","A significant majority of patients support AI aiding in mammogram reading, provided a radiologist remains involved.",UT Southwestern,"AI;mammography;patient perspective"
+  card_002,research,hard,"The ScienceDaily article highlights a newly identified protein interaction. Which disease is this interaction associated with?","Parkinson's disease.",ScienceDaily Health,"Parkinson's;protein interaction;pathophysiology"
+  card_003,research,medium,"According to the ScienceDaily article, what was a major challenge hindering cancer cell therapy that has now been overcome?","The reliable growth of helper T cells.",ScienceDaily Health,"cancer cell therapy;helper T cells;immunotherapy"
+  card_004,research,medium,"The ScienceDaily article discusses chronic wounds. What is a key finding regarding the mechanism of failure to heal?","Bacterial release of damaging molecules contributes to chronic wound failure.",ScienceDaily Health,"chronic wounds;infection;wound healing"
+  card_005,news,easy,"What is the primary motivation behind the implementation of apprenticeship programs mentioned in the news digest?","To address the shortage of radiologic technologists.",The Medical University of South Carolina,"radiologic technologists;staffing;apprenticeship"
