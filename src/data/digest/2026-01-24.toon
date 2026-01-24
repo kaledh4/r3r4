@@ -1,0 +1,58 @@
+digest:
+  date: 2026-01-24
+  generated_at: 2026-01-24T15:00:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  Today's top radiology news includes advancements in AI for mammography, a potential shortage of radiologic technologists being addressed through apprenticeships, and exciting research on fungal infections and the brain's plasticity. Additionally, findings link kidney disease to cardiac complications and highlight new strategies for combating antibiotic resistance.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Most patients support AI to help read mammograms with doctor oversight: Newsroom - utsouthwestern.edu
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV21BRF81NlhPSVhZSmU2bnJqS2tqbXRmRVN3UzlaUTFuTS04aXh4bTl6cTZKRDNJekZHQ2ZCVjM1WFBVQjc2dmdNZmpaaXVrdEJUSVhqM3BURUdvNU90LTVGOUlvVG1ncTlhZUJPc1U1VF90YkxTbGNiZnpxaV93Tm5kU0F0VTJ0?oc=5
+  Category: news
+  Importance: 95
+  ai_summary: "A significant majority of patients are comfortable with artificial intelligence assisting in mammogram interpretation, provided a radiologist retains oversight, suggesting a positive trajectory for AI integration in breast cancer screening."
+  
+  Title: Apprenticeships to help ease shortage of radiologic technologists - Medical University of South Carolina
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQZl94bVk4UDVMX244UVh0OWdBeGQwbDh3NmVBcGFsa2F1Vm1sam1oeVM0QVJtWGFpVWhpQ3MtZTdveU81aTZpOVJZdmV5TVQ0N01ZTXBYMEo2cnd...s that a hidden mismatch between two common blood tests could quietly signal serious trouble ahead. When results from creatinine and cystatin C—two markers used to assess kidney health—don’t line up, the risk of kidney failure, heart disease, and even death appears to rise sharply. Researchers found that this gap is especially common among hospitalized and older patients, and that relying on just one test may miss early warning signs."
+  Category: news
+  Importance: 85
+  ai_summary: "The increasing shortage of radiologic technologists is being addressed through the implementation of apprenticeship programs, offering a practical pathway for individuals to enter the field and alleviate workforce pressures."
+  
+  Title: UCSF @ ASPNR 2026 - UCSF Department of Radiology & Biomedical Imaging
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fZXktV3FpTGx2cW9QbHRPclRhNGV4aU9Ea1dIYXlzSjRrSmpfVWM3dlhXTDNQNWhpalZwNDhiRHZ2V09iR3FPaFZhdGxyZHFaVS1abU9wR0Z3bjg?oc=5
+  Category: news
+  Importance: 70
+  ai_summary: "UCSF's participation in ASPNR 2026 highlights ongoing advancements and research being presented within the radiology community, fostering knowledge sharing and collaboration."
+  
+  Title: Umar Mahmood is new chair of Department of Radiology - med.stanford.edu
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMijAFBVV95cUxPMVFaWnN6VVdJUW9wVExpU1k3YmoxNGdiV3dvbTRCdHdTSHd3VnFFTzl0VmtVY2FISDhzRkNHdWkwLUpaQndSLVdIZExEbTVsb3pGbi1RUXlBRUdka3Y5OHFNM0UyZHJ4YlpHd182RE9wOGdkbXFvZFhUOFRSd01kdmtGaTQ3UW1fejVsaQ?oc=5
+  Category: news
+  Importance: 65
+  ai_summary: "The appointment of Umar Mahmood as the new chair of the Department of Radiology at Stanford University signifies leadership changes within a prominent academic institution, potentially influencing research and clinical directions."
+  
+  Title: After 11 years of research, scientists unlock a new weakness in deadly fungi
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260121034134.htm
+  Category: research
+  Importance: 90
+  ai_summary: "Researchers have identified a novel weakness in deadly fungi, offering a potential pathway to revive existing antifungal medications and combat the growing threat of drug-resistant fungal infections."
+  
+  Title: MRI scans show exercise can make the brain look younger
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260121034130.htm
+  Category: research
+  Importance: 80
+  ai_summary: "A study utilizing MRI scans demonstrates that regular aerobic exercise can lead to changes in brain structure, making it appear biologically younger, highlighting the link between physical activity and cognitive health."
+  
+  Title: Finally explained: Why kidney disease is so deadly for the heart
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260120095116.htm
+  Category: research
+  Importance: 75
+  ai_summary: "New research clarifies the mechanism by which chronic kidney disease contributes to heart problems, revealing that damaged kidneys release particles that actively harm the heart, offering potential therapeutic targets."
