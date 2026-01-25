@@ -1,0 +1,107 @@
+digest:
+  date: 2026-01-25
+  generated_at: 2026-01-25T10:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  This daily digest highlights key radiology news, focusing on practice-changing research, AI advancements, and important clinical updates. Several articles address critical aspects of patient care, technological developments, and emerging challenges in the field.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Most patients support AI to help read mammograms with doctor oversight:
+  Source: UT Southwestern
+  URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV21BRF81NlhPSVhZSmU2bnJqS2tqbXRmRVN3UzlaUTFuTS04aXh4bTl6cTZKRDNJekZHQ2ZCVjM1WFBVQjc2dmdNZmpaaXVrdEJUSVhqM3BURUdvNU90LTVGOUlvVG1ncTlhZUJPc1U1VF90YkxTbGNiZnpxaV93Tm5kU0F0VTJ0?oc=5
+  category: ai
+  importance: 95
+  ai_summary: "A survey indicates strong patient acceptance of artificial intelligence assisting in mammogram interpretation, provided a radiologist retains oversight."
+  
+  Title: Addressing Diversity and Resident Attrition in Interventional Radiology: An Interview with M...
+  Source: Google News Radiology
+  URL: [Missing URL]
+  category: ir
+  importance: 85
+  ai_summary: "An interview discusses the critical issue of diversity and resident attrition within the field of Interventional Radiology, highlighting challenges and potential solutions."
+  
+  Title: This new antibody may stop one of the deadliest breast cancers
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260122074030.htm
+  category: oncology
+  importance: 90
+  ai_summary: "A novel antibody shows promise in targeting and destroying chemotherapy-resistant triple-negative breast cancer cells, demonstrating slowed tumor growth and reduced metastasis in early trials."
+
+  Title: A simple blood test mismatch linked to kidney failure and death
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260121034146.htm
+  category: nephrology
+  importance: 80
+  ai_summary: "A study reveals a significant association between discrepancies in creatinine and cystatin C blood tests and an increased risk of kidney failure, heart disease, and mortality."
+
+  Title: This one gene may explain most Alzheimer’s cases
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260122073623.htm
+  category: neurology
+  importance: 92
+  ai_summary: "Research suggests a strong genetic predisposition to Alzheimer's disease, with the APOE gene potentially explaining up to 90% of cases, opening avenues for new therapeutic targets."
+
+  Title: The bottled water everyone trusts may be the riskiest
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260122074031.htm
+  category: public health/research
+  importance: 75
+  ai_summary: "In Guatemala, bottled water from refillable jugs was found to be frequently contaminated, contrasting with the cleaner municipal well water, highlighting potential public health risks."
+
+  Title: Apprenticeships to help ease shortage of radiologic technologists
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQZl94bVk4UDVMX244UVh0OWdBeGQwbDh3NmVBcGFsa2F1Vm1sam1oeVM0QVJtWGFpVWhpQ3MtZTdveU81aTZpOVJZdmV5TVQ0N01ZTXBYMEo2cndZSDBSbl9qR2thM0NvTER5VnNXOEJ6YlpzbnBJRnZuNjVZWjRxSkl5TWNyZE80SU1LLVY5YnZtVEhscmI5eHBKOGlDTzZ5MkM2THc0M0ZkMTRPVnRJdUtxaVY?oc=5
+  category: workforce
+  importance: 60
+  ai_summary: "Efforts are underway, including apprenticeships, to address the growing shortage of radiologic technologists in the US."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: Apprenticeships to help ease shortage of radiologic technologists
+  title: Apprenticeships to help ease shortage of radiologic technologists
+  source: Google News Radiology
+  category: workforce
+  relevance_score: 60
+  
+  id_2: Umar Mahmood is new chair of Department of Radiology
+  title: Umar Mahmood is new chair of Department of Radiology
+  source: Google News Radiology
+  category: administration
+  relevance_score: 40
+  
+  id_3: Most patients support AI to help read mammograms with doctor oversight
+  title: Most patients support AI to help read mammograms with doctor oversight
+  source: UT Southwestern
+  category: ai
+  relevance_score: 95
+  
+  id_4: Addressing Diversity and Resident Attrition in Interventional Radiology: An Interview with M...
+  title: Addressing Diversity and Resident Attrition in Interventional Radiology: An Interview with M...
+  source: Google News Radiology
+  category: ir
+  relevance_score: 85
+  
+  id_5: The bottled water everyone trusts may be the riskiest
+  title: The bottled water everyone trusts may be the riskiest
+  source: ScienceDaily Health
+  category: public health/research
+  relevance_score: 75
+  
+  id_6: This new antibody may stop one of the deadliest breast cancers
+  title: This new antibody may stop one of the deadliest breast cancers
+  source: ScienceDaily Health
+  category: oncology
+  relevance_score: 90
+  
+  id_7: A simple blood test mismatch linked to kidney failure and death
+  title: A simple blood test mismatch linked to kidney failure and death
+  source: ScienceDaily Health
+  category: nephrology
+  relevance_score: 80
+  
+  id_8: This one gene may explain most Alzheimer’s cases
+  title: This one gene may explain most Alzheimer’s cases
+  source: ScienceDaily Health
+  category: neurology
+  relevance_score: 92
