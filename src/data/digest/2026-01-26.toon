@@ -1,0 +1,100 @@
+digest:
+  date: 2026-01-26
+  generated_at: 2026-01-26T17:35:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  Today's radiology news highlights advancements in AI for mammography interpretation, ongoing efforts to address radiologic technologist shortages through apprenticeships, and interesting findings in basic science research with potential implications for neurological and metabolic health. Several articles focus on novel insights into aging, immunity, and even the gut microbiome.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: "Most patients support AI to help read mammograms with doctor oversight: Nec...ceDaily Health"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260122093435.htm
+  Category: research
+  importance: 95
+  ai_summary: "A survey indicates strong patient acceptance of artificial intelligence in mammography reading, provided it's used with physician oversight, suggesting a positive trajectory for AI integration into clinical workflows."
+  Title: "The genetic advantage that helps some people stay sharp for life"
+  Source: ScienceDaily
+  URL: https://www.sciencedaily.com/releases/2026/01/260122093435.htm
+  Category: research
+  importance: 90
+  ai_summary: "Research identifies a genetic predisposition for exceptional cognitive longevity in super-agers, potentially opening avenues for understanding and promoting healthy aging."
+  Title: "James A. Haley Veterans' Hospital"
+  Source: VA.gov
+  URL: https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ0JBWHNoU1g5dE9mRTM2TjFzWE40ZzdzeWdURnZpVm9GT3pNZklCLWlzT2hqcVkzSGo1cW5jYkVlQXlQbVFyc05DTnpIaXN0UzRhQnhOQW5XdXVWb1Jzd1FYTDNjRlFBQS16Ykl3aFctTk5XN0x3dU5EQmtvWlQ2TGxJdThFZw?oc=5"
+  Category: news
+  importance: 85
+  ai_summary: "The news highlights updates and information regarding the James A. Haley Veterans' Hospital, indicating ongoing activity and potentially new programs or developments within the facility."
+  Title: "Apprenticeships to help ease shortage of radiologic technologists - The Medical University of South Carolina"
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQZl94bVk4UDVMX244UVh0OWdBeGQwbDh3NmVBcGFsa2F1Vm1sam1oeVM0QVJtWGFpVWhpQ3MtZTdveU81aTZpOVJZdmV5TVQ0N01ZTXBYMEo2cndZSDBSbl9qR2thM0NvTER5VnNXOEJ6YlpzbnBJRnZuNjVZWjRxSkl5TWNyZE80SU1LLVY5YnZtVEhscmI5eHBKOGlDTzZ5MkM2THc0M0ZkMTRPVnRJdUtxaVY?oc=5"
+  Category: news
+  importance: 80
+  ai_summary: "The article discusses apprenticeship programs aimed at addressing the ongoing shortage of radiologic technologists, a critical issue impacting healthcare delivery."
+  Title: "Why some people get bad colds and others don’t"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260122074702.htm
+  Category: research
+  importance: 75
+  ai_summary: "Research reveals that a rapid antiviral response in nasal cells can prevent common colds, highlighting the importance of the body's innate immune mechanisms in fighting respiratory infections."
+  Title: "A brain glitch may explain why some people hear voices"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260122074033.htm
+  Category: research
+  importance: 70
+  ai_summary: "New findings suggest that auditory hallucinations in schizophrenia may arise from a disruption in the brain's normal processing of inner thoughts, potentially leading to novel therapeutic targets."
+  Title: "A common vitamin could influence bathroom frequency"
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260122074659.htm
+  Category: research
+  importance: 65
+  ai_summary: "A study links genetic variations to bowel movement frequency and surprisingly identifies a strong connection between these traits and vitamin B1 intake, suggesting a potential role for nutrition in gut health."
+articles[]{id,title,source,category,relevance_score}:
+  id_1: "1"
+  title: "Most patients support AI to help read mammograms with doctor oversight: Nec...ceDaily Health"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 95
+  
+  id_2: "2"
+  title: "The genetic advantage that helps some people stay sharp for life"
+  source: "ScienceDaily"
+  category: "research"
+  relevance_score: 90
+  
+  id_3: "3"
+  title: "James A. Haley Veterans' Hospital"
+  source: "VA.gov"
+  category: "news"
+  relevance_score: 85
+  
+  id_4: "4"
+  title: "Apprenticeships to help ease shortage of radiologic technologists - The Medical University of South Carolina"
+  source: "Google News Radiology"
+  category: "news"
+  relevance_score: 80
+  
+  id_5: "5"
+  title: "Why some people get bad colds and others don’t"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 75
+  
+  id_6: "6"
+  title: "A common vitamin could influence bathroom frequency"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 65
+  
+  id_7: "7"
+  title: "A brain glitch may explain why some people hear voices"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 70
+  
+  id_8: "8"
+  title: "The bottled water everyone trusts may be the riskiest"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 60
