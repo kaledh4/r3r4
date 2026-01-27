@@ -1,0 +1,110 @@
+digest:
+  date: 2026-01-27
+  generated_at: 2026-01-27T11:15:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+
+summary:
+  Today's radiology news highlights advancements in interventional radiology diversity, new insights into Alzheimer's and cancer biology, and the impact of systemic diseases like diabetes on vascular health. Several articles discuss potential therapeutic avenues and changes in clinical thinking.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Addressing Diversity and Resident Attrition in Interventional Radiology: An Interv...
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQZl94bVk4UDVMX244UVh0OWdBeGQwbDh3NmVBcGFsa2F1Vm1sam1oeVM0QVJtWGFpVWhpQ3MtZTdveU81aTZpOVJZdmV5TVQ0N01ZTXBYMEo2cndZSDBSbl9qR2thM0NvTER5VnNXOEJ6YlpzbnBJRnZuNjVZWjRxSkl5TWNyZE80SU1LLVY5YnZtVEhscmI5eHBKOGlDTzZ5MkM2THc0M0ZkMTRPVnRJdUtxaVY?oc=5
+  Category: ir
+  Importance: 90
+  ai_summary: "Addressing diversity and resident attrition in interventional radiology is crucial for the field's sustainability and patient care, with potential solutions focusing on mentorship and supportive environments."
+
+  Title: A natural aging molecule may help restore memory in Alzheimer’s
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260124003829.htm
+  Category: research
+  Importance: 88
+  ai_summary: "A natural aging molecule shows promise in restoring memory by improving communication between brain cells, offering a potential, safer therapeutic approach for Alzheimer's."
+
+  Title: Scientists exposed how cancer hides in plain sight
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260124003811.htm
+  Category: research
+  Importance: 86
+  ai_summary: "Researchers discovered that the MYC protein in pancreatic cancer suppresses immune signals, allowing tumors to evade detection, highlighting a novel target for immunotherapy."
+
+  Title: Chemotherapy rewires gut bacteria to block metastasis
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260123225920.htm
+  Category: research
+  Importance: 84
+  ai_summary: "Chemotherapy's effect on the gut microbiome can be leveraged to block metastasis by altering nutrient availability and influencing immune cell production, with promising findings from patient data."
+
+  Title: How type 2 diabetes quietly damages blood vessels
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260122093439.htm
+  Category: msk
+  Importance: 82
+  ai_summary: "Long-term type 2 diabetes leads to gradual damage of blood vessels through red blood cell interference, suggesting early detection of this process might help mitigate cardiovascular risk."
+
+  Title: Apprenticeships to help ease shortage of radiologic technologists
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQZl94bVk4UDVMX244UVh0OWdBeGQwbDh3NmVBcGFsa2F1Vm1sam1oeVM0QVJtWGFpVWhpQ3MtZTdveU81aTZpOVJZdmV5TVQ0N01ZTXBYMEo2cndZSDBSbl9qR2thM0NvTER5VnNXOEJ6YlpzbnBJRnZuNjVZWjRxSkl5TWNyZE80SU1LLVY5YnZtVEhscmI5eHBKOGlDTzZ5MkM2THc0M0ZkMTRPVnRJdUtxaVY?oc=5
+  Category: news
+  Importance: 65
+  ai_summary: "Radiologic technologist shortages are being addressed through apprenticeship programs, a positive step towards ensuring adequate staffing in medical imaging departments."
+
+  Title: James A. Haley Veterans' Hospital | VA Tampa Health Care | Veterans Affairs - VA.gov Home | Veterans Affairs
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ0JBWHNoU1g5dE9mRTM2TjFzWE40ZzdzeWdURnZpVm9GT3pNZklCLWlzT2hqcVkzSGo1cW5jYkVlQXlQbVFyc05DTnpIaXN0UzRhQnhOQW5XdXVWb1Jzd1FYTDNjRlFBQS16Ykl3aFctTk5XN0x3dU5EQmtvWlQ2TGxJdThFZw?oc=5
+  Category: news
+  Importance: 55
+  ai_summary: "This article provides information about the James A. Haley Veterans' Hospital, a resource for healthcare and potentially relevant for residents practicing in VA facilities."
+
+  Title: Umar Mahmood is new chair of Department of Radiology
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMijAFBVV95cUxPMVFaWnN6VVdJUW9wVExpU1k3YmoxNGdiV3dvbTRCdHdTSHd3VnFFTzl0VmtVY2FISDhzRkNHdWkwLUpaQndSLVdIZExEbTVsb3pGbi1RUXlBRUdka3Y5OHFNM0UyZHJ4YlpHd182RE9wOGdkbXFvZFhUOFRSd01kdmtGaTQ3UW1fejVsaQ?oc=5
+  Category: news
+  Importance: 40
+  ai_summary: "Umar Mahmood has been appointed as the new chair of the Department of Radiology at Stanford University, a leadership change within a prominent academic institution."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: Addressing Diversity and Resident Attrition in Interventional Radiology: An Interv...
+  title: Addressing Diversity and Resident Attrition in Interventional Radiology: An Interv...
+  source: Google News Radiology
+  category: ir
+  relevance_score: 95
+  ai_summary: "Addressing diversity and resident attrition in interventional radiology is crucial."
+
+  id_2: A natural aging molecule may help restore memory in Alzheimer’s
+  title: A natural aging molecule may help restore memory in Alzheimer’s
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 92
+  ai_summary: "Natural aging molecule shows promise in restoring memory by improving brain cell communication."
+
+  id_3: Scientists exposed how cancer hides in plain sight
+  title: Scientists exposed how cancer hides in plain sight
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 88
+  ai_summary: "MYC protein in pancreatic cancer suppresses immune signals, enabling tumor evasion."
+
+  id_4: Chemotherapy rewires gut bacteria to block metastasis
+  title: Chemotherapy rewires gut bacteria to block metastasis
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 85
+  ai_summary: "Chemotherapy's gut microbiome effects can be leveraged to block metastasis."
+
+  id_5: How type 2 diabetes quietly damages blood vessels
+  title: How type 2 diabetes quietly damages blood vessels
+  source: ScienceDaily Health
+  category: msk
+  relevance_score: 82
+  ai_summary: "Long-term type 2 diabetes leads to gradual vascular damage via red blood cell interference."
+
+  id_6: Apprenticeships to help ease shortage of radiologic technologists
+  title: Apprenticeships to help ease shortage of radiologic technologists
+  source: Google News Radiology
+  category: news
+  relevance_score: 70
+  ai_summary: "Apprenticeships are being implemented to address the shortage of radiologic technologists."
+
+  id_7: James A. Haley Veterans' Hospital | VA Tampa Health Care | Veterans

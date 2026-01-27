@@ -248,3 +248,16 @@ cards[4]{id,category,difficulty,front,back,source,tags}:
 
 cards[5]{id,category,difficulty,front,back,source,tags}:
   card_005,research,easy,"The digest mentions a link between genetics and bowel movement frequency. What other factor was surprisingly identified as having a strong connection?","Vitamin B1 intake.",ScienceDaily Health,"bowel movement;genetics;vitamin B1"
+
+# Added on 2026-01-27
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,ir,medium,"What is a primary concern regarding resident attrition in Interventional Radiology, as highlighted in recent news?","Lack of diversity and insufficient support systems; potential solutions involve mentorship and supportive environments.",Google News Radiology,"IR;Resident Attrition;Diversity"
+
+  card_002,research,hard,"The study mentioned in ScienceDaily Health regarding Alzheimer's disease points to a potential therapeutic avenue. What specific mechanism does this natural aging molecule appear to target?","Improved communication between brain cells.",ScienceDaily Health,"Alzheimer's;Therapy;Brain Cell Communication"
+
+  card_003,research,medium,"Researchers have identified a mechanism by which pancreatic cancer evades immune detection. Which protein plays a key role in this process?","MYC protein; it suppresses immune signals.",ScienceDaily Health,"Pancreatic Cancer;Immune Evasion;MYC"
+
+  card_004,msk,medium,"What is the proposed mechanism by which chemotherapy's impact on the gut microbiome might be harnessed to combat metastasis?","Altering nutrient availability and influencing immune cell production.",ScienceDaily Health,"Chemotherapy;Gut Microbiome;Metastasis"
+
+  card_005,msk,medium,"According to the news digest, what is the long-term vascular consequence of type 2 diabetes?","Gradual damage of blood vessels due to interference with red blood cell function.",ScienceDaily Health,"Type 2 Diabetes;Vascular Damage;Red Blood Cells"
