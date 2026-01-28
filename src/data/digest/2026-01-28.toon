@@ -1,0 +1,58 @@
+digest:
+  date: 2026-01-28
+  generated_at: 2026-01-28T10:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 7
+  
+summary:
+  Today's radiology news highlights shifts in healthcare staffing, advancements in cancer evolution understanding and brain-computer interfaces, and emerging global health concerns.  Several articles focus on research breakthroughs with potential implications for clinical practice and board exam preparation.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: 40+ radiologists leaving a CT hospital in less than two months. ‘Should be on the radar’: lawmaker
+  Source: courant.com
+  URL: https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ0JBWHNoU1g5dE9mRTM2TjFzWE40ZzdzeWdURnZpVm9GT3pNZklCLWlzT2hqcVkzSGo1cW5jYkVlQXlQbVFyc05DTnpIaXN0UzRhQnhOQW5XdXVWb1Jzd1FYTDNjRlFBQS16Ykl3aFctTk5XN0x3dU5EQmtvWlQ2TGxJdThFZw?oc=5
+  category: news
+  importance: 95
+  ai_summary: "A significant number of radiologists are leaving a CT hospital, prompting concerns from a lawmaker about potential impacts on patient care and healthcare access. This highlights the ongoing radiology workforce challenges."
+  
+  Title: Scientists just cracked the hidden rules of cancer evolution
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260125083344.htm
+  category: research
+  importance: 92
+  ai_summary: "Researchers have identified the hidden rules governing chromosome gains and losses in cancer cells, revealing how tumors evolve and adapt to treatment. This understanding could lead to more targeted therapies."
+  
+  Title: Brain waves could help paralyzed patients move again
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260124073926.htm
+  category: research
+  importance: 90
+  ai_summary: "A brain-computer interface system utilizing EEG signals can potentially translate paralyzed patients' intentions into movement via spinal stimulation, though finer motor control remains a challenge. This demonstrates promising advancements in neurorehabilitation."
+  
+  Title: The hidden health impact of growing up with ADHD traits
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260124073920.htm
+  category: research
+  importance: 88
+  ai_summary: "A long-term study links childhood ADHD traits to an increased risk of multiple physical health problems and disability in midlife, highlighting the far-reaching consequences of neurodevelopmental conditions."
+  
+  Title: Scientists call for urgent action as dangerous amoebas spread globally
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260124003856.htm
+  category: research
+  importance: 85
+  ai_summary: "Free-living amoebae, capable of surviving harsh conditions and harboring dangerous bacteria, are spreading globally, posing a growing public health threat with potential for severe infections."
+  
+  Title: Apprenticeships to help ease shortage of radiologic technologists - The Medical University of South Carolina
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQZl94bVk4UDVMX244UVh0OWdBeGQwbDh3NmVBcGFsa2F1Vm1sam1oeVM0QVJtWGFpVWhpQ3MtZTdveU81aTZpOVJZdmV5TVQ0N01ZTXBYMEo2cndZSDBSbl9qR2thM0NvTER5VnNXOEJ6YlpzbnBJRnZuNjVZWjRxSkl5TWNyZE80SU1LLVY5YnZtVEhscmI5eHBKOGlDTzZ5MkM2THc0M0ZkMTRPVnRJdUtxaVY?oc=5
+  category: news
+  importance: 75
+  ai_summary: "Recognizing a radiologic technologist shortage, The Medical University of South Carolina is implementing apprenticeships to increase the pipeline of skilled professionals in this critical role. This addresses workforce challenges in healthcare."
+  
+  Title: Umar Mahmood is new chair of Department of Radiology - med.stanford.edu
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMijAFBVV95cUxPMVFaWnN6VVdJUW9wVExpU1k3YmoxNGdiV3dvbTRCdHdTSHd3VnFFTzl0VmtVY2FISDhzRkNHdWkwLUpaQndSLVdIZExEbTVsb3pGbi1RUXlBRUdka3Y5OHFNM0UyZHJ4YlpHd182RE9wOGdkbXFvZFhUOFRSd01kdmtGaTQ3UW1fejVsaQ?oc=5
+  category: news
+  importance: 70
+  ai_summary: "Umar Mahmood has been appointed as the new chair of the Department of Radiology at Stanford University. This leadership change may influence the department's future direction and research focus."
