@@ -1,0 +1,75 @@
+digest:
+  date: 2026-01-29
+  generated_at: 2026-01-29T10:35:12Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  This daily radiology news digest highlights key findings in practice, research, and organizational updates. Several articles focus on potential shifts in radiology workforce dynamics, emerging insights into disease mechanisms, and advancements in understanding the complex interplay between lifestyle and neurological health. 
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: 40+ radiologists leaving a CT hospital in less than two months. ‘Should be on the radar’: lawmaker
+  Source: courant.com
+  URL: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdkt2N0tvcnFub1llY05PVEFwdHBJR1g4Uy1hQTZjaDFfSFROUVlmUmRZd1hBdkxxNWdGbmp2M09kSVE3b0xRZHFqNFp5dXJ4TEVYdmNQRlN5RzJLWGliVVd3bUNaa3R5YnFmdmFCdExoNnZ6X0Q5NVNTTmdqZVczM1A3TXV1ZXFDNmtUbXZ1blRkVlBheDRNZlluTWI4UUFicFExRVhyMGJHeGM?oc=5
+  category: news
+  importance: 95
+  ai_summary: "A significant exodus of radiologists from a CT hospital in a short period raises concerns about workforce stability and potential impacts on patient care. This trend highlights a critical issue in radiology staffing across the country."
+  
+  Title: Scientists may have been wrong about what causes asthma
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260127010147.htm
+  category: research
+  importance: 90
+  ai_summary: "New research suggests asthma might not be driven by the previously blamed molecules but by 'pseudo leukotrienes,' offering a potential shift in understanding and treatment approaches. This could lead to novel therapies that target the inflammatory spark rather than just the aftermath."
+  
+  Title: Scientists found a survival switch inside brain cells
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260127010138.htm
+  category: research
+  importance: 85
+  ai_summary: "Researchers have identified a mechanism where sugar metabolism can either promote neuronal collapse or survival, hinting at new therapeutic avenues for neurodegenerative diseases. This finding could allow for interventions to protect vulnerable brain cells."
+  
+  Title: Obesity and high blood pressure may directly cause dementia
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260126231847.htm
+  category: research
+  importance: 80
+  ai_summary: "A genetic study indicates a direct link between obesity, high blood pressure, and dementia, suggesting these conditions damage the brain over time. This challenges the previous understanding of risk and opens doors for preventative strategies."
+  
+  Title: Keto diet weight loss may come with a hidden cost
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260127010144.htm
+  category: research
+  importance: 75
+  ai_summary: "A long-term study reveals that while a keto diet can aid in weight loss, it can also trigger metabolic problems like fatty liver disease and impaired blood sugar control. This suggests potential long-term risks associated with this dietary approach."
+  
+  Title: James A. Haley Veterans' Hospital
+  Source: VA.gov Home | Veterans Affairs
+  URL: https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ0JBWHNoU1g5dE9mRTM2TjFzWE40ZzdzeWdURnZpVm9GT3pNZklCLWlzT2hqcVkzSGo1cW5jYkVlQXlQbVFyc05DTnpIaXN0UzRhQnhOQW5XdXVWb1Jzd1FYTDNjRlFBQS16Ykl3aFctTk5XN0x3dU5EQmtvWlQ2TGxJdThFZw?oc=5
+  category: news
+  importance: 70
+  ai_summary: "This article serves as an organizational update, highlighting a major veterans' hospital within the VA system. While not directly clinical, it's relevant for understanding healthcare system dynamics and potential referral patterns."
+  
+  Title: Scientists discovered a survival switch inside brain cells
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260127010138.htm
+  category: research
+  importance: 65
+  ai_summary: "This article details a fascinating discovery about how brain cells can be protected during injury through internal metabolic mechanisms. This finding has significant implications for understanding and potentially treating neurodegenerative conditions."
+  
+  Title: Radiology practice prepares to ditch hospital partner 3 years before new contr...switch that explains why movement keeps bones strong.
+  Source: Unknown. (Snippet provided, full URL not available)
+  URL: N/A
+  category: news
+  importance: 60
+  ai_summary: "This news indicates a potential shift in radiology practice partnerships, which could impact imaging services and access for patients. Further details are needed to understand the implications of this change."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: "1", Title: "40+ radiologists leaving a CT hospital in less than two months. ‘Should be on the radar’: lawmaker", Source: "courant.com", Category: "news", Relevance_Score: 95
+  id_2: "2", Title: "Scientists may have been wrong about what causes asthma", Source: "ScienceDaily Health", Category: "research", Relevance_Score: 90
+  id_3: "3", Title: "Scientists found a survival switch inside brain cells", Source: "ScienceDaily Health", Category: "research", Relevance_Score: 85
+  id_4: "4", Title: "Obesity and high blood pressure may directly cause dementia", Source: "ScienceDaily Health", Category: "research", Relevance_Score: 80
+  id_5: "5", Title: "Keto diet weight loss may come with a hidden cost", Source: "ScienceDaily Health", Category: "research", Relevance_Score: 75
+  id_6: "6", Title: "James A. Haley Veterans' Hospital", Source: "VA.gov Home | Veterans Affairs", Category: "news", Relevance_Score: 70
+  id_7: "7", Title: "Radiology practice prepares to ditch hospital partner 3 years before new contr...", Source: "Unknown", Category: "news", Relevance_Score: 60
+  id_8: "8", Title: "Scientists found a survival switch inside brain cells", Source: "ScienceDaily Health", Category: "research", Relevance_Score: 65
