@@ -1,0 +1,107 @@
+digest:
+  date: 2026-01-31
+  generated_at: 2026-01-31T10:00:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  This daily digest highlights key radiology news, focusing on practice-changing research and technological advancements. Topics range from evolving hospital partnerships and AI applications to novel cancer therapies and the long-term effects of weight loss drugs, all relevant for senior residents preparing for their careers and board exams.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Radiology practice prepares to ditch hospital partner 3 years before new contract ends
+  Source: Radiology Business
+  URL: https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQVdGOFBDaUpvYnlCMkZUckF6QzRRM2NkR09QM2gzaU8yaVZSRmZpeDJwTWtWVTdWTGctd3pKaDNLcmViRE00YlZ1N0NiVFFodFRiUHdydERPWlJYVGpfaUJoaUl6TEJZcVVEQ1VnVTEzb3A1ZzNhM0h4bXI0eXRiQ1pEWVZuNEowWjNpSEc1YTU0dVRPZUdNOWxPaTJPdjNkRjBWbVF4QTNOejdwVXhNb3VIMVVrbnV0Sk92cGMtanNkYVRtaVhnR2tGb0Y3aXU3cXkxOTRESklqTlpzTGthTk96Rlctb29hRUcxTg?oc=5
+  Category: news
+  Importance: 90
+  ai_summary: "A major radiology practice is ending a partnership with its hospital provider three years ahead of schedule due to contract disagreements, signaling potential shifts in hospital-physician relationships and financial sustainability in the field."
+  
+  Title: Seeing the Unseen: Redefining Radiology for the Next Generation
+  Source: Stanford Medicine
+  URL: https://news.google.com/rss/articles/CBMiugFBVV95cUxNbTRBZFFxekJwUl9JcUFTSWVoSW5NVzJiMVR2REtabGo0UURROFdfZlZwVXU3UkY1UndhZ2FtWTNOZGw3RXdGTFNhSTRvVHl5cUtBcmNVQlJneFp3UjBpQW10UzNxQTllNzRPV09ubDFqb0JtNGxaTUlzSk5GazJkelV5dzBmY2MtdVNBZWVKbTlrbzdwU2pBNmk3WTJwdWtVQldFNEZndFFmVXRvZlNmcXlwYVdidUlzLVE?oc=5
+  Category: news
+  Importance: 85
+  ai_summary: "Stanford Medicine discusses the evolving role of radiology, emphasizing the need for the next generation of radiologists to develop skills beyond image interpretation, including data analysis and collaboration, to meet the demands of advancing technology."
+  
+  Title: Study raises red flags over long-term effectiveness of popular weight loss drugs like Ozempic
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260128075359.htm
+  Category: research
+  Importance: 80
+  ai_summary: "Research indicates that weight regain is common after discontinuing popular weight loss drugs like Ozempic and Mounjaro, suggesting long-term weight management requires a multifaceted approach beyond medication alone, with potential implications for patient counseling."
+  
+  Title: Brain cancer may begin years before doctors can see it
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260128075350.htm
+  Category: research
+  Importance: 75
+  ai_summary: "Scientists have discovered that IDH-mutant glioma, a common young adult brain tumor, may originate years before it becomes detectable on imaging, highlighting the need for further research into early detection biomarkers."
+  
+  Title: A 20-year-old cancer vaccine may hold the key to long-term survival
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260128075345.htm
+  Category: research
+  Importance: 70
+  ai_summary: "A long-term follow-up of a breast cancer vaccine trial shows remarkable survival rates in participants with metastatic disease, suggesting that cancer vaccines can induce durable immune memory and hold promise for future cancer treatments."
+  
+  Title: A Trojan horse cancer therapy shows stunning results
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260128075332.htm
+  Category: research
+  Importance: 65
+  ai_summary: "Researchers at Mount Sinai have developed an immunotherapy targeting macrophages to disrupt the tumor's protective environment, allowing the immune system to effectively destroy metastatic cancer cells, demonstrating a novel therapeutic approach."
+  
+  Title: Audie L. Murphy Memorial Veterans' Hospital
+  Source: VA.gov
+  URL: https://news.google.com/rss/articles/CBMimwFBVV95cUxPb3lYZXcyRTB1MDVSeGE4d2xqaGxCdENUQ2FuRTFlOEhvOV9Rb1Y3TmlIWksySGZ5MmRZQnVRYTAyTmtYZktRVllBSVhXb0t0RWtPa0FuUXBPQmh6WE5KcU42eTZNNjFjWFZjNXQyNkdoaXBaMU9MX0diOGh0QXBrRG91dUlyZVpNMV9VamVtb3BkODlaWU16X05JOA?oc=5
+  Category: news
+  Importance: 55
+  ai_summary: "Provides information about the Audie L. Murphy Memorial Veterans' Hospital in South Texas, highlighting its healthcare services and resources for veterans. While not directly radiology-focused, it's relevant for residents in that region."
+  
+articles[]{id,title,source,category,relevance_score}:
+  id_1: Radiology practice prepares to ditch hospital partner 3 years before new contract ends
+  title: Radiology practice prepares to ditch hospital partner 3 years before new contract ends
+  source: Radiology Business
+  category: news
+  relevance_score: 95
+  
+  id_2: Seeing the Unseen: Redefining Radiology for the Next Generation
+  title: Seeing the Unseen: Redefining Radiology for the Next Generation
+  source: Stanford Medicine
+  category: news
+  relevance_score: 90
+  
+  id_3: Study raises red flags over long-term effectiveness of popular weight loss drugs like Ozempic
+  title: Study raises red flags over long-term effectiveness of popular weight loss drugs like Ozempic
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 88
+  
+  id_4: Brain cancer may begin years before doctors can see it
+  title: Brain cancer may begin years before doctors can see it
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 85
+  
+  id_5: A 20-year-old cancer vaccine may hold the key to long-term survival
+  title: A 20-year-old cancer vaccine may hold the key to long-term survival
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 82
+  
+  id_6: A Trojan horse cancer therapy shows stunning results
+  title: A Trojan horse cancer therapy shows stunning results
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 80
+  
+  id_7: Audie L. Murphy Memorial Veterans' Hospital
+  title: Audie L. Murphy Memorial Veterans' Hospital
+  source: VA.gov
+  category: news
+  relevance_score: 60
+  
+  id_8: [No article 8 provided in the input]
+  title: [No article 8 provided in the input]
+  source: [No article 8 provided in the input]
+  category: [No article 8 provided in the input]
+  relevance_score: [No article 8 provided in the input]
