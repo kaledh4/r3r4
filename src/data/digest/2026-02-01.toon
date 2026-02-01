@@ -1,0 +1,105 @@
+digest:
+  date: 2026-02-01
+  generated_at: 2026-02-01T14:35:22Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+
+summary:
+  This daily radiology news digest highlights key advancements and changes impacting the field. Top stories focus on AI partnerships for safety, teleradiology expansion, and research shedding light on early detection of various diseases and long-term health impacts.
+
+top_stories[8]{
+  Title: "Radiology practice prepares to ditch hospital partner 3 years before new contract ends - Radiology Business"
+  source: "Google News Radiology"
+  url: "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQVdGOFBDaUpvYnlCMkZUckF6QzRRM2NkR09QM2gzaU8yaVZSRmZpeDJwTWtWVTdWTGctd3pKaDNLcmViRE00YlZ1N0NiVFFodFRiUHdydERPWlJYVGpfaUJoaUl6TEJZcVVEQ1VnVTEzb3A1ZzNhM0h4bXI0eXRiQ1pEWVZuNEowWjNpSEc1YTU0dVRPZUdNOWxPaTJPdjNkRjBWbVF4QTNOejdwVXhNb3VIMVVrbnV0Sk92cGMtanNkYVRtaVhnR2tGb0Y3aXU3cXkxOTRESklqTlpzTGthTk96Rlctb29hRUcxTg?oc=5"
+  category: "news"
+  importance: 90
+  ai_summary: "A major radiology practice is ending its partnership with a hospital three years ahead of contract expiration, signaling shifts in hospital-physician relationships and financial dynamics."
+  ai_summary: "This news is highly relevant for understanding the evolving financial landscape of radiology practices and potential implications for physician employment models."
+
+  Title: "Stanford Radiology AI Development and Evaluation Lab Announces Strategic Partnership with Radiology Partners to Advance AI Safety and Reliability in Medical Imaging - Stanford Medicine"
+  source: "Google News Radiology"
+  url: "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZmJ4ZDFCQ2kwYmloR2twUFFxaUJaU0Z5VHlmTFFxblRiWjkyT1pxSnJhT3dsLWlHMlJJOEtMNkt6RzkzU1l1Q1Fwb3pWd29oR3otWUtza1oxVmlQRlNJanlsN1B0cTBjSzhJMERIVVpIUjBPSjdvMEpJNmxieXZZTWpZZGRrbFdTdkxIX0xUNFFLUWR4cjZwaEZtXzdJUjJwZnluQk84aFVEZTUxbUpTZzhfbEpzOFFIaUlZ?oc=5"
+  category: "news"
+  importance: 95
+  ai_summary: "Stanford Radiology and Radiology Partners are collaborating to enhance the safety and reliability of AI in medical imaging, a critical step towards widespread clinical adoption."
+  ai_summary: "This partnership directly addresses a key barrier to AI implementation in radiology and is crucial for board exam preparation regarding AI risks and validation."
+
+  Title: "Premier Radiology Services Acquires NRAD, Further Expanding Teleradiology Capabilities - Business Wire"
+  source: "Google News Radiology"
+  url: "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSXZFNVVtMm96cFFnNDMzWmFwUGh2cUxSUXlwSGNxTXZXbXNWQ0VQcExhUUdXbmUzWFdNOU9VTmF2VjVDNUkwa1FYOWhDbW5qQXlOMFJWbWQteGNfRHlvdDU4YjZkVVFDallsSko0aGhfTDZwNTdYU3JWNTItVUh0ZlR... EST"
+  category: "news"
+  importance: 75
+  ai_summary: "Premier Radiology Services' acquisition of NRAD strengthens its teleradiology network, expanding access to remote interpretation services."
+  ai_summary: "This is relevant for understanding the evolving teleradiology landscape and its implications for workflow and patient care."
+
+  Title: "Helping with grandkids may slow cognitive decline"
+  source: "ScienceDaily Health"
+  url: "https://www.sciencedaily.com/releases/2026/01/260128230518.htm"
+  category: "research"
+  importance: 60
+  ai_summary: "Grandparents who provide childcare show better memory and verbal skills, suggesting that caregiving may have a protective effect against cognitive decline."
+  ai_summary: "This article connects lifestyle factors to neurocognitive health, a relevant topic for understanding long-term patient well-being."
+
+  Title: "Long-term alcohol use linked to a sharp rise in rectal cancer"
+  source: "ScienceDaily Health"
+  url: "https://www.sciencedaily.com/releases/2026/01/260128230514.htm"
+  category: "research"
+  importance: 80
+  ai_summary: "Long-term heavy alcohol consumption is significantly associated with a sharp increase in rectal cancer risk, particularly in adults who drank heavily throughout their lives."
+  ai_summary: "This highlights the importance of patient history and risk factors in cancer screening and diagnosis, relevant for all specialties."
+
+  Title: "Study raises red flags over long-term effectiveness of popular weight loss drugs like Ozempic"
+  source: "ScienceDaily Health"
+  url: "https://www.sciencedaily.com/releases/2026/01/260128075359.htm"
+  category: "research"
+  importance: 70
+  ai_summary: "After stopping weight loss drugs like Ozempic, individuals often regain weight rapidly, suggesting long-term success requires more than medication."
+  ai_summary: "This is important for understanding the limitations of pharmacological interventions and the need for comprehensive weight management strategies."
+
+  Title: "Brain cancer may begin years before doctors can see it"
+  source: "ScienceDaily Health"
+  url: "https://www.sciencedaily.com/releases/2026/01/260128075350.htm"
+  category: "research"
+  importance: 92
+  ai_summary: "A new study reveals that a common malignant brain tumor may originate years before it becomes visible on imaging, highlighting the need for further research into early detection methods."
+  ai_summary: "This is critically important for board exam preparation, emphasizing the concept of preclinical disease and the challenges of early diagnosis, particularly in neuroimaging."
+}
+
+articles[]{
+  id: 1
+  title: "Radiology practice prepares to ditch hospital partner 3 years before new contract ends - Radiology Business"
+  source: "Google News Radiology"
+  category: "news"
+  relevance_score: 90
+  ai_summary: "A major radiology practice is ending its partnership with a hospital three years ahead of contract expiration, signaling shifts in hospital-physician relationships and financial dynamics."
+}
+articles[]{
+  id: 2
+  title: "Stanford Radiology AI Development and Evaluation Lab Announces Strategic Partnership with Radiology Partners to Advance AI Safety and Reliability in Medical Imaging - Stanford Medicine"
+  source: "Google News Radiology"
+  category: "news"
+  relevance_score: 95
+  ai_summary: "Stanford Radiology and Radiology Partners are collaborating to enhance the safety and reliability of AI in medical imaging, a critical step towards widespread clinical adoption."
+}
+articles[]{
+  id: 3
+  title: "Premier Radiology Services Acquires NRAD, Further Expanding Teleradiology Capabilities - Business Wire"
+  source: "Google News Radiology"
+  category: "news"
+  relevance_score: 75
+  ai_summary: "Premier Radiology Services' acquisition of NRAD strengthens its teleradiology network, expanding access to remote interpretation services."
+}
+articles[]{
+  id: 4
+  title: "Helping with grandkids may slow cognitive decline"
+  source: "ScienceDaily Health"
+  category: "research"
+  relevance_score: 60
+  ai_summary: "Grandparents who provide childcare show better memory and verbal skills, suggesting that caregiving may have a protective effect against cognitive decline."
+}
+articles[]{
+  id: 5
+  title: "Long-term alcohol use linked to a sharp rise in rectal cancer"
+  source: "ScienceDaily Health"
+  category: "research"
+  re
