@@ -310,3 +310,12 @@ cards[2]{id,category,difficulty,front,back,source,tags}:
 cards[3]{id,category,difficulty,hard,"According to the ScienceDaily article, what lifestyle factor may be associated with slower cognitive decline?","Grandparents who provide childcare appear to have better memory and verbal skills, suggesting caregiving may be protective.", "ScienceDaily Health", "cognitive decline; aging; lifestyle factors; neurocognitive health"
 
 cards[4]{id,category,difficulty,medium,"What is the key finding regarding long-term alcohol use and rectal cancer based on the ScienceDaily article?","Long-term heavy alcohol consumption is significantly linked to a sharp increase in rectal cancer risk.", "ScienceDaily Health", "rectal cancer; alcohol; cancer risk factors; epidemiology"
+
+# Added on 2026-02-02
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,news,hard,"What significant trend is highlighted by the news of a major radiology practice dissolving its partnership before a new contract ends?","It suggests potential shifts in the hospital-radiology business model and evolving market dynamics.",Radiology Business,"teleradiology;hospital-radiology;business model;news"
+  card_002,news,medium,"Premier Radiology Services' acquisition of NRAD indicates a growing trend in which area within radiology?","Continued growth and investment in the teleradiology sector, aiming to enhance access to radiology services.",Business Wire,"teleradiology;acquisition;market expansion;access"
+  card_003,research,medium,"Regarding collagen supplements for skin health, what is the primary conclusion of recent research?","Solid evidence does not support their use for improving skin appearance, and potential safety concerns exist.",ScienceDaily Health,"collagen;skin health;supplements;evidence"
+  card_004,research,hard,"What is the key finding regarding the experimental diabetes drug IC7Fc in its research phase?","It has shown promise in reducing cholesterol, blood fats, artery plaques, and calming inflammation, suggesting a potential new therapeutic avenue for cardiovascular disease.",ScienceDaily Health,"diabetes drug;IC7Fc;cardiovascular disease;inflammation;research"
+  card_005,research,medium,"What novel mechanism of metastasis has been identified in pancreatic cancer research?","The cancer reprograms its surroundings, particularly through the protein periostin, to facilitate spread.",ScienceDaily Health,"pancreatic cancer;metastasis;periostin;pathogenesis;research"

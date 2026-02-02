@@ -1,0 +1,101 @@
+digest:
+  date: 2026-02-02
+  generated_at: 2026-02-02T13:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 7
+  
+summary:
+  This daily radiology news digest highlights practice-changing advancements in teleradiology and treatment strategies for cardiovascular and oncologic diseases. Key topics include a significant acquisition in teleradiology, promising drug trials for heart disease and sepsis, and novel insights into cancer metastasis and kidney aging.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Radiology practice prepares to ditch hospital partner 3 years before new contract ends
+  Source: Radiology Business
+  URL: https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQVdGOFBDaUpvYnlCMkZUckF6QzRRM2NkR09QM2gzaU8yaVZSRmZpeDJwTWtWVTdWTGctd3pKaDNLcmViRE00YlZ1N0NiVFFodFRiUHdydERPWlJYVGpfaUJoaUl6TEJZcVVEQ1VnVTEzb3A1ZzNhM0h4bXI0eXRiQ1pEWVZuNEowWjNpSEc1YTU0dVRPZUdNOWxPaTJPdjNkRjBWbVF4QTNOejdwVXhNb3VIMVVrbnV0Sk92cGMtanNkYVRtaVhnR2tGb0Y3aXU3cXkxOTRESklqTlpzTGthTk96Rlctb29hRUcxTg?oc=5
+  Category: news
+  Importance: 95
+  ai_summary: "A major radiology practice is dissolving its partnership ahead of a new contract, signifying potential shifts in the hospital-radiology business model."
+  
+  Title: Premier Radiology Services Acquires NRAD, Further Expanding Teleradiology Capabilities
+  Source: Business Wire
+  URL: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSXZFNVVtMm96cFFnNDMzWmFwUGh2cUxSUXlwSGNxTXZXbXNWQ0VQcExhUUdXbmUzWFdNOU9VTmF2VjVDNUkwa1FYOWhDbW5qQXlOMFJWbWQteGNfRHlvdDU4YjZkVVFDallsSko0aGhfTDZwNTdYU3JWNTItVUh0ZlRBVmxXOUdvQ1BQbWhMVU1MLUVLVm5kT1E4elZJb3dxeENzY0IxZWFBSUJ0aVh4OEJGWkUxeUlmQWlheFpuQlgxNDFvQm9RLUhHLXU4ejN6YkhOR0oxNDVPZw?oc=5
+  Category: news
+  Importance: 90
+  ai_summary: "Premier Radiology Services' acquisition of NRAD demonstrates continued growth and investment in the teleradiology sector, enhancing access to radiology services."
+  
+  Title: Collagen pills sound like a shortcut to younger skin, but solid evidence doesn’t back them up.
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260129080440.htm
+  Category: research
+  Importance: 75
+  ai_summary: "A review of collagen supplements suggests they lack significant benefit in improving skin appearance and may have safety concerns, highlighting the importance of established skincare practices."
+  
+  Title: A diabetes drug shows surprising promise against heart disease
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260129080440.htm
+  Category: research
+  Importance: 92
+  ai_summary: "An experimental diabetes drug, IC7Fc, has shown in research to reduce cholesterol, blood fats, and artery plaques, along with calming inflammation, indicating a potential new therapeutic avenue for cardiovascular disease."
+  
+  Title: Breakthrough sepsis drug shows promise in human trial
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260129080437.htm
+  Category: research
+  Importance: 98
+  ai_summary: "A newly developed carbohydrate-based drug has shown promising results in a Phase II trial for treating sepsis by calming dangerous immune responses, representing a significant advancement in a currently underserved medical area."
+  
+  Title: Scientists find hidden pathways pancreatic cancer uses to spread
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260129080432.htm
+  Category: research
+  Importance: 85
+  ai_summary: "Research has uncovered how pancreatic cancer reprograms its surroundings to facilitate metastasis, particularly through the protein periostin, offering a potential target for future therapies."
+  
+  Title: A fish that ages in months reveals how kidneys grow old
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260129080428.htm
+  Category: research
+  Importance: 70
+  ai_summary: "Studies on a rapidly aging fish have revealed that SGLT2 inhibitors, commonly used for diabetes, can preserve kidney health during aging, providing insight into their protective effects in humans."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: Radiology practice prepares to ditch hospital partner 3 years before new contract ends
+  title: Radiology practice prepares to ditch hospital partner 3 years before new contract ends
+  source: Radiology Business
+  category: news
+  relevance_score: 95
+  
+  id_2: Premier Radiology Services Acquires NRAD, Further Expanding Teleradiology Capabilities
+  title: Premier Radiology Services Acquires NRAD, Further Expanding Teleradiology Capabilities
+  source: Business Wire
+  category: news
+  relevance_score: 90
+  
+  id_3: Collagen pills sound like a shortcut to younger skin, but solid evidence doesn’t back them up.
+  title: Collagen pills sound like a shortcut to younger skin, but solid evidence doesn’t back them up.
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 75
+  
+  id_4: A diabetes drug shows surprising promise against heart disease
+  title: A diabetes drug shows surprising promise against heart disease
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 92
+  
+  id_5: Breakthrough sepsis drug shows promise in human trial
+  title: Breakthrough sepsis drug shows promise in human trial
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 98
+  
+  id_6: Scientists find hidden pathways pancreatic cancer uses to spread
+  title: Scientists find hidden pathways pancreatic cancer uses to spread
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 85
+  
+  id_7: A fish that ages in months reveals how kidneys grow old
+  title: A fish that ages in months reveals how kidneys grow old
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 70
