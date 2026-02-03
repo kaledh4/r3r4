@@ -1,0 +1,68 @@
+digest:
+  date: 2026-02-03
+  generated_at: 2026-02-03T10:00:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 7
+  
+summary:
+  This daily radiology news digest highlights advancements in AI for AI safety and teleradiology, along with findings regarding early heart disease detection and potential new treatments for heart disease and sepsis. Several articles discuss earlier onset of heart disease in men and the limitations of collagen supplements for skin health.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Stanford Radiology AI Development and Evaluation Lab Announces Strategic Partnership with Radiology Partners to Advance AI Safety and Reliability in Medical Imaging
+  Source: Stanford Medicine
+  URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZmJ4ZDFCQ2kwYmloR2twUFFxaUJaU0Z5VHlmTFFxblRiWjkyT1pxSnJhT3dsLWlHMlJJOEtMNkt6RzkzU1l1Q1Fwb3pWd29oR3otWUtza1oxVmlQRlNJanlsN1B0cTBjSzhJMERIVVpIUjBPSjdvMEpJNmxieXZZTWpZZGRrbFdTdkxIX0xUNFFLUWR4cjZwaEZtXzdJUjJwZnluQk84aFVEZTUxbUpTZzhfbEpzOFFIaUlZ?oc=5
+  category: news
+  importance: 95
+  ai_summary: "Stanford and Radiology Partners are collaborating to enhance AI safety and reliability in medical imaging, a critical area for clinical implementation."
+  
+  Title: New scan spots heart disease years before symptoms
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260129080954.htm
+  category: research
+  importance: 90
+  ai_summary: "A new fast-RSOM imaging technique can detect early dysfunction in small blood vessels, a precursor to heart disease, potentially years before symptoms arise."
+  
+  Title: Premier Radiology Services Acquires NRAD, Further Expanding Teleradiology Capabilities
+  Source: Business Wire
+  URL: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSXZFNVVtMm96cFFnNDMzWmFwUGh2cUxSUXlwSGNxTXZXbXNWQ0VQcExhUUdXbmUzWFdNOU9VTmF2VjVDNUkwa1FYOWhDbW5qQXlOMFJWbWQteGNfRHlvdDU4YjZkVVFDallsSko0aGhfTDZwNTdYU3JWNTItVUh0ZlR... "https://www.sciencedaily.com/releases/2026/01/260130041056.htm
+  category: news
+  importance: 85
+  ai_summary: "Premier Radiology's acquisition of NRAD signifies a major expansion in teleradiology, improving access to radiology services."
+  
+  Title: Men start developing heart disease earlier than women, with risks rising faster beginning around age 35
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260130041056.htm
+  category: research
+  importance: 80
+  ai_summary: "Longitudinal research indicates men experience earlier onset and faster progression of heart disease compared to women, highlighting the need for earlier screening."
+  
+  Title: A diabetes drug shows surprising promise against heart disease
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260129080440.htm
+  category: research
+  importance: 75
+  ai_summary: "An experimental diabetes drug, IC7Fc, demonstrated potential in improving cardiovascular health by reducing cholesterol and inflammation, even without weight loss."
+  
+  Title: Breakthrough sepsis drug shows promise in human trial
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260129080437.htm
+  category: research
+  importance: 70
+  ai_summary: "A carbohydrate-based drug has shown promising results in a Phase II trial for sepsis, offering a potential new treatment for this life-threatening condition."
+  
+  Title: Dermatology experts say collagen supplements aren’t the skin fix people expect
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260129080443.htm
+  category: research
+  importance: 65
+  ai_summary: "Recent research suggests collagen supplements offer limited benefits for skin health, recommending proven methods like sunscreen and retinoids instead."
+
+articles[]{id,title,source,category,score}
+id_1: Radiology practice prepares to ditch hospital partner 3 years before new contract ends
+id_2: Stanford Radiology AI Development and Evaluation Lab Announces Strategic Partnership with Radiology Partners to Advance AI Safety and Reliability in Medical Imaging
+id_3: Premier Radiology Services Acquires NRAD, Further Expanding Teleradiology Capabilities
+id_4: Men start developing heart disease earlier than women, with risks rising faster beginning around age 35
+id_5: New scan spots heart disease years before symptoms
+id_6: A diabetes drug shows surprising promise against heart disease
+id_7: Breakthrough sepsis drug shows promise in human trial
+id_8: Dermatologists say collagen supplements aren’t the skin fix people expect

@@ -319,3 +319,12 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,research,medium,"Regarding collagen supplements for skin health, what is the primary conclusion of recent research?","Solid evidence does not support their use for improving skin appearance, and potential safety concerns exist.",ScienceDaily Health,"collagen;skin health;supplements;evidence"
   card_004,research,hard,"What is the key finding regarding the experimental diabetes drug IC7Fc in its research phase?","It has shown promise in reducing cholesterol, blood fats, artery plaques, and calming inflammation, suggesting a potential new therapeutic avenue for cardiovascular disease.",ScienceDaily Health,"diabetes drug;IC7Fc;cardiovascular disease;inflammation;research"
   card_005,research,medium,"What novel mechanism of metastasis has been identified in pancreatic cancer research?","The cancer reprograms its surroundings, particularly through the protein periostin, to facilitate spread.",ScienceDaily Health,"pancreatic cancer;metastasis;periostin;pathogenesis;research"
+
+# Added on 2026-02-03
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,news,medium,"What is the primary focus of the collaboration announced between Stanford Radiology and Radiology Partners?","Enhancing AI safety and reliability in medical imaging for clinical implementation.",Stanford Medicine,"AI;Radiology;Partnership"
+  card_002,research,hard,"According to a recent study, what imaging technique shows promise for early heart disease detection?","Fast-RSOM imaging, which detects dysfunction in small blood vessels years before symptoms.",ScienceDaily Health,"Cardiology;Imaging;Early Detection"
+  card_003,news,medium,"What significant development has Premier Radiology Services recently undertaken?","Acquisition of NRAD, expanding its teleradiology capabilities.",Business Wire,"Teleradiology;Acquisition;Expansion"
+  card_004,research,medium,"What is a key finding from longitudinal research regarding heart disease onset in men compared to women?","Men experience earlier onset and faster progression of heart disease, particularly around age 35.",ScienceDaily Health,"Cardiology;Gender Differences;Risk Factors"
+  card_005,research,medium,"What is the potential benefit of the experimental diabetes drug IC7Fc, as highlighted in a recent study?","Improved cardiovascular health by reducing cholesterol and inflammation, even without weight loss.",ScienceDaily Health,"Cardiology;Diabetes;Drug Therapy"
