@@ -1,0 +1,65 @@
+digest:
+  date: 2026-02-04
+  generated_at: 2026-02-04T12:34:56Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  Today's radiology news highlights advancements in AI safety and clinical applications, alongside studies on lifestyle factors impacting cardiovascular health. Key themes include the growing role of AI in medical imaging, the importance of early detection for heart disease, and new research on disease mechanisms and prevention.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Stanford Radiology AI Development and Evaluation Lab Announces Strategic Partnership with Radiology Partners to Advance AI Safety and Reliability in Medical Imaging - Stanford Medicine
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBAmiwFBVV95cUxOZmJ4ZDFCQ2kwYmloR2twUFFxaUJaU0Z5VHlmTFFxblRiWjkyT1pxSnJhT3dsLWlHMlJJOEtMNkt6RzkzU1l1Q1Fwb3pWd29oR3otWUtza1oxVmlQRlNJanlsN1B0cTBjSzhJMERIVVpIUjBPSjdvMEpJNmxieXZZTWpZZGRrbFdTdkxIX0xUNFFLUWR4cjZwaEZtXzdJUjJwZnluQk84aFVEZTUxbUpTZzhfbEpzOFFIaUlZ?oc=5
+  Category: news
+  importance: 95
+  ai_summary: "Stanford and Radiology Partners are collaborating to enhance AI safety and reliability in medical imaging, addressing critical concerns for clinical adoption."
+  
+  Title: Exploring The Application of Artificial Intelligence in Radiology Scans - CancerNetwork
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcmZiZlVKc2hoVXJPejBUVzQ2VElGazNyQm5vRl9qaWtReXNLU0VRY2pmT0YzQ2V4UjRhQ0ZVN01yS3JlTTNkcm9uMVJGTmxnUHNrV2VxMTBEc1dfOTRIUURibVk5RVNjeGE5aGljWFpPeVMxX1VXRjdXZmdyc0ZOYV9CTmdZTk5HSmFNRkhfS19JOVplVEpfR1hzeS1Od2xWUmwzTGVaMFJyQQ?oc=5
+  Category: news
+  importance: 90
+  ai_summary: "This article explores the current and future applications of AI in radiology scans, highlighting its potential to improve diagnosis and workflow efficiency."
+  
+  Title: Dr. Jenny Hoang Appointed Interim Director of JH Radiology - Johns Hopkins Medicine
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBAmisAFBVV95cUxNcEFncjdzYklQeDhmWEU1dUhDdFdxRld3eXFhU1dYNGNobk1pblVDS0ZVLXhEU1pkYmdjbTZDZTRTNko0MlF3dTF5ZFl4ZkYzbFdjWXJwaHl6NmpHalVxNnNiemNWdFY1X05sdEthdWJadWF6NTVIcEZhMTJUeGpWbHRnNVQ1andqbG12c1BRdjJWUWJJT2hjVDFUQ25BNzhkZVRlMWtWNkpybHZ5cmlDeg?oc=5
+  Category: news
+  importance: 85
+  ai_summary: "Dr. Jenny Hoang has been appointed as the interim director of JH Radiology, indicating a leadership transition at a prominent institution."
+  
+  Title: Late bedtimes are linked to higher heart disease risk
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260130041101.htm
+  Category: research
+  importance: 80
+  ai_summary: "A large study reveals that individuals who consistently stay up late have a higher risk of heart disease, particularly in middle-aged and older adults, with a notable impact on women."
+  
+  Title: New scan spots heart disease years before symptoms
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260129080954.htm
+  Category: research
+  importance: 75
+  ai_summary: "A novel imaging technique called fast-RSOM can detect early signs of heart disease by visualizing small blood vessels, potentially years before symptoms manifest."
+  
+  Title: The early turning point when men’s heart risk accelerates
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260130041056.htm
+  Category: research
+  importance: 70
+  ai_summary: "Research indicates that men's risk of heart disease begins to accelerate around age 35, driven primarily by coronary heart disease, suggesting the need for earlier screening."
+  
+  Title: A quiet change in everyday foods could save thousands of lives
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260131082433.htm
+  Category: research
+  importance: 65
+  ai_summary: "Modestly reducing sodium in common foods like bread and packaged meals could significantly lower heart disease and stroke rates without requiring changes to eating habits."
+
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: Stanford Radiology AI Development and Evaluation Lab Announces Strategic Partnership with Radiology Partners to Advance AI Safety and Reliability in Medical Imaging - Stanford Medicine,Stanford Medicine,https://news.google.com/rss/articles/CBAmiwFBVV95cUxOZmJ4ZDFCQ2kwYmloR2twUFFxaUJaU0Z5VHlmTFFxblRiWjkyT1pxSnJhT3dsLWlHMlJJOEtMNkt6RzkzU1l1Q1Fwb3pWd29oR3otWUtza1oxVmlQRlNJanlsN1B0cTBjSzhJMERIVVpIUjBPSjdvMEpJNmxieXZZTWpZZGRrbFdTdkxIX0xUNFFLUWR4cjZwaEZtXzdJUjJwZnluQk84aFVEZTUxbUpTZzhfbEpzOFFIaUlZ?oc=5,news,95
+  id_2: Exploring The Application of Artificial Intelligence in Radiology Scans - CancerNetwork,CancerNetwork,https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcmZiZlVKc2hoVXJPejBUVzQ2VElGazNyQm5vRl9qaWtReXNLU0VRY2pmT0YzQ2V4UjRhQ0ZVN01yS3JlTTNkcm9uMVJGTmxnUHNrV2VxMTBEc1dfOTRIUURibVk5RVNjeGE5aGljWFpPeVMxX1VXRjdXZmdyc0ZOYV9CTmdZTk5HSmFNRkhfS19JOVplVEpfR1hzeS1Od2xWUmwzTGVaMFJyQQ?oc=5,news,90
+  id_3: Dr. Jenny Hoang Appointed Interim Director of JH Radiology - Johns Hopkins Medicine,Johns Hopkins Medicine,https://news.google.com/rss/articles/CBAmisAFBVV95cUxNcEFncjdzYklQeDhmWEU1dUhDdFdxRld3eXFhU1dYNGNobk1pblVDS0ZVLXhEU1pkYmdjbTZDZTRTNko0MlF3dTF5ZFl4ZkYzbFdjWXJwaHl6NmpHalVxNnNiemNWdFY1X05sdEthdWJadWF6NTVIcEZhMTJUeGpWbHRnNVQ1andqbG12c1BRdjJWUWJJT2hjVDFUQ25BNzhkZVRlMWtWNkpybHZ5cmlDeg?oc=5,news,85
+  id_4: Late bedtimes are linked to higher heart disease risk,ScienceDaily Health,

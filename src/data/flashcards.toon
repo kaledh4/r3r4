@@ -328,3 +328,12 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,news,medium,"What significant development has Premier Radiology Services recently undertaken?","Acquisition of NRAD, expanding its teleradiology capabilities.",Business Wire,"Teleradiology;Acquisition;Expansion"
   card_004,research,medium,"What is a key finding from longitudinal research regarding heart disease onset in men compared to women?","Men experience earlier onset and faster progression of heart disease, particularly around age 35.",ScienceDaily Health,"Cardiology;Gender Differences;Risk Factors"
   card_005,research,medium,"What is the potential benefit of the experimental diabetes drug IC7Fc, as highlighted in a recent study?","Improved cardiovascular health by reducing cholesterol and inflammation, even without weight loss.",ScienceDaily Health,"Cardiology;Diabetes;Drug Therapy"
+
+# Added on 2026-02-04
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,neuro,hard,"What is the primary focus of the strategic partnership announced between Stanford Radiology and Radiology Partners?","Enhancing AI safety and reliability in medical imaging, addressing clinical adoption concerns.", "Stanford Medicine", "AI;Radiology;Partnership;Safety"
+  card_002,cardiology,medium,"According to a recent study, what lifestyle factor is significantly linked to an increased risk of heart disease, particularly in middle-aged and older adults?","Late bedtimes are associated with a higher risk of heart disease, with a notable impact on women.", "ScienceDaily Health", "Lifestyle;Heart Disease;Sleep"
+  card_003,cardiology,medium,"What is the name of the novel imaging technique identified as capable of detecting early signs of heart disease, potentially years before symptoms appear?","Fast-RSOM", "ScienceDaily Health", "Imaging;Early Detection;Heart Disease;RSOM"
+  card_004,general,easy,"Who has been appointed as the interim director of JH Radiology?","Dr. Jenny Hoang", "Johns Hopkins Medicine", "Leadership;Radiology"
+  card_005,AI,medium,"What is a key application area being explored in the current research regarding Artificial Intelligence and Radiology Scans?","Improving diagnosis and workflow efficiency.", "CancerNetwork", "AI;Radiology;Diagnosis;Workflow"
