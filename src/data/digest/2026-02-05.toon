@@ -1,0 +1,114 @@
+digest:
+  date: 2026-02-05
+  generated_at: 2026-02-05T14:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+
+summary:
+  This daily radiology news digest highlights key advancements in AI, practice changes, and emerging research relevant to senior residents. The top stories focus on the evolving role of artificial intelligence, new research insights into health and disease, and updates in radiology practice and leadership.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Exploring The Application of Artificial Intelligence in Radiology Scans
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBAmiqgFBVV95cUxQcmZiZlVKc2hoVXJPejBUVzQ2VElGazNyQm5vRl9qaWtReXNLU0VRY2pmT0YzQ2V4UjRhQ0ZVN01yS3JlTTNkcm9uMVJGTmxnUHNrV2VxMTBEc1dfOTRIUURibVk5RVNjeGE5aGljWFpPeVMxX1VXRjdXZmdyc0ZOYV9CTmdZTk5HSmFNRkhfS19JOVplVEpfR1hzeS1Od2xWUmwzTGVaMFJyQQ?oc=5
+  Category: news
+  Importance: 95
+  ai_summary: "AI is rapidly transforming radiology, impacting image interpretation, workflow efficiency, and potentially leading to more accurate and faster diagnoses."
+  
+  Title: Premier Radiology Services acquires rival teleradiology group NRad
+  Source: Radiology Business
+  URL: https://news.google.com/rss/articles/CBAmi5AFBVV95cUxPUVltSEt4Uk5xU3Qyd093T3R0b2tQakJZd21wSEYzc0pSM2ptZW42MDJWMVo1cGVRdWNrbVdNNkladHM0MHkyNEVySVJtTGhlM1ZyclFla2JIOENtenIwNEhvNVNDOEtnS01pd1l6TjNiVmttZFNnN0lrbFl0V3hFM1dFTHZTblg3Q3B1OXRFNHZwSTdTNFNRRTJ3STVDMzA0V01YR3RXZ29jTTJvWWY3OFlvWWJITzF3RHR6MHloV0JqSGxmR01GTGxvYzlNUWQ0TllVckJEaEc0NzdNS2dySkR1Yks?oc=5
+  Category: news
+  Importance: 85
+  ai_summary: "This acquisition signals a consolidation trend in the teleradiology market, likely increasing the scale and reach of radiology services."
+  
+  Title: Welcoming Basil Hubbi, MD, as Chair of Radiology at Jersey City Medical Center
+  Source: RWJBarnabas Health
+  URL: https://news.google.com/rss/articles/CBAmikwFBVV95cUxPY3d3WFB3ck5fYXRBNmo5c0hTbzVoRG8xRGZNcWdRMjV1V3Rxc0RlZVR6TUYxZzdMZ3lmdF9SN0NYOUI0TGdJckQ1anBEN0ktcTBJRGJSRTBHMU1HSXlraElYTzhUdlBtaUVYdzlPeGdPMW5HTkhLQVlhVDVrNnplMElaYnNzN0xYWWNPaWgxbEEyQ3M?oc=5
+  Category: news
+  Importance: 75
+  ai_summary: "The appointment of a new radiology chair can indicate shifts in departmental focus, research priorities, and clinical direction."
+  
+  Title: Middle age is becoming a tougher chapter for many Americans
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBAmi...
+  Category: research
+  Importance: 65
+  ai_summary: "This article highlights the growing issue of loneliness, depression, and declining physical health in midlife, which may have implications for population health and healthcare resource allocation."
+  
+  Title: Scientists discover how to turn gut bacteria into anti-aging factories
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260131085024.htm
+  Category: research
+  Importance: 90
+  ai_summary: "Research suggests manipulating gut bacteria with antibiotics may be a novel approach to promoting longevity and improving metabolic health, with potential future therapeutic applications."
+  
+  Title: Scientists finally explain statin muscle pain
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260131084610.htm
+  Category: research
+  Importance: 80
+  ai_summary: "The identification of the molecular trigger for statin-induced muscle pain could pave the way for developing safer statin medications, improving patient adherence and outcomes."
+  
+  Title: A hidden bat virus is infecting humans
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260131084131.htm
+  Category: research
+  Importance: 70
+  ai_summary: "The discovery of a new bat virus in humans underscores the ongoing risk of zoonotic disease transmission and the importance of surveillance, particularly in regions with close human-animal interactions."
+  
+  Title: A quiet change in everyday foods could save thousands of lives
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/01/260131082433.htm
+  Category: research
+  Importance: 75
+  ai_summary: "Modest reductions in sodium levels in common foods could have a significant impact on cardiovascular health, offering a practical and widely implementable strategy for disease prevention."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: Exploring The Application of Artificial Intelligence in Radiology Scans
+  title: Exploring The Application of Artificial Intelligence in Radiology Scans
+  source: Google News Radiology
+  category: news
+  relevance_score: 95
+
+  id_2: Premier Radiology Services acquires rival teleradiology group NRad
+  title: Premier Radiology Services acquires rival teleradiology group NRad
+  source: Radiology Business
+  category: news
+  relevance_score: 85
+
+  id_3: Welcoming Basil Hubbi, MD, as Chair of Radiology at Jersey City Medical Center
+  title: Welcoming Basil Hubbi, MD, as Chair of Radiology at Jersey City Medical Center
+  source: RWJBarnabas Health
+  category: news
+  relevance_score: 75
+
+  id_4: Middle age is becoming a tougher chapter for many Americans
+  title: Middle age is becoming a tougher chapter for many Americans
+  source: Google News Radiology
+  category: research
+  relevance_score: 65
+
+  id_5: Scientists discover how to turn gut bacteria into anti-aging factories
+  title: Scientists discover how to turn gut bacteria into anti-aging factories
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 90
+
+  id_6: Scientists finally explain statin muscle pain
+  title: Scientists finally explain statin muscle pain
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 80
+
+  id_7: A hidden bat virus is infecting humans
+  title: A hidden bat virus is infecting humans
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 70
+
+  id_8: A quiet change in everyday foods could save thousands of lives
+  title: A quiet change in everyday foods could save thousands of lives
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 75

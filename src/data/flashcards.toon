@@ -337,3 +337,16 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,cardiology,medium,"What is the name of the novel imaging technique identified as capable of detecting early signs of heart disease, potentially years before symptoms appear?","Fast-RSOM", "ScienceDaily Health", "Imaging;Early Detection;Heart Disease;RSOM"
   card_004,general,easy,"Who has been appointed as the interim director of JH Radiology?","Dr. Jenny Hoang", "Johns Hopkins Medicine", "Leadership;Radiology"
   card_005,AI,medium,"What is a key application area being explored in the current research regarding Artificial Intelligence and Radiology Scans?","Improving diagnosis and workflow efficiency.", "CancerNetwork", "AI;Radiology;Diagnosis;Workflow"
+
+# Added on 2026-02-05
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,ai,medium,"What is a primary potential benefit of utilizing AI in radiology image interpretation?","Improved diagnostic accuracy and increased workflow efficiency.",Google News Radiology,"AI;image interpretation;workflow"
+
+  card_002,teleradiology,medium,"What does the acquisition of a rival teleradiology group by a larger service likely indicate about the current radiology market?","Consolidation and increased scale of radiology services.",Radiology Business,"teleradiology;acquisition;market trends"
+
+  card_003,leadership,easy,"What is a key implication of appointing a new Chair of Radiology at a medical center?","Potential shifts in departmental focus, research priorities, and clinical direction.",RWJBarnabas Health,"radiology leadership;departmental change"
+
+  card_004,populationHealth,hard,"The article discussing middle age highlights several health challenges. What is a significant concern mentioned in this context?","Increased prevalence of loneliness, depression, and declining physical health.",Google News Radiology,"midlife health;loneliness;depression"
+
+  card_005,research,hard,"According to the research on gut bacteria, what is a potential future application of manipulating these microorganisms?","Novel therapeutic approaches for promoting longevity and improving metabolic health.",ScienceDaily Health,"gut microbiome;anti-aging;therapeutics"
