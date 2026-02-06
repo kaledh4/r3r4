@@ -1,0 +1,101 @@
+digest:
+  date: 2026-02-06
+  generated_at: 2026-02-06T14:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  Today's radiology news highlights advancements in AI application, particularly in understanding cardiovascular risk in diabetes and exploring cellular aging mechanisms. Several articles also focus on emerging research with potential implications for health and well-being, including sleep and gut health.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Exploring The Application of Artificial Intelligence in Radiology Scans
+  Source: CancerNetwork
+  URL: https://news.google.com/rss/articles/CBAmiqFBVV95cUxQcmZiZlVKc2hoVXJPejBUVzQ2VElGazNyQm5vRl9qaWtReXNLU0VRY2pmT0YzQ2V4UjRhQ0ZVN01yS3JlTTNkcm9uMVJGTmxnUHNrV2VxMTBEc1dfOTRIUURibVk5RVNjeGE5aGljWFpPeVMxX1VXRjdXZmdyc0ZOYV9CTmdZTk5HSmFNRkhfS19JOVplVEpfR1hzeS1Od2xWUmwzTGVaMFJyQQ?oc=5
+  Category: ir
+  Importance: 95
+  ai_summary: "This article explores the growing role of artificial intelligence in analyzing radiology scans, emphasizing its potential to improve diagnostic accuracy and efficiency across various imaging modalities."
+  
+  Title: Dr. Jenny Hoang Appointed Interim Director of JH Radiology
+  Source: Johns Hopkins Medicine
+  URL: https://news.google.com/rss/articles/CBAmisAFBVV95cUxNcEFncjdzYklQeDhmWEU1dUhDdFdxRld3eXFhU1dYNGNobk1pblVDS0ZVLXhEU1pkYmdjbTZDZTRTNko0MlF3dTF5ZFl4ZkYzbFdjWXJwaHl6NmpHalVxNnNiemNWdFY1X05sdEthdWJadWF6NTVIcEZhMTJUeGpWbHRnNVQ1andqbG12c1BRdjJWUWJJT2hjVDFUQ25BNzhkZVRlMWtWNkpybHZ5cmlDeg?oc=5
+  Category: news
+  Importance: 85
+  ai_summary: "Johns Hopkins Medicine announced Dr. Jenny Hoang as the interim director of JH Radiology, signifying a leadership transition within a prominent radiology department."
+  
+  Title: Radiologists in Top 5 Highest Paid Professions
+  Source: Radiology Business
+  URL: https://news.google.com/rss/articles/CBAi6wFBVV95cUxOTlhSb3o5R0FUQWNwdk80NmNpWXZmbl8taE9SQUYxbGU3M1g5UmZ0dGNZSE84d0dMT2RicXU4R2tmellYbXZqWk45NV9aMWdDdzFlTEJZOUlidHJjZlROMW1BclVNenZ0RDl6b3BtVWx5dnNzRVYwOU5EM3RwSVFORjllWWgxTUktYU5uUzNxVGpYY3pSVkpqVlJtSWpId0pxaEF6RGVEdlhkWGhISW5xcTB2MUlHVXN4am5rclBPd1A0cURuYUh4T2R4NmYwODJaSDd4dnZ0NGd0ZVF0ZHhodnpGTXVrLUE3czNZ?oc=5
+  Category: news
+  Importance: 75
+  ai_summary: "A recent report indicates that radiology is among the top 5 highest-paying professions in the US, reflecting the high demand and specialized skills within the field."
+  
+  Title: Sound machines might be making your sleep worse
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260203030529.htm
+  Category: research
+  Importance: 70
+  ai_summary: "Research suggests that sound machines, particularly those producing pink noise, may negatively impact sleep quality by reducing REM sleep. Simple earplugs were found to be more effective at blocking disruptive noise."
+  
+  Title: A hidden cellular process may drive aging and disease
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260203030526.htm
+  Category: research
+  Importance: 65
+  ai_summary: "Scientists have identified a cellular process called ER-phagy, where cells reorganize their endoplasmic reticulum, which is linked to both lifespan and the development of age-related diseases."
+  
+  Title: Scientists discover protein that could heal leaky gut and ease depression
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260201231240.htm
+  Category: research
+  Importance: 60
+  ai_summary: "A newly discovered protein, Reelin, plays a vital role in gut health and brain function. Restoring Reelin levels in preclinical models showed promise in healing leaky gut and alleviating depressive symptoms."
+
+  Title: Scientists Warn: This “miracle cure” works only by damaging human cells
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260201231250.htm
+  Category: research
+  Importance: 55
+  ai_summary: "Research reveals that MMS, often promoted as a cure, is toxic and only works by damaging human cells. Scientists warn against its use due to inconsistent dosing and high risks."
+
+articles[]{id,title,source,category,relevance_score}
+  id_1: Radiologists in Top 5 Highest Paid Professions
+  title: Radiologists in Top 5 Highest Paid Professions
+  source: Radiology Business
+  category: news
+  relevance_score: 90
+  id_2: Exploring The Application of Artificial Intelligence in Radiology Scans
+  title: Exploring The Application of Artificial Intelligence in Radiology Scans
+  source: CancerNetwork
+  category: ir
+  relevance_score: 88
+  id_3: Dr. Jenny Hoang Appointed Interim Director of JH Radiology
+  title: Dr. Jenny Hoang Appointed Interim Director of JH Radiology
+  source: Johns Hopkins Medicine
+  category: news
+  relevance_score: 85
+  id_4: Sound machines might be making your sleep worse
+  title: Sound machines might be making your sleep worse
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 78
+  id_5: A hidden cellular process may drive aging and disease
+  title: A hidden cellular process may drive aging and disease
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 75
+  id_6: Scientists Warn: This “miracle cure” works only by damaging human cells
+  title: Scientists Warn: This “miracle cure” works only by damaging human cells
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 70
+  id_7: Scientists discover protein that could heal leaky gut and ease depression
+  title: Scientists discover protein that could heal leaky gut and ease depression
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 68
+  id_8: [No article id provided - this is a placeholder]
+  title: [Placeholder Title]
+  source: [Placeholder Source]
+  category: [Placeholder Category]
+  relevance_score: 0
+}

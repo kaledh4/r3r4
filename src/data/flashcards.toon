@@ -350,3 +350,12 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_004,populationHealth,hard,"The article discussing middle age highlights several health challenges. What is a significant concern mentioned in this context?","Increased prevalence of loneliness, depression, and declining physical health.",Google News Radiology,"midlife health;loneliness;depression"
 
   card_005,research,hard,"According to the research on gut bacteria, what is a potential future application of manipulating these microorganisms?","Novel therapeutic approaches for promoting longevity and improving metabolic health.",ScienceDaily Health,"gut microbiome;anti-aging;therapeutics"
+
+# Added on 2026-02-06
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,ir,medium,"What is a key area of AI application currently being explored in radiology to improve patient outcomes?","Understanding cardiovascular risk in patients with diabetes.",CancerNetwork,"ai;cardiology;diabetes"
+  card_002,news,easy,"Who has been appointed as the interim director of JH Radiology?","Dr. Jenny Hoang.",Johns Hopkins Medicine,"leadership;radiology"
+  card_003,news,medium,"According to a recent report, where does radiology rank among the highest-paying professions in the US?","Top 5.",Radiology Business,"compensation;salary"
+  card_004,research,medium,"What cellular process is being investigated for its potential link to both lifespan and age-related diseases?","ER-phagy (endoplasmic reticulum-phagy).",ScienceDaily Health,"cellular aging;pathology"
+  card_005,research,hard,"Regarding sleep, what finding does recent research suggest about the use of sound machines?","Sound machines, especially pink noise, may negatively impact sleep quality by reducing REM sleep. Simple earplugs are more effective at noise reduction.",ScienceDaily Health,"sleep;noise;REM sleep"
