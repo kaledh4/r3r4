@@ -1,0 +1,61 @@
+digest:
+  date: 2026-02-07
+  generated_at: 2026-02-07T14:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  Today's radiology news highlights advancements in AI for cancer understanding and treatment, alongside research on emerging infectious diseases and unexpected nutritional links to health outcomes. Several articles emphasize practice-changing insights and new research findings relevant to daily clinical practice.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Researchers have created the first complete map showing how hundreds of mutations in a key cancer gene affect tumor growth.
+  Source: ScienceDaily
+  URL: https://www.sciencedaily.com/releases/2026/02/260204121540.htm
+  category: research
+  importance: 95
+  ai_summary: "A comprehensive map reveals how hundreds of cancer gene mutations impact tumor development, with some having minimal effect while others significantly accelerate growth, offering insights for targeted therapies."
+  Title: New nasal vaccine shows strong protection against H5N1 bird flu
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260204114343.htm
+  category: research
+  importance: 90
+  ai_summary: "A nasal spray vaccine demonstrated strong protection against H5N1 bird flu in animal studies, potentially offering a crucial tool to prevent the spread of this emerging infectious disease."
+  Title: The overlooked nutrition risk of Ozempic and Wegovy
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260203030551.htm
+  category: research
+  importance: 85
+  ai_summary: "Users of weight-loss drugs like Ozempic and Wegovy may be at risk of nutritional deficiencies due to insufficient guidance on diet, highlighting a critical area for patient management."
+  Title: This unexpected plant discovery could change how drugs are made
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260203030546.htm
+  category: research
+  importance: 80
+  ai_summary: "A plant chemical with medicinal properties is produced using a bacterial gene, suggesting plants utilize microbial tools for chemical synthesis and offering potential for novel drug discovery."
+  Title: A 25-year study found an unexpected link between cheese and dementia
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260203030540.htm
+  category: research
+  importance: 75
+  ai_summary: "A long-term study suggests full-fat dairy, particularly cheese, may be associated with a lower risk of dementia in individuals without genetic Alzheimer's risk, challenging traditional dietary advice."
+  Title: Radiology among America's 5 highest paid professions, US News & World Report says
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTlhSb3o5R0FUQWNwdk80NmNpWXZmbl8taE9SQUYxbGU3M1g5UmZ0dGNZSE84d0dMT2RicXU4R2tmellYbXZqWk45NV9aMWdDdzFlTEJZOUlidHJjZlROMW1BclVNenZ0RDl6b3BtVWx5dnNzRVYwOU5EM3RwSVFORjllWWgxTUktYU5uUzNxVGpYY3pSVkpqVlJtSWpId0pxaEF6RGVEdlhkWGhISW5xcTB2MUlHVXN4am5rclBPd1A0cURuYUh4T2R4NmYwODJaSDd4dnZ0NGd0ZVF0ZHhodnpGTXVrLUE3czNZ?oc=5
+  category: news
+  importance: 65
+  ai_summary: "Radiology is recognized as one of the highest-paying professions in the US, reflecting the critical role of radiologists in healthcare."
+  Title: Dr. Jenny Hoang Appointed Interim Director of JH Radiology
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMisAFBVV95cUxNcEFncjdzYklQeDhmWEU1dUhDdFdxRld3eXFhU1dYNGNobk1pblVDS0ZVLXhEU1pkYmdjbTZDZTRTNko0MlF3dTF5ZFl4ZkYzbFdjWXJwaHl6NmpHalVxNnNiemNWdFY1X05sdEthdWJadWF6NTVIcEZhMTJUeGpWbHRnNVQ1andqbG12c1BRdjJWUWJJT2hjVDFUQ25BNzhkZVRlMWtWNkpybHZ5cmlDeg?oc=5
+  category: news
+  importance: 60
+  ai_summary: "Dr. Jenny Hoang has been appointed as the interim director of JH Radiology, a significant leadership change within a prominent institution."
+articles[]{id,title,source,category,relevance_score}:
+  id_1: Radiology among America's 5 highest paid professions, US News & World Report says,Radiology Business,news,95
+  id_2: Dr. Jenny Hoang Appointed Interim Director of JH Radiology,Johns Hopkins Medicine,news,90
+  id_3: Exploring The Application of Artificial Intelligence in Radiology Scans,CancerNetwork,research,85
+  id_4: Researchers have created the first complete map showing how hundreds of mutations in a key cancer gene affect tumor growth,ScienceDaily,research,95
+  id_5: New nasal vaccine shows strong protection against H5N1 bird flu,ScienceDaily Health,research,90
+  id_6: The overlooked nutrition risk of Ozempic and Wegovy,ScienceDaily Health,research,85
+  id_7: This unexpected plant discovery could change how drugs are made,ScienceDaily Health,research,80
+  id_8: A 25-year study found an unexpected link between cheese and dementia,ScienceDaily Health,research,75

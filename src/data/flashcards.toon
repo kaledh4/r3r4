@@ -359,3 +359,11 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,news,medium,"According to a recent report, where does radiology rank among the highest-paying professions in the US?","Top 5.",Radiology Business,"compensation;salary"
   card_004,research,medium,"What cellular process is being investigated for its potential link to both lifespan and age-related diseases?","ER-phagy (endoplasmic reticulum-phagy).",ScienceDaily Health,"cellular aging;pathology"
   card_005,research,hard,"Regarding sleep, what finding does recent research suggest about the use of sound machines?","Sound machines, especially pink noise, may negatively impact sleep quality by reducing REM sleep. Simple earplugs are more effective at noise reduction.",ScienceDaily Health,"sleep;noise;REM sleep"
+
+# Added on 2026-02-07
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,research,medium,"What is the key finding of the study creating the first complete map of cancer gene mutations?","The study reveals how hundreds of mutations in a key cancer gene impact tumor growth, with varying degrees of effect, offering insights for targeted therapies.",ScienceDaily,cancer genetics;tumor growth;mutations
+  card_002,research,medium,"What infectious disease did a newly developed nasal vaccine show strong protection against in animal studies?","The nasal vaccine demonstrated strong protection against H5N1 bird flu.",ScienceDaily Health,H5N1;bird flu;vaccine
+  card_003,research,medium,"What is the potential nutritional risk associated with prolonged use of weight-loss drugs like Ozempic and Wegovy?","Users may be at risk of nutritional deficiencies due to insufficient dietary guidance.",ScienceDaily Health,weight loss drugs;Ozempic;Wegovy;nutrition
+  card_004,research,hard,"According to a 25-year study, what is the unexpected dietary association with dementia risk?","Full-fat dairy, particularly cheese, may be associated with a lower risk of dementia in individuals without genetic Alzheimer's risk.",ScienceDaily Health,cheese;dementia;diet;Alzheimer's
+  card_005,news,easy,"According to the news digest, in which industry is radiology recognized as one of the highest-paying professions in the US?","Radiology is listed as one of the top 5 highest-paying professions in the United States.",Google News Radiology,radiology;compensation;healthcare income
