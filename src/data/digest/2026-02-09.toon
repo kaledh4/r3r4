@@ -1,0 +1,74 @@
+digest:
+  date: 2026-02-09
+  generated_at: 2026-02-09T10:35:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  This daily radiology news briefing highlights practice-changing research in infectious diseases, oncology, and novel therapeutic approaches. Several articles focus on recent scientific discoveries with potential clinical implications, alongside administrative updates and a review of career trends in the field.
+  The top stories cover advancements in antibiotic resistance, the immune system's role in colorectal cancer, and potential new strategies for managing metabolic diseases, offering insights into evolving diagnostic and treatment landscapes.
+
+top_stories[8]{
+  Title: "Advancing MR Fingerprinting: New method targets bacterial sugar for antibiotic-resistant infections",
+  source: "ScienceDaily Health",
+  url: "https://www.sciencedaily.com/releases/2026/02/260206012229.htm",
+  category: "ir",
+  importance: 95,
+  ai_summary: "Researchers developed antibodies that recognize a unique sugar on bacterial cells, enabling the immune system to eliminate drug-resistant infections by targeting a previously inaccessible vulnerability."
+},
+{
+  Title: "Why colorectal cancer breaks the immune system’s rules",
+  source: "ScienceDaily Health",
+  url: "https://www.sciencedaily.com/releases/2026/02/260206012229.htm",
+  category: "onc",
+  importance: 90,
+  ai_summary: "New research explains why colorectal cancer often paradoxically benefits from immune-suppressing cells, revealing a balance between 'good' and 'bad' immune cells that determines tumor growth."
+},
+{
+  Title: "Scientists found a hidden fat switch and turned it off",
+  source: "ScienceDaily Health",
+  url: "https://www.sciencedaily.com/releases/2026/02/260206012226.htm",
+  category: "md",
+  importance: 85,
+  ai_summary: "Blocking a novel enzyme involved in fat production in animal studies led to weight loss, improved liver health, and lower cholesterol, suggesting a potential new therapeutic avenue for metabolic disorders."
+},
+{
+  Title: "That dry, bitter taste may be waking up your brain",
+  source: "ScienceDaily Health",
+  url: "https://www.sciencedaily.com/releases/2026/02/260206012224.htm",
+  category: "neuro",
+  importance: 80,
+  ai_summary: "Flavanols' astringent taste triggers sensory signals to the brain, boosting activity related to attention, motivation, and memory in mouse models, potentially offering a novel neurostimulation approach."
+},
+{
+  Title: "A hidden Aloe vera compound takes aim at Alzheimer’s",
+  source: "ScienceDaily Health",
+  url: "https://www.sciencedaily.com/releases/2026/02/260206012213.htm",
+  category: "neuro",
+  importance: 75,
+  ai_summary: "Computer modeling identified beta-sitosterol in Aloe vera as a promising compound that strongly interacts with enzymes involved in Alzheimer's disease, showing stability and favorable safety indicators."
+},
+{
+  Title: "Radiology among America's 5 highest paid professions, US News & World Report says",
+  source: "Google News Radiology",
+  url: "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTlhSb3o5R0FUQWNwdk80NmNpWXZmbl8taE9SQUYxbGU3M1g5UmZ0dGNZSE84d0dMT2RicXU4R2tmellYbXZqWk45NV9aMWdDdzFlTEJZOUlidHJjZlROMW1BclVNenZ0RDl6b3BtVWx5dnNzRVYwOU5EM3RwSVFORjllWWgxTUktYU5uUzNxVGpYY3pSVkpqVlJtSWpId0pxaEF6RGVEdlhkWGhISW5xcTB2MUlHVXN4am5rclBPd1A0cURuYUh4T2R4NmYwODJaSDd4dnZ0NGd0ZVF0ZHhodnpGTXVrLUE3czNZ?oc=5",
+  category: "news",
+  importance: 60,
+  ai_summary: "A recent report ranks radiology among the top 5 highest-paying professions in the US, highlighting the strong financial prospects in the field."
+},
+{
+  Title: "Elisabeth Garwood, MD, Executive Clinical Vice Chair",
+  source: "Google News Radiology",
+  url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMU1MRlpXOTBJc1V0U3J3dExxeVN2b2JrQU9jdkVSYXBPVFFFWmZHTnBSLXlMUUlycVN5WU1CM0huSEVrM0dTWnN0d1o1UzFIaDJJdWxiYmlDazg5TW90X3ZiNS10Nk1rQTA0enloRXZWb3ptbTZ4cUdLR3dXSnJXVllISUo?oc=5",
+  category: "news",
+  importance: 55,
+  ai_summary: "Dr. Elisabeth Garwood has been appointed as the Executive Clinical Vice Chair, a leadership update within a major academic radiology institution."
+},
+{
+  Title: "Dr. Jenny Hoang Appointed Interim Director of JH Radiology",
+  source: "Google News Radiology",
+  url: "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcEFncjdzYklQeDhmWEU1dUhDdFdxRld3eXFhU1dYNGNobk1pblVDS0ZVLXhEU1pkYmdjbTZDZTRTNko0MlF3dTF5ZFl4ZkYzbFdjWXJwaHl6NmpHalVxNnNiemNWdFY1X05sdEthdWJadWF6NTVIcEZhMTJUeGpWbHRnNVQ1andqbG12c1BRdjJWUWJJT2hjVDFUQ25BNzhkZVRlMWtWNkpybHZ5cmlDeg?oc=5",
+  category: "news",
+  importance: 50,
+  ai_summary: "Dr. Jenny Hoang has been appointed as the interim director of JH Radiology, a notable administrative change within a prominent radiology department."
+}
