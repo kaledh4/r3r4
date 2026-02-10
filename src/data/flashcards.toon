@@ -376,3 +376,12 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,md,easy,"What was the primary finding in the study regarding a potential new therapeutic avenue for metabolic disorders?","Blocking a novel enzyme involved in fat production in animal studies led to weight loss, improved liver health, and lower cholesterol.",ScienceDaily Health;Metabolic Diseases;Therapeutic Targets;Enzyme Inhibition;Weight Loss",
   card_004,neuro,medium,"According to the research, what sensory signal triggers brain activity related to attention, motivation, and memory?","The astringent taste of flavanols.",ScienceDaily Health;Neuro;Sensory Perception;Flavanols;Brain Activity",
   card_005,news,easy,"According to the US News & World Report report, how does radiology rank among the highest-paying professions in the US?","Radiology is ranked among the top 5 highest-paying professions in the United States.",Google News Radiology;Radiology;Career Trends;Compensation;Highest Paying Professions"
+
+# Added on 2026-02-10
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,news,easy,"What does the top story highlight regarding the radiology profession?","Radiology is among the 5 highest-paying professions in the US.",Google News Radiology;news;salary
+  card_002,news,medium,"According to the news digest, why is AI unlikely to fully replace human workers in radiology?","AI currently has limitations in complex diagnostic reasoning and patient interaction.",CNN;news;AI;human expertise
+  card_003,news,easy,"What is the role of imaging during major sporting events, as highlighted in the digest?","Imaging is crucial for evaluating athletic injuries.",RSNA;news;sports medicine;imaging
+  card_004,physics,medium,"What is a key advancement mentioned regarding MRI technology?","MR fingerprinting aims to achieve ultra-high-resolution imaging with shorter scan times.",Google News Radiology;physics;MRI;MR fingerprinting
+  card_005,research,medium,"What is the research finding regarding menopause and brain health?","Studies suggest a link between menopause and grey matter loss in brain regions associated with memory and emotional regulation.",ScienceDaily Health;research;menopause;neuroscience

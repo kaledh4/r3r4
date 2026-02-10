@@ -1,0 +1,114 @@
+digest:
+  date: 2026-02-10
+  generated_at: 2026-02-10T10:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  This daily radiology news digest highlights practice-changing advancements in AI and imaging techniques, alongside important research findings with potential clinical implications. Several articles focus on pandemic insights, neurological changes, and the impact of environmental factors on health. 
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Radiology among America's 5 highest paid professions, US News & World Report says
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTlhSb3o5R0FUQWNwdk80NmNpWXZmbl8taE9SQUYxbGU3M1g5UmZ0dGNZSE84d0dMT2RicXU4R2tmellYbXZqWk45NV9aMWdDdzFlTEJZOUlidHJjZlROMW1BclVNenZ0RDl6b3BtVWx5dnNzRVYwOU5EM3RwSVFORjllWWgxTUktYU5uUzNxVGpYY3pSVkpqVlJtSWpId0pxaEF6RGVEdlhkWGhISW5xcTB2MUlHVXN4am5rclBPd1A0cURuYUh4T2R4NmYwODJaSDd4dnZ0NGd0ZVF0ZHhodnpGTXVrLUE3czNZ?oc=5
+  Category: news
+  Importance: 95
+  ai_summary: "Radiology consistently ranks among the highest-paying professions, reflecting its crucial role in healthcare and the increasing demand for skilled professionals." 
+  
+  Title: This job has become the ultimate case study for why AI won’t replace human workers
+  Source: cnn.com
+  URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE9fMkxTUEVfMFczSWlCbDlyblRUeXJMb1NUS3JjQWxBR3FSdkNJNTQ3NV82djIyLUh2aktqTng4MHNNa0g4UmlPUmNaN2E5NEhWcFI3Z2ZlZDlkWlE5VjBBSVhJZEJrZDVFV0Q2U2JCaTl3RkgyTDNuWXN1Tnk?oc=5
+  Category: news
+  Importance: 90
+  ai_summary: "Despite advancements, AI's limitations in complex diagnostic reasoning and patient interaction highlight the irreplaceable value of human expertise in radiology."
+  
+  Title: Evaluating Injuries at the Olympics Through Imaging
+  Source: Radiological Society of North America | RSNA
+  URL: https://news.google.com/rss/articles/CBMickFVX3lxTFBPOG1tSkJSWkgwYXNMck5waEpyTUJ3c0ozVWZnd2c1QXRKQ0piTV96X3h3a2NKdG5DV3ZDeXM4SDdYWFY5VXh6TlVIM2U4N1J0czhlTzVxSVRwSGk5R0J0T0xWZjh2Mk5pY0o2ZmVVWm5Cdw?oc=5
+  Category: news
+  Importance: 85
+  ai_summary: "Imaging plays a critical role in evaluating athletic injuries at major events like the Olympics, showcasing the value of rapid and accurate image interpretation."
+  
+  Title: Advancing MR Fingerprinting for Ultra-High-Resolution Imaging
+  Source: Google News Radiology
+  URL:  
+  Category: physics
+  Importance: 75
+  ai_summary: "MR fingerprinting offers a promising advancement for achieving ultra-high-resolution imaging without the lengthy scan times associated with traditional methods, potentially enhancing diagnostic capabilities."
+  
+  Title: Evaluating Injuries at the Olympics Through Imaging
+  Source: Radiological Society of North America | RSNA
+  URL: https://news.google.com/rss/articles/CBMickFVX3lxTFBPOG1tSkJSWkgwYXNMck5waEpyTUJ3c0ozVWZnd2c1QXRKQ0piTV96X3h3a2NKdG5DV3ZDeXM4SDdYWFY5VXh6TlVIM2U4N1J0czhlTzVxSVRwSGk5R0J0T0xWZjh2Mk5pY0o2ZmVVWm5Cdw?oc=5
+  Category: news
+  Importance: 85
+  ai_summary: "Imaging plays a critical role in evaluating athletic injuries at major events like the Olympics, showcasing the value of rapid and accurate image interpretation."
+  
+  Title: Scientists turn sunflower oil waste into a powerful bread upgrade
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260208011015.htm
+  Category: research
+  Importance: 65
+  ai_summary: "A novel approach utilizing sunflower oil waste to enhance bread with increased protein, fiber, and antioxidants demonstrates potential for sustainable food production and improved nutritional value."
+  
+  Title: How COVID and H1N1 swept through U.S. cities in just weeks
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260207092906.htm
+  Category: research
+  Importance: 60
+  ai_summary: "Simulations on pandemic spread highlight the rapid transmission of COVID-19 and H1N1 across US cities, underscoring the importance of early detection systems for future outbreaks."
+  
+  Title: Menopause linked to grey matter loss in key brain regions
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260207092904.htm
+  Category: research
+  Importance: 55
+  ai_summary: "A significant study reveals links between menopause and grey matter loss in brain regions associated with memory and emotional regulation, suggesting potential neurobiological impacts of hormonal changes."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: Radiology among America's 5 highest paid professions, US News & World Report says
+  title: Radiology among America's 5 highest paid professions, US News & World Report says
+  source: Google News Radiology
+  category: news
+  relevance_score: 95
+  
+  id_2: This job has become the ultimate case study for why AI won’t replace human workers
+  title: This job has become the ultimate case study for why AI won’t replace human workers
+  source: cnn.com
+  category: news
+  relevance_score: 90
+  
+  id_3: Evaluating Injuries at the Olympics Through Imaging
+  title: Evaluating Injuries at the Olympics Through Imaging
+  source: Radiological Society of North America | RSNA
+  category: news
+  relevance_score: 85
+  
+  id_4: Advancing MR Fingerprinting for Ultra-High-Resolution Imaging
+  title: Advancing MR Fingerprinting for Ultra-High-Resolution Imaging
+  source: Google News Radiology
+  category: physics
+  relevance_score: 75
+  
+  id_5: Evaluating Injuries at the Olympics Through Imaging
+  title: Evaluating Injuries at the Olympics Through Imaging
+  source: Radiological Society of North America | RSNA
+  category: news
+  relevance_score: 85
+  
+  id_6: Scientists turn sunflower oil waste into a powerful bread upgrade
+  title: Scientists turn sunflower oil waste into a powerful bread upgrade
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 65
+  
+  id_7: How COVID and H1N1 swept through U.S. cities in just weeks
+  title: How COVID and H1N1 swept through U.S. cities in just weeks
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 60
+  
+  id_8: Menopause linked to grey matter loss in key brain regions
+  title: Menopause linked to grey matter loss in key brain regions
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 55
