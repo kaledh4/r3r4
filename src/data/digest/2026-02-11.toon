@@ -1,0 +1,101 @@
+digest:
+  date: 2026-02-11
+  generated_at: 2026-02-11T14:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 7
+  
+summary:
+  Today’s radiology news highlights advancements in AI's role in medicine, the use of imaging in Olympic sports, and new research on Parkinson's disease and liver health.  There are also findings on ADHD treatment effectiveness and a novel drug for jet lag recovery, representing potentially practice-changing developments.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: This job has become the ultimate case study for why AI won’t replace human workers - CNN
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE9fMkxTUEVfMFczSWlCbDlyblRUeXJMb1NUS3JjQWxBR3FSdkNJNTQ3NV82djIyLUh2aktqTng4MHNNa0g4UmlPUmNaN2E5NEhWcFI3Z2ZlZDlkWlE5VjBBSVhJZEJrZDVFV0Q2U2JCaTl3RkgyTDNuWXN1Tnk?oc=5
+  category: news
+  importance: 95
+  ai_summary: "This article discusses a case where AI struggled to fully automate a complex clinical task, emphasizing the continued need for human expertise in radiology and medicine."
+  
+  Title: Evaluating Injuries at the Olympics Through Imaging - Radiological Society of North America | RSNA
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMickFVX3lxTFBPOG1tSkJSWkgwYXNMck5waEpyTUJ3c0ozVWZnd2c1QXRKQ0piTV96X3h3a2NKdG5DV3ZDeXM4SDdYWFY5VXh6TlVIM2U4N1J0czhlTzVxSVRwSGk5R0J0T0xWZjh2Mk5pY0o2ZmVVWm5Cdw?oc=5
+  category: news
+  importance: 88
+  ai_summary: "This piece details the application of advanced imaging techniques in diagnosing injuries sustained by athletes at the Olympics, showcasing the role of radiology in high-stakes, real-time clinical scenarios."
+  
+  Title: Stanford Radiology to Advance Access to Astatine-211 Through New Collaboration with Atley Solutions and Telix Pharmaceuticals - Stanford Medicine
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNXktUEhuUGlCNnUwQ1Z5bWVSVUduU3pwUHN5OU5wejBTZU5wYXZaRTd1NnhBRTFUejAtVlpuZDRqNGhKNmxxRFRJa3UwSDF3ZjFWV3FVRFdHQmZBbGwxdXNzSEM4SUZCbVVsUHhwLXctXzdMeVdEbXh2Y2lZTGVaM0hFZWFDOTB0aUxoV2VpSnd2cFNDV1dUeFFoSTliUkxxd3NOZXlkVXlPMTNPU0xHNk5IdTFYZ2RrdWxz?oc=5
+  category: news
+  importance: 85
+  ai_summary: "Stanford Radiology is collaborating to improve access to Astatine-211, a radioisotope used in targeted radionuclide therapy, highlighting developments in nuclear medicine and personalized cancer treatment."
+  
+  Title: A massive ADHD study reveals what actually works
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260208233825.htm
+  category: research
+  importance: 92
+  ai_summary: "A large meta-analysis of ADHD treatments indicates that many approaches lack robust long-term evidence, emphasizing the need for more research into sustained efficacy."
+  
+  Title: Scientists may have found the brain network behind Parkinson’s
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260208203013.htm
+  category: research
+  importance: 90
+  ai_summary: "Research identifies a specific brain network as central to Parkinson's disease, with targeted brain stimulation showing promising symptom improvement."
+  
+  Title: Scientists found a gut compound that helps protect the liver
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260208011028.htm
+  category: research
+  importance: 87
+  ai_summary: "A gut-derived compound called indole significantly reduced fatty liver disease in mice, suggesting a potential new therapeutic avenue for liver health."
+  
+  Title: New drug resets the body clock and cuts jet lag recovery nearly in half
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260208011026.htm
+  category: research
+  importance: 83
+  ai_summary: "A new drug, Mic-628, effectively resets the body's internal clock, dramatically reducing the recovery time associated with jet lag in animal studies."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: This job has become the ultimate case study for why AI won’t replace human workers - CNN
+  title: This job has become the ultimate case study for why AI won’t replace human workers - CNN
+  source: Google News Radiology
+  category: news
+  relevance_score: 95
+  
+  id_2: Evaluating Injuries at the Olympics Through Imaging - Radiological Society of North America | RSNA
+  title: Evaluating Injuries at the Olympics Through Imaging - Radiological Society of North America | RSNA
+  source: Google News Radiology
+  category: news
+  relevance_score: 88
+  
+  id_3: Stanford Radiology to Advance Access to Astatine-211 Through New Collaboration with Atley Solutions and Telix Pharmaceuticals - Stanford Medicine
+  title: Stanford Radiology to Advance Access to Astatine-211 Through New Collaboration with Atley Solutions and Telix Pharmaceuticals - Stanford Medicine
+  source: Google News Radiology
+  category: news
+  relevance_score: 85
+  
+  id_4: A massive ADHD study reveals what actually works
+  title: A massive ADHD study reveals what actually works
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 92
+  
+  id_5: Scientists may have found the brain network behind Parkinson’s
+  title: Scientists may have found the brain network behind Parkinson’s
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 90
+  
+  id_6: Scientists found a gut compound that helps protect the liver
+  title: Scientists found a gut compound that helps protect the liver
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 87
+  
+  id_7: New drug resets the body clock and cuts jet lag recovery nearly in half
+  title: New drug resets the body clock and cuts jet lag recovery nearly in half
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 83
