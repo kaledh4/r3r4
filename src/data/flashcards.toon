@@ -393,3 +393,21 @@ cards[5]{id,category,difficulty,front,back,source,tags}:
   card_003,news,medium,"What is the key focus of the Stanford Radiology collaboration mentioned in the news digest?","The collaboration aims to improve access to Astatine-211, a radioisotope used in targeted radionuclide therapy for personalized cancer treatment.",Stanford Medicine,nuclear medicine;Astatine-211;cancer
   card_004,research,hard,"According to the large ADHD study, what is a primary concern regarding current treatment approaches?","Many ADHD treatments lack robust long-term evidence of sustained efficacy, indicating a need for further research.",ScienceDaily Health,ADHD;treatment;efficacy
   card_005,research,medium,"What significant finding was reported regarding Parkinson's disease research?","Researchers have identified a specific brain network as central to Parkinson's disease, and targeted brain stimulation showed promise in improving symptoms.",ScienceDaily Health,Parkinson's;brain network;stimulation
+
+# Added on 2026-02-12
+tom
+cards[1]{id,category,difficulty,front,back,source,tags}:
+  card_001,neuro,medium,"What is a potential limitation of relying solely on AI for interpreting brain MRIs, as highlighted in the recent news regarding rapid analysis and emergency flagging?","The need for human expertise to contextualize findings, manage unexpected results, and account for factors AI might not recognize, especially in complex cases.",ScienceDaily,ai;neuro;limitations
+
+cards[2]{id,category,difficulty,front,back,source,tags}:
+  card_002,news,easy,"The CNN article suggests radiology is a 'case study' for why a complete takeover by AI is unlikely. What is the core reason presented in the article for this perspective?","Radiology requires human expertise and judgment, and AI faces challenges in fully replacing clinicians in this complex field.",CNN Google News Radiology,ai;radiology;human_expertise
+
+cards[3]{id,category,difficulty,front,back,source,tags}:
+  card_003,research,hard,"According to the ScienceDaily article about finger length and brain evolution, what specific prenatal factor influencing hormone exposure is suggested to have played a role in human brain size development?","Prenatal hormone exposure, indicated by finger length ratios.",ScienceDaily,evolution;brain_development;hormones
+
+cards[4]{id,category,difficulty,front,back,source,tags}:
+  card_004,research,medium,"The ScienceDaily report on hearing aids and dementia found an association. What was the surprising finding regarding the impact of long-term hearing aid use on cognitive function?","Long-term hearing aid use was linked to a reduced risk of dementia, but did not improve performance on memory tests.",ScienceDaily,hearing_aids;dementia;cognition
+
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_005,general,easy,"Which lifestyle intervention was found to be associated with a significantly lower risk of stroke in the ScienceDaily article?","Adherence to a Mediterranean diet.",ScienceDaily,stroke;lifestyle;diet
+}

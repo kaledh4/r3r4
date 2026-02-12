@@ -1,0 +1,114 @@
+digest:
+  date: 2026-02-12
+  generated_at: 2026-02-12T14:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 8
+  
+summary:
+  Today's radiology news highlights advancements in AI for faster and more accurate image analysis, particularly in brain imaging.  Several research studies explore the link between lifestyle factors like diet and hearing aid use with long-term health outcomes, including stroke and dementia risk.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: Radiology has become a ‘case study for why AI won’t replace human workers,’ CNN says
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBAi0AFBVV95cUxQdnZyMTRkT2YtcTMxeEdZbjhEcm5sbUw3X2FyUzhXT1E1WkNsSzdxYWVRaUFkbzNxd1BKR1ZZakFIbmVsMkpXcnJjZUQtQkg3bFc2VVlsa3I3TVpvdW1oMVlTcDN1ZmJabmRMSFNfcUlpZ0paZVBsU3c1LUpRVkdCZERtTGUzS3VCTUdVWTYwbXBoME5lZ1BTQWxyUC12YjFJY1RyTnF2WTU2NndoY016VFRKVU8tVEJ0LUxfTHp5TVN1eUEzdmljU2lwT0g0V1Aw?oc=5
+  Category: news
+  importance: 95
+  ai_summary: "Despite advancements, radiology remains a field requiring human expertise and judgment, as demonstrated by the challenges AI faces in fully replacing clinicians."
+  
+  Title: Evaluating Injuries at the Olympics Through Imaging - Radiological Society of North America | RSNA
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBAickFVX3lxTFBPOG1tSkJSWkgwYXNMck5waEpyTUJ3c0ozVWZnd2c1QXRKQ0piTV96X3h3a2NKdG5DV3ZDeXM4SDdYWFY5VXh6TlVIM2U4N1J0czhlTzVxSVRwSGk5R0J0T0xWZjh2Mk5pY0o2ZmVVWm5Cdw?oc=5
+  Category: news
+  importance: 88
+  ai_summary: "Imaging plays a crucial role in diagnosing sports-related injuries, enabling timely and appropriate clinical management for athletes."
+  
+  Title: Norwalk Radiology Consultants with Stamford Health Expands Advanced Imaging Services for Enhanced Patient Care
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBAilgFBVV95cUxQV21uSVItNFVjU2tJQi00Qk5LeTFWWldZNkFhUEcxUVppcXpPV2gyUTZ0alFhcjJhbXp2VTJCM1YxM1JkbXlrNXJkT2V1bkJROFZ0Q19RbHl5ajRQWHVucW9McEJ2VjAzN09Za1JhUGptbGptbDVLdXREYlIzRDR0UGF1cUVIXzN1TFVmTUZyaWxtclA4Mnc?oc=5
+  Category: news
+  importance: 75
+  ai_summary: "Expansion of advanced imaging services improves patient access to specialized diagnostic procedures, leading to better healthcare outcomes."
+  
+  Title: New brain scan findings find a clue to human brain evolution in finger length
+  Source: ScienceDaily
+  URL: https://www.sciencedaily.com/releases/2026/02/260210040559.htm
+  Category: research
+  importance: 92
+  ai_summary: "Prenatal hormone exposure, indicated by finger length ratios, may have significantly influenced brain size development in human evolution, offering new insights into cognitive changes."
+  
+  Title: AI reads brain MRIs in seconds and flags emergencies
+  Source: ScienceDaily
+  URL: https://www.sciencedaily.com/releases/2026/02/260210005419.htm
+  Category: research
+  importance: 98
+  ai_summary: "A novel AI system demonstrates rapid and highly accurate analysis of brain MRIs, with potential to expedite emergency care and improve diagnostic efficiency."
+  
+  Title: Hearing aids didn’t boost memory tests but dementia risk dropped
+  Source: ScienceDaily
+  URL: https://www.sciencedaily.com/releases/2026/02/260209064314.htm
+  Category: research
+  importance: 85
+  ai_summary: "Long-term hearing aid use is linked to a reduced risk of dementia, despite not improving cognitive function in memory tests, highlighting a potential non-cognitive benefit."
+  
+  Title: This popular diet was linked to a much lower stroke risk
+  Source: ScienceDaily
+  URL: https://www.sciencedaily.com/releases/2026/02/260209064310.htm
+  Category: research
+  importance: 80
+  ai_summary: "Adherence to a Mediterranean diet is associated with a significantly lower risk of stroke across various types, underscoring the importance of lifestyle in stroke prevention."
+  
+  Title: A secret cell alliance may explain why ovarian cancer is so deadly
+  Source: ScienceDaily
+  URL: https://www.sciencedaily.com/releases/2026/02/260209064254.htm
+  Category: research
+  importance: 78
+  ai_summary: "Ovarian cancer's aggressive spread is attributed to a collaborative alliance between cancer cells and protective cells in the abdomen, suggesting a new target for therapeutic intervention."
+  
+articles[]{id,title,source,category,relevance_score}:
+  id_1: Radiology has become a ‘case study for why AI won’t replace human workers,’ CNN says
+  title: Radiology has become a ‘case study for why AI won’t replace human workers,’ CNN says
+  source: Google News Radiology
+  category: news
+  relevance_score: 95
+  
+  id_2: Evaluating Injuries at the Olympics Through Imaging - Radiological Society of North America | RSNA
+  title: Evaluating Injuries at the Olympics Through Imaging - Radiological Society of North America | RSNA
+  source: Google News Radiology
+  category: news
+  relevance_score: 88
+  
+  id_3: Norwalk Radiology Consultants with Stamford Health Expands Advanced Imaging Services for Enhanced Patient Care
+  title: Norwalk Radiology Consultants with Stamford Health Expands Advanced Imaging Services for Enhanced Patient Care
+  source: Google News Radiology
+  category: news
+  relevance_score: 75
+  
+  id_4: New brain scan findings find a clue to human brain evolution in finger length
+  title: New brain scan findings find a clue to human brain evolution in finger length
+  source: ScienceDaily
+  category: research
+  relevance_score: 92
+  
+  id_5: AI reads brain MRIs in seconds and flags emergencies
+  title: AI reads brain MRIs in seconds and flags emergencies
+  source: ScienceDaily
+  category: research
+  relevance_score: 98
+  
+  id_6: Hearing aids didn’t boost memory tests but dementia risk dropped
+  title: Hearing aids didn’t boost memory tests but dementia risk dropped
+  source: ScienceDaily
+  category: research
+  relevance_score: 85
+  
+  id_7: This popular diet was linked to a much lower stroke risk
+  title: This popular diet was linked to a much lower stroke risk
+  source: ScienceDaily
+  category: research
+  relevance_score: 80
+  
+  id_8: A secret cell alliance may explain why ovarian cancer is so deadly
+  title: A secret cell alliance may explain why ovarian cancer is so deadly
+  source: ScienceDaily
+  category: research
+  relevance_score: 78
