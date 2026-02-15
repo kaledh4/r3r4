@@ -1,0 +1,101 @@
+digest:
+  date: 2026-02-15
+  generated_at: 2026-02-15T10:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 7
+  
+summary:
+  Today's radiology news highlights the ongoing impact of AI in healthcare, alongside promising research into lifestyle interventions for chronic conditions like Crohn's disease and depression.  Furthermore, updates on weight loss medications and novel approaches to disease management are presented.
+
+top_stories[8]{title,source,url,category,importance,ai_summary}:
+  Title: This job has become the ultimate case study for why AI won’t replace human workers - CNN
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBAimwFBVV95cUxPNXktUEhuUGlCNnUwQ1Z5bWVSVUduU3pwUHN5OU5wejBTZU5wYXZaRTd1NnhBRTFUejAtVlpuZDRqNGhKNmxxRFRJa3UwSDF3ZjFWV3FVRFdHQmZBbGwxdXNzSEM4SUZCbVVsUHhwLXctXzdMeVdEbXh2Y2lZTGVaM0hFZWFDOTB0aUxoV2VpSnd2cFNDV1dUeFFoSTliUkxxd3NOZXlkVXlPMTNPU0xHNk5IdTFYZ2RrdWxz?oc=5
+  category: news
+  importance: 95
+  ai_summary: "A CNN report details how a radiology job demonstrates the limitations of current AI, emphasizing the irreplaceable role of human expertise in complex clinical decision-making."
+  
+  Title: Radiology has become a ‘case study for why AI won’t replace human workers,’ CNN says - Radiology Business
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBAi0AFBVV95cUxQdnZyMTRkT2YtcTMxeEdZbjhEcm5sbUw3X2FyUzhXT1E1WkNsSzdxYWVRaUFkbzNxd1BKR1ZZakFIbmVsMkpXcnJjZUQtQkg3bFc2VVlsa3I3TVpvdW1oMVlTcDN1ZmJabmRMSFNfcUlpZ0paZVBsU3c1LUpRVkdCZERtTGUzS3VCTUdVWTYwbXBoME5lZ1BTQWxyUC12YjFJY1RyTnF2WTU2NndoY016VFRKVU8tVEJ0LUxfTHp5TVN1eUEzdmljU2lwT0g0V1Aw?oc=5
+  category: news
+  importance: 90
+  ai_summary: "Radiology Business echoes CNN's assessment, highlighting the profession as a compelling example of tasks requiring nuanced judgment beyond the capabilities of present-day artificial intelligence."
+  
+  Title: Stanford Radiology to Advance Access to Astatine-211 Through New Collaboration with Atley Solutions and Telix Pharmaceuticals - Stanford Medicine
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBAmiwFBVV95cUxPNXktUEhuUGlCNnUwQ1Z5bWVSVUduU3pwUHN5OU5wejBTZU5wYXZaRTd1NnhBRTFUejAtVlpuZDRqNGhKNmxxRFRJa3UwSDF3ZjFWV3FVRFdHQmZBbGwxdXNzSEM4SUZCbVVsUHhwLXctXzdMeVdEbXh2Y2lZTGVaM0hFZWFDOTB0aUxoV2VpSnd2cFNDV1dUeFFoSTliUkxxd3NOZXlkVXlPMTNPU0xHNk5IdTFYZ2RrdWxz?oc=5
+  category: news
+  importance: 85
+  ai_summary: "Stanford Radiology is collaborating to improve access to Astatine-211, a radioisotope used in nuclear medicine, potentially expanding its clinical applications in cancer imaging and therapy."
+  
+  Title: Changing when you eat dramatically reduced Crohn’s disease symptoms
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260211204204.htm
+  category: research
+  importance: 80
+  ai_summary: "A study reveals that time-restricted feeding significantly reduced Crohn's disease symptoms, including disease activity and abdominal discomfort, suggesting a dietary approach to managing this chronic condition."
+  
+  Title: One simple daily change that could slash depression risk
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260211073043.htm
+  category: research
+  importance: 75
+  ai_summary: "A Dutch study indicates that replacing just one hour of television viewing daily with other activities can lower the risk of developing depression, particularly in middle age, highlighting the importance of lifestyle factors for mental well-being."
+  
+  Title: This kefir and fiber combo beat omega-3 in slashing inflammation
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260211073037.htm
+  category: research
+  importance: 70
+  ai_summary: "Research shows that a combination of kefir and prebiotic fiber was more effective than omega-3 supplements alone in reducing inflammation, suggesting a synergistic effect of these dietary components."
+   
+  Title: Blockbuster weight loss drugs like Ozempic deliver big results but face big questions
+  Source: ScienceDaily Health
+  URL: https://www.sciencedaily.com/releases/2026/02/260211073033.htm
+  category: research
+  importance: 65
+  ai_summary: "Reviews of weight loss drugs like Ozempic confirm their effectiveness in promoting significant weight loss; however, concerns remain regarding long-term safety and the prevalence of side effects."
+
+articles[]{id,title,source,category,relevance_score}:
+  id_1: This job has become the ultimate case study for why AI won’t replace human workers - CNN
+  title: This job has become the ultimate case study for why AI won’t replace human workers
+  source: Google News Radiology
+  category: news
+  relevance_score: 95
+  
+  id_2: Radiology has become a ‘case study for why AI won’t replace human workers,’ CNN says - Radiology Business
+  title: Radiology has become a ‘case study for why AI won’t replace human workers,’ CNN says
+  source: Google News Radiology
+  category: news
+  relevance_score: 90
+  
+  id_3: Stanford Radiology to Advance Access to Astatine-211 Through New Collaboration with Atley Solutions and Telix Pharmaceuticals - Stanford Medicine
+  title: Stanford Radiology to Advance Access to Astatine-211 Through New Collaboration with Atley Solutions and Telix Pharmaceuticals
+  source: Google News Radiology
+  category: news
+  relevance_score: 85
+  
+  id_4: Changing when you eat dramatically reduced Crohn’s disease symptoms
+  title: Changing when you eat dramatically reduced Crohn’s disease symptoms
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 80
+  
+  id_5: One simple daily change that could slash depression risk
+  title: One simple daily change that could slash depression risk
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 75
+  
+  id_6: This kefir and fiber combo beat omega-3 in slashing inflammation
+  title: This kefir and fiber combo beat omega-3 in slashing inflammation
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 70
+  
+  id_7: Blockbuster weight loss drugs like Ozempic deliver big results but face big questions
+  title: Blockbuster weight loss drugs like Ozempic deliver big results but face big questions
+  source: ScienceDaily Health
+  category: research
+  relevance_score: 65

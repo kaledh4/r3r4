@@ -411,3 +411,12 @@ cards[4]{id,category,difficulty,front,back,source,tags}:
 cards[5]{id,category,difficulty,front,back,source,tags}:
   card_005,general,easy,"Which lifestyle intervention was found to be associated with a significantly lower risk of stroke in the ScienceDaily article?","Adherence to a Mediterranean diet.",ScienceDaily,stroke;lifestyle;diet
 }
+
+# Added on 2026-02-15
+json
+cards[5]{id,category,difficulty,front,back,source,tags}:
+  card_001,news,medium,"What is the central point of the CNN article regarding AI in radiology?","The article highlights a radiology job as a compelling example demonstrating the limits of current AI, emphasizing the irreplaceable role of human expertise in complex clinical decision-making.",CNN,AI;radiology;human expertise
+  card_002,research,medium,"According to the ScienceDaily article, what lifestyle intervention had the most significant effect on Crohn's disease symptoms?","Changing when you eat dramatically reduced Crohn's disease symptoms.",ScienceDaily,Crohn's;diet;lifestyle
+  card_003,research,medium,"What dietary combination was found to be more effective than omega-3 in reducing inflammation?","A combination of kefir and prebiotic fiber.",ScienceDaily,inflammation;diet;kefir;fiber
+  card_004,news,easy,"Which institution is collaborating to improve access to Astatine-211?", "Stanford Radiology", "Stanford Medicine", "Nuclear Medicine;Collaboration;Astatine-211", "Stanford Radiology to Advance Access to Astatine-211 Through New Collaboration with Atley Solutions and Telix Pharmaceuticals"
+  card_005,research,medium,"What is the primary finding of the study linking depression risk reduction to daily activities?", "Replacing just one hour of television viewing daily with other activities can lower the risk of developing depression.", "ScienceDaily", "depression;lifestyle;television viewing;mental health"
