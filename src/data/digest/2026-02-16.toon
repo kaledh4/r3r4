@@ -1,0 +1,94 @@
+digest:
+  date: 2026-02-16
+  generated_at: 2026-02-16T10:30:00Z
+  curator_model: meta-llama/llama-3.1-405b-instruct:free
+  total_articles: 6
+  
+summary:
+  This daily radiology news highlights advancements in AI's role in radiology, the impact of microplastics on health, and recent research findings on brain aging, tendon pain, and statin side effects. Several articles address clinical implications and potential changes in practice, with relevance for board exam preparation.
+
+top_stories[6]{title,source,url,category,importance,ai_summary}:
+  Title: "Scientists make microplastics glow to see what they do inside your body"
+  Source: ScienceDaily
+  URL: https://www.sciencedaily.com/releases/2026/02/260212234156.htm
+  Category: research
+  importance: 90
+  ai_summary: "Researchers developed a fluorescence-based technique to track the movement, transformation, and degradation of microplastics within living organisms, offering crucial insights into their biological effects."
+  
+  Title: "The exact speed that makes an AI prosthetic arm feel like your own"
+  Source: ScienceDaily
+  URL: https://www.sciencedaily.com/releases/2026/02/260212234152.htm
+  Category: research
+  importance: 85
+  ai_summary: "A VR study revealed that AI prosthetic arms best replicate natural sensation when moving at a human-like speed (approximately one second per reach), enhancing user control and comfort."
+  
+  Title: "Scientists discover protein that rejuvenates aging brain cells"
+  Source: ScienceDaily
+  URL: https://www.sciencedaily.com/releases/2026/02/260212025620.htm
+  Category: research
+  importance: 80
+  ai_summary: "The discovery of the DMTF1 protein, which can restore the regenerative capacity of neural stem cells in aging brains, presents a potential new avenue for treating age-related cognitive decline."
+  
+  Title: "Scientists discover hidden trigger behind Achilles pain and tennis elbow"
+  Source: ScienceDaily
+  URL: https://www.sciencedaily.com/releases/2026/02/260212025618.htm
+  Category: research
+  importance: 75
+  ai_summary: "Research indicates that the protein HIF1 plays a key role in the development of painful tendon injuries like Achilles pain and tennis elbow by causing detrimental changes in tendon structure."
+  
+  Title: "Massive study finds most statin side effects aren’t caused by the drugs"
+  Source: ScienceDaily
+  URL: https://www.sciencedaily.com/releases/2026/02/260212025550.htm
+  Category: research
+  importance: 70
+  ai_summary: "A large review of statin trials suggests that most reported side effects are not attributable to the medication itself, indicating a potential overestimation of statin-related adverse events."
+  
+  Title: "This job has become the ultimate case study for why AI won’t replace human workers - CNN"
+  Source: Google News Radiology
+  URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE9fMkxTUEVfMFczSWlCbDlyblRUeXJMb1NUS3JjQWxBR3FSdkNJNTQ3NV82djIyLUh2aktqTng4MHNNa0g4UmlPUmNaN2E5NEhWcFI3Z2ZlZDlkWlE5VjBBSVhJZEJrZDVFV0Q2U2JCaTl3RkgyTDNuWXN1Tnk?oc=5"
+  Category: news
+  importance: 65
+  ai_summary: "A CNN report highlights a job where AI's limitations are evident, emphasizing that certain complex, nuanced tasks still require human expertise and cannot be fully automated."
+  
+articles[]{id,title,source,category,score}:
+  id_1: "1"
+  title: "This job has become the ultimate case study for why AI won’t replace human workers - CNN"
+  source: "Google News Radiology"
+  category: "news"
+  score: 92
+  
+  id_2: "2"
+  title: "Radiology has become a ‘case study for why AI won’t replace human workers,’ CNN says - Radiology Business"
+  source: "Google News Radiology"
+  category: "news"
+  score: 88
+  
+  id_3: "3"
+  title: "Scientists make microplastics glow to see what they do inside your body"
+  source: "ScienceDaily"
+  category: "research"
+  score: 95
+  
+  id_4: "4"
+  title: "The exact speed that makes an AI prosthetic arm feel like your own"
+  source: "ScienceDaily"
+  category: "research"
+  score: 90
+  
+  id_5: "5"
+  title: "Scientists discover protein that rejuvenates aging brain cells"
+  source: "ScienceDaily"
+  category: "research"
+  score: 85
+  
+  id_6: "6"
+  title: "Scientists discover hidden trigger behind Achilles pain and tennis elbow"
+  source: "ScienceDaily"
+  category: "research"
+  score: 80
+  
+  id_7: "7"
+  title: "Massive study finds most statin side effects aren’t caused by the drugs"
+  source: "ScienceDaily"
+  category: "research"
+  score: 75
